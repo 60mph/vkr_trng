@@ -1,0 +1,103 @@
+
+\clearpage
+\begin{landscape}
+\begin{center}\normalsize\bfseries
+ПРИЛОЖЕНИЕ 2 -- Сравнительная таблица характеристик источников
+энтропии
+\end{center}
+\nopagebreak\vspace{0.25\baselineskip}\nopagebreak
+\centering
+{\scriptsize\setlength{\tabcolsep}{2.6pt}\renewcommand{\arraystretch}{0.92}%
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1251}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1251}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1020}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.0888}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1186}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1629}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.0889}}|%
+  >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1887}}|@{}}
+\hline
+\begin{minipage}[b]{\hsize}\raggedright
+\textbf{Источник}
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright
+\textbf{Спектральный тип шума}
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright
+\textbf{Скорость генерации}
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright
+\textbf{Качество энтропии}
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright
+\textbf{Сложность реализации}
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright\textbf{Устойчивость}\\\textbf{к внеш.\,воздействиям}%
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright\textbf{Защита от}\\\textbf{атак / модель.}%
+\end{minipage} & \begin{minipage}[b]{\hsize}\raggedright\textbf{Коммент.,}\\\textbf{примеры}%
+\end{minipage} \\ \hline
+\endhead
+\endlastfoot
+\textbf{Тепловой шум} & \multirow{2}{\hsize}{Белый шум} & Средняя
+(\textasciitilde10⁴--10⁶ бит/с) & Среднее & Низкая & Средняя (зависит от
+сопротивления, температуры) & Низкая--средняя & Часто используется в
+IC-TRNG, требует постобработки \\ \cline{1-1}\cline{3-8}
+\textbf{Дробовой шум} & & Средняя--высокая & Среднее-высокое & Средняя &
+Средняя--высокая (дискретность тока более устойчива) & Средняя & Широко
+применяется в простых TRNG (на туннельных диодах) \\ \hline
+\textbf{Лавинный шум} & Широкополосный с пиками & Высокая
+(\textasciitilde10⁶--10⁸ бит/с) & Высокое & Средняя--высокая &
+Средняя--высокая (зависит от порога пробоя) & Средняя- высокая &
+Популярен в лавинных фотодиодах, хорош для встроенных TRNG \\ \hline
+\textbf{Мерцающий шум (1/f)} & Розовый шум & Низкая (\textless10³ бит/с)
+& Низкое & Низкая & Низкая (параметры сильно "плавают", нестабильность
+спектра) & Низкая & Подвержен внешнему влиянию, требует усиленной
+фильтрации \\ \hline
+\textbf{Квантово-оптический (фотонный делитель)} & \multirow{2}{\hsize}{Белый
+(дискретные события)} & Очень высокая (\textasciitilde10⁶--10⁹ бит/с) &
+Очень высокое & Высокая & Высокая (если стабилизирован лазер, фотонный
+канал, питание) & Очень высокая & QRNG, QKD, сертифицированные квантовые
+генераторы \\ \cline{1-1}\cline{3-8}
+\textbf{Радиоактивный распад} & & Очень низкая (\textasciitilde1--10³
+бит/с) & Очень высокое & Очень высокая & Очень высокая (независим от
+внешней среды) & Очень высокая & Эталонные ГИСП, используются в высокозащищённых системах \\ \hline
+\textbf{Механический источник} & \multirow{2}{\hsize}{\raggedright Спектр зависит от
+конфигурации (часто псевдобелый)} & Низкая (\textless10² бит/с) & Низкое
+& Низкая & \multirow{2}{\hsize}{\raggedright Низкая (вибрации, шумы подвержены массе факторов)} & Очень низкая &
+Демонстрационные устройства, устаревшие игровые автоматы \\ \cline{1-1}\cline{3-5}\cline{7-8}
+\textbf{Акустический источник} & & Низкая & Низкое & Низкая & & Очень
+низкая & Вспомогательная энтропия для ОС (например, Linux entropy
+pool) \\ \hline
+\end{longtable}
+}}
+\vspace{0.5\baselineskip}
+\raggedright
+{\footnotesize\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}\setlength{\topsep}{2pt}
+
+Пояснение.
+
+Качество энтропии:
+
+\begin{itemize}
+\item
+  Низкое -- сильно коррелированные значения, шум подвержен дрейфу,
+  требуется мощная постобработка,
+\item
+  Среднее -- частично предсказуемые биты, возможен bias, возможна
+  частичная корреляция,
+\item
+  Высокое -- почти идеальная равномерность и непредсказуемость, даже до
+  постобработки.
+\end{itemize}
+
+Защита от атак/моделирования:
+
+\begin{itemize}
+\item
+  Низкая -- источник уязвим к подделке, легко смоделировать или
+  заглушить.
+\item
+  Средняя -- требуется физический доступ или точная настройка атаки
+\item
+  Высокая -- крайне сложно предсказать, атака невозможна без
+  вмешательства в систему
+\end{itemize}
+}
+\end{landscape}
