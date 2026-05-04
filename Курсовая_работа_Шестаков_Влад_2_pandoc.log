@@ -1,0 +1,4837 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  22 APR 2026 21:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Курсовая_работа_Шестаков_Влад_2_pandoc.tex
+(./Курсовая_работа_Шестаков_Влад_2_pandoc.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count267
+\l__color_backend_stack_int=\count268
+\g__color_backend_stack_int=\count269
+\g__graphics_track_int=\count270
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count271
+\g__pdf_backend_annotation_int=\count272
+\g__pdf_backend_link_int=\count273
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count274
+\l__fontspec_language_int=\count275
+\l__fontspec_strnum_int=\count276
+\l__fontspec_tmp_int=\count277
+\l__fontspec_tmpa_int=\count278
+\l__fontspec_tmpb_int=\count279
+\l__fontspec_tmpc_int=\count280
+\l__fontspec_em_int=\count281
+\l__fontspec_emdef_int=\count282
+\l__fontspec_strong_int=\count283
+\l__fontspec_strongdef_int=\count284
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count285
+\g__um_fonts_used_int=\count286
+\l__um_primecount_int=\count287
+\g__um_primekern_muskip=\muskip17
+
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+
+Package fontspec Info: DejaVu Serif scale = 0.8303715005541494.
+
+
+Package fontspec Info: DejaVu Serif scale = 0.8303715005541494.
+
+
+Package fontspec Info: DejaVu Serif/B scale = 0.8303715005541494.
+
+
+Package fontspec Info: DejaVu Serif/I scale = 0.8303715005541494.
+
+
+Package fontspec Info: DejaVu Serif/BI scale = 0.8303715005541494.
+
+
+Package fontspec Info: Font family 'DejaVuSerif(0)' created for font 'DejaVu
+(fontspec)             Serif' with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"DejaVu
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"DejaVu
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"DejaVu
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"DejaVu
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 24.
+
+Package fontspec Info: DejaVu Serif scale = 0.9999970602156039.
+
+
+Package fontspec Info: DejaVu Serif scale = 0.9999970602156039.
+
+
+Package fontspec Info: DejaVu Serif/B scale = 0.9999970602156039.
+
+
+Package fontspec Info: DejaVu Serif/I scale = 0.9999970602156039.
+
+
+Package fontspec Info: DejaVu Serif/BI scale = 0.9999970602156039.
+
+
+Package fontspec Info: Font family 'DejaVuSerif(1)' created for font 'DejaVu
+(fontspec)             Serif' with options [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970602156039]"DejaVu
+(fontspec)             Serif/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999970602156039]"DejaVu
+(fontspec)             Serif/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9999970602156039]"DejaVu
+(fontspec)             Serif/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9999970602156039]"DejaVu
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/DejaVuSerif(1)/m/n on input line 24.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/DejaVuSerif(1)/m/it on input line 2
+4.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/DejaVuSerif(1)/b/n on input line 24
+.
+
+Package fontspec Info: DejaVu Sans scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/B scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/I scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/BI scale = 0.9491044946861198.
+
+
+Package fontspec Info: Font family 'DejaVuSans(0)' created for font 'DejaVu
+(fontspec)             Sans' with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: DejaVu Sans scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/B scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/I scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans/BI scale = 0.9491044946861198.
+
+
+Package fontspec Info: Font family 'DejaVuSans(1)' created for font 'DejaVu
+(fontspec)             Sans' with options [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu
+(fontspec)             Sans/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/DejaVuSans(1)/m/n on input line 25.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/DejaVuSans(1)/b/n on input line 25
+.
+
+Package fontspec Info: DejaVu Sans Mono scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/B scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/I scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/BI scale = 0.9491044946861198.
+
+
+Package fontspec Info: Font family 'DejaVuSansMono(0)' created for font
+(fontspec)             'DejaVu Sans Mono' with options
+(fontspec)             [Scale=MatchLowercase,WordSpace={1,0,0},HyphenChar=None,
+PunctuationSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: DejaVu Sans Mono scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/B scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/I scale = 0.9491044946861198.
+
+
+Package fontspec Info: DejaVu Sans Mono/BI scale = 0.9491044946861198.
+
+
+Package fontspec Info: Font family 'DejaVuSansMono(1)' created for font
+(fontspec)             'DejaVu Sans Mono' with options [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9491044946861198]"DejaVu Sans
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono(1)/m/n on input line
+ 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono(1)/b/n on input line
+ 26.
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count288
+)
+\MT@toks=\toks22
+\MT@count=\count289
+\MT@tempbox=\box53
+LaTeX Info: Redefining \leftprotrusion on input line 1010.
+LaTeX Info: Redefining \rightprotrusion on input line 1018.
+LaTeX Info: Redefining \textls on input line 1173.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
+\MT@listname@count=\count290
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2021/12/10 v3.0b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 234.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count291
+\LTcapwidth=\dimen152
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count292
+\LT@rows=\count293
+\c@LT@tables=\count294
+\c@LT@chunks=\count295
+\LT@p@ftn=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box59
+\extrarowheight=\dimen167
+\NC@list=\toks24
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box60
+)
+\c@none=\count300
+
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count301
+\multirow@dima=\skip59
+\bigstrutjot=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box61
+\FNH@width=\dimen171
+\FNH@toks=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+\pandoc@box=\box62
+
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks26
+\SOUL@lasttoken=\toks27
+\SOUL@cmds=\toks28
+\SOUL@buffer=\toks29
+\SOUL@token=\toks30
+\SOUL@spaceskip=\skip63
+\SOUL@ttwidth=\dimen174
+\SOUL@uldp=\dimen175
+\SOUL@ulht=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen177
+\Hy@linkcounter=\count305
+\Hy@pagecounter=\count306
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count307
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count308
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen178
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count309
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count310
+\c@Item=\count311
+\c@Hfootnote=\count312
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box63
+\c@Hy@AnnotLevel=\count313
+\HyField@AnnotCount=\count314
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count317
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+(./Курсовая_работа_Шестаков_Влад_2_pandoc.aux)
+\openout1 = `Курсовая_работа_Шестаков_Влад_2_pandoc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.204272448231791]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.204272448231791]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 12.0427pt on input line 89.
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.204272448231791]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.204272448231791]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.204272448231791]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.204272448231791]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0427pt on input line 89.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 89.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 89.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 89.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 89.
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204392875476614.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204392875476614.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204392875476614.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204392875476614.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204392875476614.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =8.15291pt\relax \fontdimen 9\font
+(fontspec)             =4.74483pt\relax \fontdimen 10\font =5.34695pt\relax
+(fontspec)             \fontdimen 11\font =8.26129pt\relax \fontdimen 12\font
+(fontspec)             =4.15472pt\relax \fontdimen 13\font =4.3715pt\relax
+(fontspec)             \fontdimen 14\font =4.3715pt\relax \fontdimen 15\font
+(fontspec)             =3.48033pt\relax \fontdimen 16\font =2.97455pt\relax
+(fontspec)             \fontdimen 17\font =2.97455pt\relax \fontdimen 18\font
+(fontspec)             =3.01068pt\relax \fontdimen 19\font =2.40854pt\relax
+(fontspec)             \fontdimen 22\font =3.01068pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.204392875476614]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.204392875476614]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.204392875476614]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.15291pt\relax \fontdimen 9\font
+(fontspec)             =4.74483pt\relax \fontdimen 10\font =5.34695pt\relax
+(fontspec)             \fontdimen 11\font =8.26129pt\relax \fontdimen 12\font
+(fontspec)             =4.15472pt\relax \fontdimen 13\font =4.3715pt\relax
+(fontspec)             \fontdimen 14\font =4.3715pt\relax \fontdimen 15\font
+(fontspec)             =3.48033pt\relax \fontdimen 16\font =2.97455pt\relax
+(fontspec)             \fontdimen 17\font =2.97455pt\relax \fontdimen 18\font
+(fontspec)             =3.01068pt\relax \fontdimen 19\font =2.40854pt\relax
+(fontspec)             \fontdimen 22\font =3.01068pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.204392875476614]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =8.15291pt\relax \fontdimen 9\font
+(fontspec)             =4.74483pt\relax \fontdimen 10\font =5.34695pt\relax
+(fontspec)             \fontdimen 11\font =8.26129pt\relax \fontdimen 12\font
+(fontspec)             =4.15472pt\relax \fontdimen 13\font =4.3715pt\relax
+(fontspec)             \fontdimen 14\font =4.3715pt\relax \fontdimen 15\font
+(fontspec)             =3.48033pt\relax \fontdimen 16\font =2.97455pt\relax
+(fontspec)             \fontdimen 17\font =2.97455pt\relax \fontdimen 18\font
+(fontspec)             =3.01068pt\relax \fontdimen 19\font =2.40854pt\relax
+(fontspec)             \fontdimen 22\font =3.01068pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 89.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 89.
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204152020986968.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204152020986968.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204152020986968.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204152020986968.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204272448231791.
+
+
+Package fontspec Info: latinmodern-math scale = 1.204152020986968.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =0.4817pt\relax \fontdimen 9\font
+(fontspec)             =2.40854pt\relax \fontdimen 10\font =2.01112pt\relax
+(fontspec)             \fontdimen 11\font =1.33675pt\relax \fontdimen 12\font
+(fontspec)             =7.22562pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.204152020986968]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.204152020986968]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.204152020986968]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4817pt\relax \fontdimen 9\font
+(fontspec)             =2.40854pt\relax \fontdimen 10\font =2.01112pt\relax
+(fontspec)             \fontdimen 11\font =1.33675pt\relax \fontdimen 12\font
+(fontspec)             =7.22562pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.204152020986968]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4817pt\relax \fontdimen 9\font
+(fontspec)             =2.40854pt\relax \fontdimen 10\font =2.01112pt\relax
+(fontspec)             \fontdimen 11\font =1.33675pt\relax \fontdimen 12\font
+(fontspec)             =7.22562pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+9.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 89.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 89.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 89.
+LaTeX Info: Redefining \microtypecontext on input line 89.
+Package microtype Info: Applying patch `item' on input line 89.
+Package microtype Info: Applying patch `toc' on input line 89.
+Package microtype Info: Applying patch `eqnum' on input line 89.
+Package microtype Info: Applying patch `footnote' on input line 89.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `DejaVuSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring OFF on input line 89.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count318
+)
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 95.
+
+Overfull \hbox (3.82814pt too wide) in paragraph at lines 95--96
+\TU/DejaVuSerif(0)/b/n/10 Федеральное государственное бюджетное образовательное
+ 
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 95--96
+\TU/DejaVuSerif(0)/b/n/10 «Ярославский государственный университет им. П.Г.
+ []
+
+
+Overfull \hbox (2.61395pt too wide) in paragraph at lines 107--108
+[]\TU/DejaVuSerif(0)/b/n/10 Разработка концепции физического генератора случайн
+ых
+ []
+
+Missing character: There is no с ("441) in font ectt1000!
+Missing character: There is no т ("442) in font ectt1000!
+Missing character: There is no а ("430) in font ectt1000!
+Missing character: There is no р ("440) in font ectt1000!
+Missing character: There is no ш ("448) in font ectt1000!
+Missing character: There is no и ("438) in font ectt1000!
+Missing character: There is no й ("439) in font ectt1000!
+Missing character: There is no п ("43F) in font ectt1000!
+Missing character: There is no р ("440) in font ectt1000!
+Missing character: There is no е ("435) in font ectt1000!
+Missing character: There is no п ("43F) in font ectt1000!
+Missing character: There is no о ("43E) in font ectt1000!
+Missing character: There is no д ("434) in font ectt1000!
+Missing character: There is no а ("430) in font ectt1000!
+Missing character: There is no в ("432) in font ectt1000!
+Missing character: There is no а ("430) in font ectt1000!
+Missing character: There is no т ("442) in font ectt1000!
+Missing character: There is no е ("435) in font ectt1000!
+Missing character: There is no л ("43B) in font ectt1000!
+Missing character: There is no ь ("44C) in font ectt1000!
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 114.
+Missing character: There is no Д ("414) in font ectt1000!
+Missing character: There is no Д ("414) in font ectt1000!
+Missing character: There is no А ("410) in font ectt1000!
+Missing character: There is no А ("410) in font ectt1000!
+Missing character: There is no С ("421) in font ectt1000!
+Missing character: There is no а ("430) in font ectt1000!
+Missing character: There is no в ("432) in font ectt1000!
+Missing character: There is no и ("438) in font ectt1000!
+Missing character: There is no н ("43D) in font ectt1000!
+Missing character: There is no о ("43E) in font ectt1000!
+Missing character: There is no в ("432) in font ectt1000!
+Missing character: There is no П ("41F) in font ectt1000!
+Missing character: There is no М ("41C) in font ectt1000!
+Missing character: There is no И ("418) in font ectt1000!
+Missing character: There is no Б ("411) in font ectt1000!
+Missing character: There is no О ("41E) in font ectt1000!
+Missing character: There is no В ("412) in font ectt1000!
+Missing character: There is no В ("412) in font ectt1000!
+Missing character: There is no Д ("414) in font ectt1000!
+Missing character: There is no Д ("414) in font ectt1000!
+Missing character: There is no Ш ("428) in font ectt1000!
+Missing character: There is no е ("435) in font ectt1000!
+Missing character: There is no с ("441) in font ectt1000!
+Missing character: There is no т ("442) in font ectt1000!
+Missing character: There is no а ("430) in font ectt1000!
+Missing character: There is no к ("43A) in font ectt1000!
+Missing character: There is no о ("43E) in font ectt1000!
+Missing character: There is no в ("432) in font ectt1000!
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+[]\TU/DejaVuSerif(0)/m/n/10 ГЛАВА 1. Теоретические основы генерации случайных
+ []
+
+
+Overfull \hbox (13.78627pt too wide) in paragraph at lines 140--143
+[]\TU/DejaVuSerif(0)/m/n/10 1.1. Основные понятия и определения……………………………………….
+..
+ []
+
+
+Overfull \hbox (26.35463pt too wide) in paragraph at lines 144--146
+[]\TU/DejaVuSerif(0)/m/n/10 1.2. Классификация генераторов случайных чисел……………
+……………..
+ []
+
+
+Overfull \hbox (29.44057pt too wide) in paragraph at lines 147--149
+[]\TU/DejaVuSerif(0)/m/n/10 1.3. Методы оценки случайности последовательностей…
+…………………..
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 150--154
+[]\TU/DejaVuSerif(0)/m/n/10 ГЛАВА 2. Анализ физических источников энтропии и их
+
+ []
+
+
+Overfull \hbox (124.57664pt too wide) in paragraph at lines 150--154
+\TU/DejaVuSerif(0)/m/n/10 применение в генераторах истинно случайных последоват
+ельностей…………………………...
+ []
+
+[1
+
+]
+Overfull \hbox (10.08284pt too wide) in paragraph at lines 155--158
+[]\TU/DejaVuSerif(0)/m/n/10 2.1. Электронные источники шума…………………………………………….
+ []
+
+
+Overfull \hbox (17.25424pt too wide) in paragraph at lines 159--162
+[]\TU/DejaVuSerif(0)/m/n/10 2.2. Оптические и квантовые источники……………………………………
+…
+ []
+
+
+Overfull \hbox (22.70003pt too wide) in paragraph at lines 163--166
+[]\TU/DejaVuSerif(0)/m/n/10 2.3. Механические и акустические источники………………………
+………..
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 175--177
+[]\TU/DejaVuSerif(0)/m/n/10 ГЛАВА 3. Сравнительная характеристика и перспективы
+
+ []
+
+
+Overfull \hbox (26.77084pt too wide) in paragraph at lines 178--181
+[]\TU/DejaVuSerif(0)/m/n/10 3.1. Сравнительный анализ источников энтропии………………
+……………
+ []
+
+
+Overfull \hbox (27.27377pt too wide) in paragraph at lines 182--185
+[]\TU/DejaVuSerif(0)/m/n/10 3.2. Перспективные направления развития ФГСП…………………
+…………
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+[]\TU/DejaVuSerif(0)/m/n/10 ЗАКЛЮЧЕНИЕ…………………………………………………………………
+ []
+
+
+Overfull \hbox (7.04524pt too wide) in paragraph at lines 189--192
+[]\TU/DejaVuSerif(0)/m/n/10 СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ…………………………...
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+[]\TU/DejaVuSerif(0)/m/n/10 ПРИЛОЖЕНИЯ…………………………………………………………………
+ []
+
+
+Overfull \hbox (29.247pt too wide) in paragraph at lines 196--198
+[]\TU/DejaVuSerif(0)/m/n/10 Приложение 1 – Статистические тесты пакета NIST STS
+……………………
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+[]\TU/DejaVuSerif(0)/m/n/10 Приложение 2 – Сравнительная таблица характеристик
+ []
+
+
+Overfull \hbox (73.12157pt too wide) in paragraph at lines 199--202
+\TU/DejaVuSerif(0)/m/n/10 источников энтропии………………………………………………………………………………..
+ []
+
+
+Overfull \hbox (28.33496pt too wide) in paragraph at lines 205--214
+[]\TU/DejaVuSerif(0)/m/n/10 Случайные числа – это одна из основ современных кри
+птографических
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--214
+\TU/DejaVuSerif(0)/m/n/10 систем, алгоритмов моделирования, шифрования и даже
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 205--214
+\TU/DejaVuSerif(0)/m/n/10 напрямую влияет на безопасность: так, в 2012 году из-
+за
+ []
+
+
+Overfull \hbox (5.6644pt too wide) in paragraph at lines 205--214
+\TU/DejaVuSerif(0)/m/n/10 кошельков, сгенерированных на уязвимых гаджетах[1]. П
+одобные
+ []
+
+[2]
+Underfull \hbox (badness 3000) in paragraph at lines 215--222
+[]\TU/DejaVuSerif(0)/m/n/10 Физические генераторы случайных чисел (ФГСЧ) получа
+ют
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--222
+\TU/DejaVuSerif(0)/m/n/10 энтропию из недетерминированных явлений, например,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--222
+\TU/DejaVuSerif(0)/m/n/10 таких как тепловые шумы резисторов, лавинные пробои
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 235--237
+[]\TU/DejaVuSerif(0)/m/n/10 Аппаратные искажения (смещение распределения из-за
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+[]\TU/DejaVuSerif(0)/m/n/10 Актуальность моего исследования связана с растущими
+
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 259--261
+[]\TU/DejaVuSerif(0)/m/n/10 Криптографические системы (генерация ключей, seed-
+ []
+
+
+Overfull \hbox (8.7811pt too wide) in paragraph at lines 263--265
+[]\TU/DejaVuSerif(0)/m/n/10 Специализированные устройства (криптовалютные кошел
+ьки,
+ []
+
+[3]
+Underfull \hbox (badness 7344) in paragraph at lines 279--284
+\TU/DejaVuSerif(0)/m/n/10 в которой отсутствуют статистические закономерности, 
+а
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 279--284
+\TU/DejaVuSerif(0)/m/n/10 каждый следующий элемент невозможно предсказать, зная
+
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 279--284
+\TU/DejaVuSerif(0)/m/n/10 предыдущие. С точки зрения достоверности случайности
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 279--284
+\TU/DejaVuSerif(0)/m/n/10 последовательности разделяются на истинно случайные и
+
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 285--298
+[]\TU/DejaVuSerif(0)/b/n/10 Истинно случайные последовательности (ИСП) \TU/Deja
+VuSerif(0)/m/n/10 – это
+ []
+
+
+Overfull \hbox (2.5521pt too wide) in paragraph at lines 285--298
+\TU/DejaVuSerif(0)/m/n/10 величины. Случайная величина – это функция над простр
+анством
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 285--298
+\TU/DejaVuSerif(0)/m/n/10 последовательности – это последовательности статистич
+ески
+ []
+
+
+Overfull \hbox (15.40039pt too wide) in paragraph at lines 285--298
+\TU/DejaVuSerif(0)/m/n/10 Связь между значениями случайной величины и соответст
+вующими
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 285--298
+\TU/DejaVuSerif(0)/m/n/10 задается с помощью функции распределения или связанно
+й
+ []
+
+
+Overfull \hbox (23.78563pt too wide) in paragraph at lines 285--298
+\TU/DejaVuSerif(0)/m/n/10 последовательности должны обладать равномерным распре
+делением. 
+ []
+
+
+Overfull \hbox (4.056pt too wide) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/m/n/10 чисел. Поэтому обычно приходится использовать так наз
+ываемые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/m/n/10 псевдослучайные последовательности. \TU/DejaVuSerif(0
+)/b/n/10 Псевдослучайная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/b/n/10 последовательность (ПСП) \TU/DejaVuSerif(0)/m/n/10 – 
+это последовательность,
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/m/n/10 с помощью заданного детерминированного алгоритма, но
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/m/n/10 применяемых в качестве случайных. При этом обычно
+ []
+
+
+Overfull \hbox (6.30551pt too wide) in paragraph at lines 299--310
+\TU/DejaVuSerif(0)/m/n/10 могли использоваться в качестве случайных последовате
+льностей,
+ []
+
+
+Overfull \hbox (9.65039pt too wide) in paragraph at lines 311--316
+[]\TU/DejaVuSerif(0)/b/n/10 Энтропия \TU/DejaVuSerif(0)/m/n/10 – это мера хаоти
+чности информации, неопределённости
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 311--316
+\TU/DejaVuSerif(0)/m/n/10 используемого для получения случайной величины, котор
+ая
+ []
+
+
+Overfull \hbox (9.24805pt too wide) in paragraph at lines 311--316
+\TU/DejaVuSerif(0)/m/n/10 необходима генераторам истинно случайных последовател
+ьностей
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 317--325
+\TU/DejaVuSerif(0)/m/n/10 случайная последовательность должна быть независимой 
+и
+ []
+
+[4]
+Underfull \hbox (badness 4205) in paragraph at lines 326--328
+\TU/DejaVuSerif(0)/m/n/10 последовтельностей может быть представлен в следующем
+
+ []
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.42989pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.02135pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.04391pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.43074pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.02196pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 12.04147pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.42903pt on input line 329.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.02074pt on input line 329.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 329
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 329
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Underfull \hbox (badness 3977) in paragraph at lines 346--353
+\TU/DejaVuSerif(0)/m/n/10 шума или просто плотность шума) — это количественная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--353
+\TU/DejaVuSerif(0)/m/n/10 характеристика, описывающая, как энергия случайного
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 346--353
+\TU/DejaVuSerif(0)/m/n/10 показывает, на каких частотах сосредоточена энтропия,
+ и
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 354--356
+[]\TU/DejaVuSerif(0)/m/n/10 Спектральная плотность мощности случайного сигнала 
+x(t)
+ []
+
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 357.
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 357.
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 357.
+
+Overfull \hbox (15.42207pt too wide) in paragraph at lines 359--362
+[]\TU/DejaVuSerif(0)/m/n/10 В контексте источников энтропии, плоский (частотно-
+независимый)
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 370--380
+[]\TU/DejaVuSerif(0)/m/n/10 Генераторы случайных чисел разделяются на две основ
+ные
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 псевдослучайные генераторы чисел (ГПСП). ГИСП создают
+
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 случайные числа, опираясь на физические источники, к
+ []
+
+
+Overfull \hbox (37.88885pt too wide) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 явлений. С другой стороны, ГПСП генерируют числа дете
+рминированно
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 доступ к нему или может влиять на его генерацию, то
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 он может предсказать вывод ГПСП, что будет являться
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 370--380
+\TU/DejaVuSerif(0)/m/n/10 нарушением безопасности. Схема общей структуры модуля
+
+ []
+
+[5]
+File: pandoc_media/media/image1.png Graphic file (type bmp)
+<pandoc_media/media/image1.png>
+
+Overfull \hbox (37.47711pt too wide) in paragraph at lines 381--383
+[][]\TU/DejaVuSerif(0)/m/n/10 Рисунок
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 функция, которая принимает короткое случайное начальн
+ое
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 значение и выдает более длинную последовательность би
+т,
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 которая кажется случайной. Криптографически стойкий
+ []
+
+
+Overfull \hbox (8.04582pt too wide) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 генератор псевдослучайных чисел (КСГПСП) обладает сво
+йствами
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 стойкости к криптоанализу и является важным средством
+ в
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 обеспечении безопасности криптографических систем, та
+ких
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 Для обеспечения криптографической безопасности вывод
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 384--397
+\TU/DejaVuSerif(0)/m/n/10 ГПСП должен быть вычислительно неотличим от случайной
+
+ []
+
+[6]
+Underfull \hbox (badness 6268) in paragraph at lines 398--404
+\TU/DejaVuSerif(0)/m/n/10 случайных чисел, который совмещает в себе ГИСП, для
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 398--404
+\TU/DejaVuSerif(0)/m/n/10 использует полученное начальное значение для дальнейш
+их
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 398--404
+\TU/DejaVuSerif(0)/m/n/10 генераций, что позволяет такому классу ГСП поддержива
+ть
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 408--413
+\TU/DejaVuSerif(0)/m/n/10 преимущество заключается в высокой скорости работы, а
+
+ []
+
+
+Overfull \hbox (3.45053pt too wide) in paragraph at lines 414--419
+[]\TU/DejaVuSerif(0)/m/n/10 Алгоритмические генераторы. Подобные генераторы исп
+ользуют
+ []
+
+
+Overfull \hbox (60.09277pt too wide) in paragraph at lines 414--419
+\TU/DejaVuSerif(0)/m/n/10 определенные математические формулы для создания посл
+едовательностей
+ []
+
+
+Overfull \hbox (14.56088pt too wide) in paragraph at lines 414--419
+\TU/DejaVuSerif(0)/m/n/10 случайных чисел. Конечно, они могут генерировать искл
+ючительно
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 414--419
+\TU/DejaVuSerif(0)/m/n/10 псевдослучайные последовательности. Их реализация при
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
+\TU/DejaVuSerif(0)/m/n/10 приближении к истинно случайным величинам требует
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 явления и воздействия в качестве источника случайных
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 величин, опираясь на показания датчиков или индикатор
+ов,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 фиксирующих какой-либо случайный физический процесс,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 либо получая информацию о естественно происходящем
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 или искусственно вызванном хаотическом явлении иными
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 420--429
+\TU/DejaVuSerif(0)/m/n/10 практико-применимых источниках энтропии для физически
+х
+ []
+
+
+Overfull \hbox (11.47919pt too wide) in paragraph at lines 437--441
+\TU/DejaVuSerif(0)/m/n/10 несколько способов тестирования случайных последовате
+льностей: 
+ []
+
+
+Overfull \hbox (9.33432pt too wide) in paragraph at lines 442--450
+[]\TU/DejaVuSerif(0)/m/n/10 Графические тесты. Свойства последовательностей ото
+бражаются
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 442--450
+\TU/DejaVuSerif(0)/m/n/10 в виде графических зависимостей, по виду которых дела
+ют
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 442--450
+\TU/DejaVuSerif(0)/m/n/10 категории можно отнести следующие тесты: гистограмма
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 442--450
+\TU/DejaVuSerif(0)/m/n/10 представлен пример графического теста «распределение 
+на
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 442--450
+\TU/DejaVuSerif(0)/m/n/10 плоскости». Слева результат тестирования отрицательны
+й,
+ []
+
+[7]
+File: pandoc_media/media/image2.png Graphic file (type bmp)
+<pandoc_media/media/image2.png>
+
+Overfull \hbox (23.87392pt too wide) in paragraph at lines 451--452
+[][] 
+ []
+
+
+Overfull \hbox (47.82065pt too wide) in paragraph at lines 455--463
+\TU/DejaVuSerif(0)/m/n/10 статистические тесты. Они проверяют соответствие посл
+едовательностей
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 455--463
+\TU/DejaVuSerif(0)/m/n/10 математическим свойствам случайных данных. В основе
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 455--463
+\TU/DejaVuSerif(0)/m/n/10 истинно случайной. Следовательно, если нулевая гипоте
+за
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 455--463
+\TU/DejaVuSerif(0)/m/n/10 верна, то наш генератор производит достаточно хорошие
+
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 473--476
+\TU/DejaVuSerif(0)/m/n/10 деле таковой не является. Такие ошибки называют
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 479--481
+\TU/DejaVuSerif(0)/m/n/10 и псевдослучайных последовательностей [6] представлен
+ы в
+ []
+
+[8]
+Overfull \hbox (24.78548pt too wide) in paragraph at lines 494--495
+\TU/DejaVuSerif(0)/m/n/10 статистических 
+ []
+
+[9] [10]
+Underfull \hbox (badness 1622) in paragraph at lines 564--572
+\TU/DejaVuSerif(0)/m/n/10 теме будут NIST STS (Statistical Test Suite), так как
+ они в
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 564--572
+\TU/DejaVuSerif(0)/m/n/10 совокупности обладают достаточной строгостью и полнот
+ой
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 573--582
+[]\TU/DejaVuSerif(0)/m/n/10 Для физических ГСП особенно важны спектральный тест
+
+ []
+
+
+Overfull \hbox (18.56934pt too wide) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 последовательность в частотной области с помощью прео
+бразования
+ []
+
+
+Overfull \hbox (10.60742pt too wide) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 Фурье, чтобы обнаружить скрытые периодичности или ано
+мальные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 пики. Подобный тест способен выявить периодические
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 паттерны, которые могут появляться в физическом ГСП п
+о
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 нескольким причинам, таким как колебания напряжения в
+
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 573--582
+\TU/DejaVuSerif(0)/m/n/10 датчиков (например, шумового диода). Спектральный тес
+т
+ []
+
+[11]
+Overfull \hbox (52.49203pt too wide) in paragraph at lines 583--592
+[]\TU/DejaVuSerif(0)/m/n/10 Тест Маурера оценивает алгоритмическую сложность по
+следовательности,
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 583--592
+\TU/DejaVuSerif(0)/m/n/10 важен для проверки физических генераторов потому, что
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--592
+\TU/DejaVuSerif(0)/m/n/10 порождают статистически случайные, но алгоритмически
+ []
+
+
+Overfull \hbox (11.45403pt too wide) in paragraph at lines 583--592
+\TU/DejaVuSerif(0)/m/n/10 (например, из-за «залипания» датчика в определённых с
+остояниях)
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 593--598
+[]\TU/DejaVuSerif(0)/m/n/10 Дополнительное подтверждение необходимости тестиров
+ания
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 593--598
+\TU/DejaVuSerif(0)/m/n/10 генераторов, используемых в криптографии. Практически
+й
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 603--604
+[]\TU/DejaVuSerif(0)/b/n/10 ГЛАВА 2. Анализ физических источников энтропии
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 603--604
+\TU/DejaVuSerif(0)/b/n/10 и их применение в генераторах истинно случайных
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 607--614
+[]\TU/DejaVuSerif(0)/m/n/10 При проектировании интегральных схем шум неизбежен 
+и
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 607--614
+\TU/DejaVuSerif(0)/m/n/10 нежелателен. Однако в физических ГИСП улавливание и
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 607--614
+\TU/DejaVuSerif(0)/m/n/10 усиление непредсказуемых и неконтролируемых человеком
+
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 615--617
+[]\TU/DejaVuSerif(0)/m/n/10 Выделим и проанализируем 4 основных вида электронны
+х
+ []
+
+[12]
+Overfull \hbox (1.10222pt too wide) in paragraph at lines 630--638
+[]\TU/DejaVuSerif(0)/b/n/10 Тепловой шум\TU/DejaVuSerif(0)/m/n/10 , также назыв
+аемый шумом Джонсона-Найквиста
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 630--638
+\TU/DejaVuSerif(0)/m/n/10 электронов, в электрическом проводнике. Этот вид шума
+
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 630--638
+\TU/DejaVuSerif(0)/m/n/10 движении электронов. Белый гауссов шум, генерируемый
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 630--638
+\TU/DejaVuSerif(0)/m/n/10 резистором за счёт тепловой агитации носителей заряда
+
+ []
+
+Missing character: There is no 𝛥 (U+1D6E5) in font DejaVu Serif/OT:script=latn;
+language=dflt;!
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 649.
+Missing character: There is no 𝛥 (U+1D6E5) in font DejaVu Serif/OT:script=latn;
+language=dflt;!
+LaTeX Font Info:    Font shape `TU/DejaVuSerif(0)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 655.
+
+Underfull \hbox (badness 2285) in paragraph at lines 659--660
+[]\TU/DejaVuSerif(0)/m/n/10 Спектральная плотность напряжения такого шума задаё
+тся
+ []
+
+File: pandoc_media/media/image3.png Graphic file (type bmp)
+<pandoc_media/media/image3.png>
+
+Overfull \hbox (124.48839pt too wide) in paragraph at lines 675--677
+[][]
+ []
+
+[13]
+Missing character: There is no Г ("413) in font cmmi10!
+Missing character: There is no ц ("446) in font cmmi10!
+Missing character: There is no п ("43F) in font cmmi10!
+Missing character: There is no р ("440) in font cmmi10!
+Missing character: There is no и ("438) in font cmmi10!
+Missing character: There is no К ("41A) in font cmmi10!
+
+Overfull \hbox (6.49902pt too wide) in paragraph at lines 688--690
+[]\TU/DejaVuSerif(0)/m/n/10 Можем считать спектральную плотность постоянной нез
+ависимой
+ []
+
+Missing character: There is no 𝛥 (U+1D6E5) in font DejaVu Serif/OT:script=latn;
+language=dflt;!
+
+Underfull \hbox (badness 5316) in paragraph at lines 699--702
+[]\TU/DejaVuSerif(0)/m/n/10 1. Формирование сигнала. Электрическое напряжение,
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 699--702
+\TU/DejaVuSerif(0)/m/n/10 наведённое тепловым шумом на резисторе, усиливается с
+
+ []
+
+
+Overfull \hbox (4.60614pt too wide) in paragraph at lines 707--710
+[]\TU/DejaVuSerif(0)/m/n/10 3. Оцифровка. Полученный аналоговый сигнал дискрети
+зируется
+ []
+
+
+Overfull \hbox (27.03165pt too wide) in paragraph at lines 707--710
+\TU/DejaVuSerif(0)/m/n/10 и квантуется с помощью АЦП (аналогово-цифрового преоб
+разователя).
+ []
+
+[14]
+Overfull \hbox (14.02704pt too wide) in paragraph at lines 711--715
+[]\TU/DejaVuSerif(0)/m/n/10 4. Преобразование в случайные биты. Используется по
+стобработка:
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 711--715
+\TU/DejaVuSerif(0)/m/n/10 вырезание младших битов, хэш-функции или экстракция с
+
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 711--715
+\TU/DejaVuSerif(0)/m/n/10 помощью алгоритмов, таких как Von Neumann extractor и
+ли
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--722
+[]\TU/DejaVuSerif(0)/m/n/10 Количество энтропии, генерируемое за единицу времен
+и,
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 716--722
+\TU/DejaVuSerif(0)/m/n/10 Поэтому чаще всего используются младшие биты, иногда 
+с
+ []
+
+
+Overfull \hbox (5.24902pt too wide) in paragraph at lines 730--732
+[]\TU/DejaVuSerif(0)/m/n/10 Отсутствие квантовых эффектов (при правильно настро
+енном
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 740--743
+[]\TU/DejaVuSerif(0)/m/n/10 Необходимость сложной постобработки для получения
+ []
+
+
+Overfull \hbox (16.26953pt too wide) in paragraph at lines 743--745
+[]\TU/DejaVuSerif(0)/m/n/10 Необходимость температурной стабилизации для поддер
+жания
+ []
+
+File: pandoc_media/media/image4.png Graphic file (type bmp)
+<pandoc_media/media/image4.png>
+
+Overfull \hbox (124.46228pt too wide) in paragraph at lines 750--751
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--757
+\TU/DejaVuSerif(0)/m/n/10 Эйнштейна, Уолтер Шоттки экспериментально обнаружил
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 шум, связанный с дискретной (квантованной) природой
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 электрического тока. Он возникает из-за того, что зар
+яд
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 переносится не непрерывно, а в виде отдельных частиц 
+–
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 электронов. Когда электроны пересекают потенциальный
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 средний ток постоянен. Термин «дробовой шум» (а также
+
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 дробовой эффект) возник в связи с тем, что благодаря 
+ему
+ []
+
+
+Overfull \hbox (10.01367pt too wide) in paragraph at lines 758--769
+\TU/DejaVuSerif(0)/m/n/10 радиоприёмника, появляется акустический шум, восприни
+маемый
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 770--772
+[]\TU/DejaVuSerif(0)/m/n/10 Впервые дробовой шум был теоретически описан Уолтер
+ом
+ []
+
+
+Overfull \hbox (7.63867pt too wide) in paragraph at lines 770--772
+\TU/DejaVuSerif(0)/m/n/10 Шоттки в 1918 году, когда он исследовал шумовые харак
+теристики
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 798--800
+[]\TU/DejaVuSerif(0)/m/n/10 Дробовой шум наблюдается только в условиях, когда п
+оток
+ []
+
+[16]
+Underfull \hbox (badness 4699) in paragraph at lines 811--813
+[]\TU/DejaVuSerif(0)/m/n/10 в фотодетекторах (где ток создаётся фотонами, а не
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 819--821
+[]\TU/DejaVuSerif(0)/m/n/10 Чтобы использовать дробовой шум в генераторах истин
+ных
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 826--828
+[]\TU/DejaVuSerif(0)/m/n/10 2. Преобразование в напряжение. Ток преобразуется в
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--828
+\TU/DejaVuSerif(0)/m/n/10 напряжение с помощью токозависимого усилителя или
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 838--840
+[]\TU/DejaVuSerif(0)/m/n/10 6. Постобработка. Применяются алгоритмы, повышающие
+
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 838--840
+\TU/DejaVuSerif(0)/m/n/10 качество случайных битов — например, хэширование или
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 841--843
+[]\TU/DejaVuSerif(0)/m/n/10 Как и тепловой шум, дробовой шум имеет равномерную
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 848--851
+[]\TU/DejaVuSerif(0)/m/n/10 Основан на фундаментальной квантовой природе тока
+ []
+
+[17]
+File: pandoc_media/media/image5.png Graphic file (type bmp)
+<pandoc_media/media/image5.png>
+
+Overfull \hbox (124.47542pt too wide) in paragraph at lines 873--874
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 877--884
+[]\TU/DejaVuSerif(0)/b/n/10 Лавинный шум \TU/DejaVuSerif(0)/m/n/10 — это разнов
+идность дробового шума,
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 возникающая в полупроводниковых приборах с внутренним
+
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 усилением, таких как лавинные фотодиоды (APD, avalanc
+he
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 photodiodes), лавинные транзисторы, стабилитроны или 
+p–
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 n переходы при пробое. Он обусловлен стохастическим
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 характером процесса лавинной генерации носителей, при
+
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 877--884
+\TU/DejaVuSerif(0)/m/n/10 котором один носитель может возбуждать несколько новы
+х
+ []
+
+
+Overfull \hbox (27.83887pt too wide) in paragraph at lines 885--892
+\TU/DejaVuSerif(0)/m/n/10 ускоряясь электрическим полем, ионизируют атомы крист
+аллической
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--892
+\TU/DejaVuSerif(0)/m/n/10 накапливается лавинообразно и приводит к внутреннему
+ []
+
+
+Overfull \hbox (9.71086pt too wide) in paragraph at lines 893--895
+[]\TU/DejaVuSerif(0)/m/n/10 При учёте коэффициента внутреннего усиления M и коэ
+ффициента
+ []
+
+[18]
+Underfull \hbox (badness 1112) in paragraph at lines 909--912
+[]\TU/DejaVuSerif(0)/m/it/10 F \TU/DejaVuSerif(0)/m/n/10 – коэффициент избыточн
+ого шума, зависящий от
+ []
+
+
+Overfull \hbox (9.5166pt too wide) in paragraph at lines 914--916
+[]\TU/DejaVuSerif(0)/m/n/10 При моделировании с учётом разных ионизационных вер
+оятностей
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--916
+\TU/DejaVuSerif(0)/m/n/10 для электронов и дырок (k) используется приближённая
+ []
+
+Missing character: There is no ≪ (U+226A) in font DejaVu Serif/OT:script=latn;l
+anguage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 7740) in paragraph at lines 923--929
+[]\TU/DejaVuSerif(0)/m/n/10 Для построения генераторов случайных чисел на основ
+е
+ []
+
+
+Overfull \hbox (2.33594pt too wide) in paragraph at lines 923--929
+\TU/DejaVuSerif(0)/m/n/10 лавинного шума применяются лавинные фотодиоды, работа
+ющие
+ []
+
+
+Overfull \hbox (4.2746pt too wide) in paragraph at lines 923--929
+\TU/DejaVuSerif(0)/m/n/10 в режиме ниже или около пробоя. Шум усиливается, филь
+труется,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 947--950
+[]\TU/DejaVuSerif(0)/m/n/10 Необходимость прецизионного контроля напряжения,
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 953--961
+[]\TU/DejaVuSerif(0)/b/n/10 Мерцающий шум\TU/DejaVuSerif(0)/m/n/10 , также изве
+стный как шум с обратной
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 953--961
+\TU/DejaVuSerif(0)/m/n/10 пропорциональностью к частоте (англ. flicker noise ил
+и \TU/DejaVuSerif(0)/m/it/10 1/f
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 953--961
+\TU/DejaVuSerif(0)/m/n/10 наблюдается в широком классе электронных компонентов
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 953--961
+\TU/DejaVuSerif(0)/m/n/10 — в первую очередь в МОП-транзисторах, резисторах и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--961
+\TU/DejaVuSerif(0)/m/n/10 других полупроводниковых приборах. Его характерной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--961
+\TU/DejaVuSerif(0)/m/n/10 особенностью является спектральная плотность мощности
+,
+ []
+
+[19]
+Underfull \hbox (badness 2418) in paragraph at lines 962--964
+\TU/DejaVuSerif(0)/m/n/10 МОП-транзисторах основной вклад в него дают следующие
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 970--972
+[]\TU/DejaVuSerif(0)/m/n/10 Происходят за счёт захвата и высвобождения носителе
+й в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--980
+[]\TU/DejaVuSerif(0)/m/n/10 Возникают из-за нестационарности рассеяния носителе
+й,
+ []
+
+
+Overfull \hbox (8.8895pt too wide) in paragraph at lines 983--984
+[]\TU/DejaVuSerif(0)/m/n/10 Комбинация CNF и CMF может приводить к коррелирован
+ным 
+ []
+
+
+Overfull \hbox (18.30566pt too wide) in paragraph at lines 988--990
+[]\TU/DejaVuSerif(0)/m/n/10 Спектральная плотность напряжения 1/f шума обычно п
+риближённо
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 996--998
+[]\TU/DejaVuSerif(0)/m/it/10 K \TU/DejaVuSerif(0)/m/n/10 — эмпирический коэффиц
+иент, зависящий от
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 1001--1003
+[]\TU/DejaVuSerif(0)/m/it/10 W \TU/DejaVuSerif(0)/m/n/10 и \TU/DejaVuSerif(0)/m
+/it/10 L \TU/DejaVuSerif(0)/m/n/10 — ширина и длина канала транзистора
+ []
+
+
+Overfull \hbox (13.59715pt too wide) in paragraph at lines 1007--1009
+\TU/DejaVuSerif(0)/m/n/10 транзистора, особенно при переходе к нанометровым тех
+процессам. 
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 1010--1015
+[]\TU/DejaVuSerif(0)/m/n/10 В сравнении с тепловым шумом, обладающем постоянной
+
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 1010--1015
+\TU/DejaVuSerif(0)/m/n/10 убывает с увеличением частоты и доминирует на низких
+ []
+
+
+Overfull \hbox (16.58398pt too wide) in paragraph at lines 1016--1021
+\TU/DejaVuSerif(0)/m/n/10 корреляции между выходными битами, особенно при недос
+таточной
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1016--1021
+\TU/DejaVuSerif(0)/m/n/10 генераторов, работающих на высоких частотах. Формальн
+о,
+ []
+
+[20]
+Underfull \hbox (badness 1728) in paragraph at lines 1026--1030
+[]\TU/DejaVuSerif(0)/m/n/10 Хотя мерцающий шум сам по себе не является идеальны
+м
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 1035--1041
+[]\TU/DejaVuSerif(0)/m/n/10 Квантовая физика лежит в основе современного понима
+ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1041
+\TU/DejaVuSerif(0)/m/n/10 устройства материи. Одной из ключевых особенностей
+ []
+
+
+Overfull \hbox (61.6909pt too wide) in paragraph at lines 1035--1041
+\TU/DejaVuSerif(0)/m/n/10 квантовых процессов является их фундаментальная недет
+ерминированность.
+ []
+
+
+Overfull \hbox (1.69434pt too wide) in paragraph at lines 1035--1041
+\TU/DejaVuSerif(0)/m/n/10 Именно это делает квантовые явления естественным и на
+дежным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1049
+[]\TU/DejaVuSerif(0)/m/n/10 Классические генераторы случайных последовательност
+ей
+ []
+
+
+Overfull \hbox (32.42445pt too wide) in paragraph at lines 1042--1049
+\TU/DejaVuSerif(0)/m/n/10 (ГСП), в отличие от квантовых, работают на основе дет
+ерминированных
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 1042--1049
+\TU/DejaVuSerif(0)/m/n/10 недостатком информации о начальных параметрах системы
+,
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 1042--1049
+\TU/DejaVuSerif(0)/m/n/10 а потому при теоретически полной информации поведение
+
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 1050--1054
+[]\TU/DejaVuSerif(0)/m/n/10 Квантовые генераторы случайных чисел (КГСЧ) использ
+уют
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 1055--1061
+[]\TU/DejaVuSerif(0)/m/n/10 В основе большинства КГСЧ лежит работа с кубитами —
+
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 1055--1061
+\TU/DejaVuSerif(0)/m/n/10 квантовыми аналогами битов, которые могут находиться 
+в
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 1055--1061
+\TU/DejaVuSerif(0)/m/n/10 из этих состояний, а результат измерения непредсказуе
+м и
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 1062--1066
+[]\TU/DejaVuSerif(0)/m/n/10 Система из L кубитов имеет 2$[]$ возможных независи
+мых
+ []
+
+
+Overfull \hbox (16.7334pt too wide) in paragraph at lines 1062--1066
+\TU/DejaVuSerif(0)/m/n/10 параллельные вычисления и использовать квантовую супе
+рпозицию
+ []
+
+[21]
+Underfull \hbox (badness 1946) in paragraph at lines 1069--1079
+[]\TU/DejaVuSerif(0)/m/n/10 Часто для создания КГСЧ применяют фотоны. Их удобно
+
+ []
+
+
+Underfull \hbox (badness 7326) in paragraph at lines 1069--1079
+\TU/DejaVuSerif(0)/m/n/10 фотона с круговой поляризацией через светоделительную
+
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 1069--1079
+\TU/DejaVuSerif(0)/m/n/10 пластину. Она разделяет фотон на два возможных пути –
+
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 1069--1079
+\TU/DejaVuSerif(0)/m/n/10 горизонтальный и вертикальный – с равной вероятностью
+.
+ []
+
+
+Overfull \hbox (2.19922pt too wide) in paragraph at lines 1069--1079
+\TU/DejaVuSerif(0)/m/n/10 соответствующим детектором, интерпретируется как логи
+ческий
+ []
+
+File: pandoc_media/media/image6.png Graphic file (type bmp)
+<pandoc_media/media/image6.png>
+
+Underfull \hbox (badness 3930) in paragraph at lines 1084--1089
+\TU/DejaVuSerif(0)/m/n/10 механизмами получения энтропии в оптических квантовых
+
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 1084--1089
+\TU/DejaVuSerif(0)/m/n/10 генераторах являются спонтанное излучение, расщеплени
+е
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 1090--1095
+\TU/DejaVuSerif(0)/m/n/10 используют временную характеристику событий – наприме
+р,
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 1090--1095
+\TU/DejaVuSerif(0)/m/n/10 лазером. Такие схемы основаны на временном принципе,
+ []
+
+
+Overfull \hbox (13.85449pt too wide) in paragraph at lines 1090--1095
+\TU/DejaVuSerif(0)/m/n/10 противоположном пространственному, где случайность ко
+дируется
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 1096--1101
+[]\TU/DejaVuSerif(0)/m/n/10 В ряде решений применяется метод регистрации кванто
+вых
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 1096--1101
+\TU/DejaVuSerif(0)/m/n/10 Эти системы позволяют считывать непрерывные шумовые
+ []
+
+[22]
+Underfull \hbox (badness 1264) in paragraph at lines 1102--1108
+[]\TU/DejaVuSerif(0)/m/n/10 Следует отметить, что оптические схемы обладают выс
+окой
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 1102--1108
+\TU/DejaVuSerif(0)/m/n/10 производительностью, а некоторые современные ГИСП на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1108
+\TU/DejaVuSerif(0)/m/n/10 основе фотонов достигают скоростей генерации десятков
+
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 1102--1108
+\TU/DejaVuSerif(0)/m/n/10 ограничений. Несмотря на высокую степень случайности,
+
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 1109--1111
+[]\TU/DejaVuSerif(0)/m/n/10 1. Неидеальность компонентов: расщепление пучка мож
+ет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1115
+\TU/DejaVuSerif(0)/m/n/10 свойства оптических и электронных компонентов могут
+ []
+
+
+Overfull \hbox (1.70555pt too wide) in paragraph at lines 1116--1119
+\TU/DejaVuSerif(0)/m/n/10 зависимостей между результатами последовательных изме
+рений. 
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 1120--1123
+[]\TU/DejaVuSerif(0)/m/n/10 Для устранения этих недостатков применяется калибро
+вка
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 1120--1123
+\TU/DejaVuSerif(0)/m/n/10 оборудования, схемы с одним фотонным детектором и, пр
+и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1123
+\TU/DejaVuSerif(0)/m/n/10 необходимости, постобработка данных, которая снижает
+ []
+
+
+Overfull \hbox (69.45639pt too wide) in paragraph at lines 1124--1129
+\TU/DejaVuSerif(0)/m/n/10 источника энтропии. Радиоактивный распад является ква
+нтовомеханическим
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 1124--1129
+\TU/DejaVuSerif(0)/m/n/10 процессом, происходящим самопроизвольно в нестабильны
+х
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1124--1129
+\TU/DejaVuSerif(0)/m/n/10 атомных ядрах. Вероятность распада за бесконечно малы
+й
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1129
+\TU/DejaVuSerif(0)/m/n/10 промежуток времени dt описывается экспоненциальным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1140
+[]\TU/DejaVuSerif(0)/m/it/10 λ \TU/DejaVuSerif(0)/m/n/10 – постоянная распада, 
+связанная с периодом
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 1142--1146
+[]\TU/DejaVuSerif(0)/m/n/10 Величина t носит истинно случайный характер в преде
+лах
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1142--1146
+\TU/DejaVuSerif(0)/m/n/10 законов квантовой механики. Это означает, что даже пр
+и
+ []
+
+[23]
+Overfull \hbox (3.4834pt too wide) in paragraph at lines 1147--1150
+[]\TU/DejaVuSerif(0)/m/n/10 Таким образом, временные интервалы между последоват
+ельными
+ []
+
+
+Overfull \hbox (2.3602pt too wide) in paragraph at lines 1156--1159
+[]\TU/DejaVuSerif(0)/m/n/10 Радиоактивный изотоп с безопасной активностью (напр
+имер,
+ []
+
+
+Overfull \hbox (24.1211pt too wide) in paragraph at lines 1162--1165
+[]\TU/DejaVuSerif(0)/m/n/10 Схема счёта времени между детекциями событий (высок
+оточный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
+[]\TU/DejaVuSerif(0)/m/n/10 Пусть последовательность времён регистрации событий
+
+ []
+
+
+Overfull \hbox (28.99414pt too wide) in paragraph at lines 1173--1176
+[]\TU/DejaVuSerif(0)/m/n/10 представляют собой независимые и экспоненциально ра
+спределённые
+ []
+
+Missing character: There is no е ("435) in font cmmi10!
+Missing character: There is no с ("441) in font cmmi10!
+Missing character: There is no л ("43B) in font cmmi10!
+Missing character: There is no и ("438) in font cmmi10!
+Missing character: There is no е ("435) in font cmmi10!
+Missing character: There is no с ("441) in font cmmi10!
+Missing character: There is no л ("43B) in font cmmi10!
+Missing character: There is no и ("438) in font cmmi10!
+
+Underfull \hbox (badness 7256) in paragraph at lines 1189--1191
+[]\TU/DejaVuSerif(0)/m/n/10 где τ – эмпирически выбранный порог, обеспечивающий
+
+ []
+
+
+Overfull \hbox (3.68164pt too wide) in paragraph at lines 1192--1195
+[]\TU/DejaVuSerif(0)/m/n/10 Для устранения возможной остаточной корреляции и ап
+паратных
+ []
+
+
+Overfull \hbox (6.4502pt too wide) in paragraph at lines 1192--1195
+\TU/DejaVuSerif(0)/m/n/10 искажений применяются криптографически стойкие экстра
+кторы
+ []
+
+[24]
+Overfull \hbox (4.05273pt too wide) in paragraph at lines 1208--1211
+[]\TU/DejaVuSerif(0)/m/n/10 Юридические и нормативные ограничения на использова
+ние
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 1211--1213
+[]\TU/DejaVuSerif(0)/m/n/10 Необходимость калибровки и тестирования детекторов,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1213
+\TU/DejaVuSerif(0)/m/n/10 учитывая старение, температурную нестабильность и
+ []
+
+
+Overfull \hbox (23.86914pt too wide) in paragraph at lines 1217--1224
+\TU/DejaVuSerif(0)/m/n/10 чисел, в ряде практических приложений используются ме
+ханические
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1217--1224
+\TU/DejaVuSerif(0)/m/n/10 на макроскопические процессы, которые, несмотря на св
+ою
+ []
+
+
+Overfull \hbox (17.21336pt too wide) in paragraph at lines 1217--1224
+\TU/DejaVuSerif(0)/m/n/10 компонентов в системах генерации случайных последоват
+ельностей. 
+ []
+
+
+Overfull \hbox (5.52734pt too wide) in paragraph at lines 1225--1231
+\TU/DejaVuSerif(0)/m/n/10 в виде микроэлектромеханических систем (MEMS), вибрац
+ионных
+ []
+
+
+Overfull \hbox (24.2811pt too wide) in paragraph at lines 1232--1238
+\TU/DejaVuSerif(0)/m/n/10 характера движения, вызванного микроскопическими флук
+туациями,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1238
+\TU/DejaVuSerif(0)/m/n/10 вибрациями, трением, турбулентными потоками воздуха
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 1232--1238
+\TU/DejaVuSerif(0)/m/n/10 и другими стохастическими процессами. В случае MEMS-
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 1232--1238
+\TU/DejaVuSerif(0)/m/n/10 при считывании отклонений подвижных элементов от их
+ []
+
+
+Overfull \hbox (11.8916pt too wide) in paragraph at lines 1239--1243
+[]\TU/DejaVuSerif(0)/m/n/10 Однако стоит учитывать, что механические источники 
+подвержены
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 1239--1243
+\TU/DejaVuSerif(0)/m/n/10 что требует дополнительной обработки данных и контрол
+я
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1249
+[]\TU/DejaVuSerif(0)/b/n/10 Акустические \TU/DejaVuSerif(0)/m/n/10 методы испол
+ьзуют шумы, возникающие
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 1244--1249
+\TU/DejaVuSerif(0)/m/n/10 при вибрации объектов, прохождении звуковых волн чере
+з
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 1244--1249
+\TU/DejaVuSerif(0)/m/n/10 различные среды или при работе механических систем. В
+
+ []
+
+[25]
+Underfull \hbox (badness 1755) in paragraph at lines 1250--1257
+[]\TU/DejaVuSerif(0)/m/n/10 Шумы окружающей среды, звуковые помехи в помещениях
+,
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 1250--1257
+\TU/DejaVuSerif(0)/m/n/10 и сложно моделируемые сигналы, которые при должной
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 1250--1257
+\TU/DejaVuSerif(0)/m/n/10 обработке могут использоваться для генерации случайны
+х
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 1250--1257
+\TU/DejaVuSerif(0)/m/n/10 битов. Часто в таких генераторах реализуется схема с
+ []
+
+
+Overfull \hbox (38.45215pt too wide) in paragraph at lines 1258--1263
+\TU/DejaVuSerif(0)/m/n/10 сложности и непредсказуемости начальных условий и чув
+ствительности
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1268
+[]\TU/DejaVuSerif(0)/m/n/10 Поэтому такие генераторы, как правило, требуют боле
+е
+ []
+
+
+Overfull \hbox (57.31152pt too wide) in paragraph at lines 1264--1268
+\TU/DejaVuSerif(0)/m/n/10 тщательной оценки качества случайности, применения кр
+иптографических
+ []
+
+
+Overfull \hbox (23.9082pt too wide) in paragraph at lines 1264--1268
+\TU/DejaVuSerif(0)/m/n/10 методов постобработки (например, хэш-функций или выра
+внивающих
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1264--1268
+\TU/DejaVuSerif(0)/m/n/10 фильтров), а также постоянного контроля над параметра
+ми
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1274
+[]\TU/DejaVuSerif(0)/m/n/10 Тем не менее, механические и акустические источники
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1274
+\TU/DejaVuSerif(0)/m/n/10 обладают весомыми преимуществами: низкая стоимость,
+ []
+
+
+Overfull \hbox (0.6123pt too wide) in paragraph at lines 1269--1274
+\TU/DejaVuSerif(0)/m/n/10 простота реализации, возможность работы в условиях от
+сутствия
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 1269--1274
+\TU/DejaVuSerif(0)/m/n/10 видам атак, направленным на цифровые или оптические
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 Во многих современных смартфонах и устройствах «умног
+о
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 дома» установлены микроэлектромеханические датчики
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 движения – гироскопы и акселерометры. При включении
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 эти датчики фиксируют мельчайшие колебания, вызванные
+
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 незначительными колебаниями в условиях покоя и прочим
+и
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 эффектами. Эти сигналы после усиления и оцифровки
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 1277--1287
+\TU/DejaVuSerif(0)/m/n/10 могут быть преобразованы в последовательности случайн
+ых
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 1288--1297
+\TU/DejaVuSerif(0)/m/n/10 картину. Возможно использование системы, где обычный
+ []
+
+[26]
+Underfull \hbox (badness 3826) in paragraph at lines 1298--1306
+[]\TU/DejaVuSerif(0)/m/n/10 3. Макроскопические механизмы (сброс шара, вращение
+
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 1298--1306
+\TU/DejaVuSerif(0)/m/n/10 в образовательных целях, случайные события формируютс
+я
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 1298--1306
+\TU/DejaVuSerif(0)/m/n/10 движения зависит от огромного количества микрофакторо
+в
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1298--1306
+\TU/DejaVuSerif(0)/m/n/10 – силы толчка, трения, мельчайших неровностей. Систем
+а
+ []
+
+
+Overfull \hbox (17.09653pt too wide) in paragraph at lines 1307--1313
+\TU/DejaVuSerif(0)/m/n/10 защищённых аппаратных платформах встраиваются сейсмод
+атчики,
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 1314--1322
+\TU/DejaVuSerif(0)/m/n/10 факторов: моторика человека, разрешение сенсора мыши,
+
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 1314--1322
+\TU/DejaVuSerif(0)/m/n/10 Эти движения в общей массе содержат высокую энтропию,
+
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1314--1322
+\TU/DejaVuSerif(0)/m/n/10 особенно в начальные моменты, когда пользователь двиг
+ает
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 1324--1328
+\TU/DejaVuSerif(0)/m/n/10 (например, веб-страница с JavaScript) регистрирует
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 1324--1328
+\TU/DejaVuSerif(0)/m/n/10 также временная метка (timestamp) фиксируются в
+ []
+
+
+Overfull \hbox (43.44383pt too wide) in paragraph at lines 1329--1334
+\TU/DejaVuSerif(0)/m/n/10 используются для формирования числовой последовательн
+ости.
+ []
+
+[27]
+Underfull \hbox (badness 1107) in paragraph at lines 1335--1339
+\TU/DejaVuSerif(0)/m/n/10 количество битов энтропии, генератор не начинает
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 1335--1339
+\TU/DejaVuSerif(0)/m/n/10 выдачу случайных чисел. Как правило, ведётся
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 1340--1341
+[]\TU/DejaVuSerif(0)/m/n/10 4. Постобработка. После сбора достаточного
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 1342--1345
+[]\TU/DejaVuSerif(0)/m/n/10 применяется хэш-функция (SHA-256, Keccak и др.),
+ []
+
+
+Overfull \hbox (0.94727pt too wide) in paragraph at lines 1349--1359
+[]\TU/DejaVuSerif(0)/m/n/10 Получение последовательностей случайных битов из фи
+зических
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 и иные генераторы, даёт на выходе так называемые сыры
+е
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 идеального равномерного распределения и могут содержа
+ть
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 сдвиги, корреляции, предвзятость и другие статистичес
+кие
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 дефекты, обусловленные воздействием окружающей среды
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 и вариациями технологических параметров (PVT — proces
+s,
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 основной задачей которого является преобразование пот
+ока
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1359
+\TU/DejaVuSerif(0)/m/n/10 битов в статистически выровненную и криптографически
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 1360--1366
+\TU/DejaVuSerif(0)/m/n/10 этап, следующий за извлечением данных из физического
+ []
+
+
+Overfull \hbox (1.48633pt too wide) in paragraph at lines 1360--1366
+\TU/DejaVuSerif(0)/m/n/10 минимизировать корреляции, устранить смещения в вероя
+тности
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 1369--1373
+[]\TU/DejaVuSerif(0)/m/n/10 где \TU/DejaVuSerif(0)/m/it/10 n \TU/DejaVuSerif(0)
+/m/n/10 — длина исходной «сырой» последовательности, \TU/DejaVuSerif(0)/m/it/10
+ m \TU/DejaVuSerif(0)/m/n/10 —
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 1369--1373
+\TU/DejaVuSerif(0)/m/n/10 функция постобработки, сохраняющая энтропийную массу 
+и
+ []
+
+
+Overfull \hbox (7.17255pt too wide) in paragraph at lines 1374--1376
+\TU/DejaVuSerif(0)/m/n/10 эвристик до криптографически устойчивых трансформаций
+[3][12]: 
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1415
+\TU/DejaVuSerif(0)/m/n/10 случайных битов, полученных из физических источников
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 1418--1419
+[]\TU/DejaVuSerif(0)/m/n/10 Предположим, что входные биты независимы, но имеют
+ []
+
+Missing character: There is no г ("433) in font cmmi10!
+Missing character: There is no д ("434) in font cmmi10!
+Missing character: There is no е ("435) in font cmmi10!
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1450--1461
+\TU/DejaVuSerif(0)/m/n/10 техник постобработки является «отбеливание» выходных
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 1450--1461
+\TU/DejaVuSerif(0)/m/n/10 данных генератора истинно случайных чисел с помощью
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1450--1461
+\TU/DejaVuSerif(0)/m/n/10 криптографической хэш-функции. Наиболее известными
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 1450--1461
+\TU/DejaVuSerif(0)/m/n/10 последовательности генератора случайных чисел пропуст
+ить
+ []
+
+
+Overfull \hbox (6.10692pt too wide) in paragraph at lines 1462--1471
+\TU/DejaVuSerif(0)/m/n/10 последовательность, обладающую почти идеальной случай
+ностью.
+ []
+
+
+Overfull \hbox (24.57211pt too wide) in paragraph at lines 1462--1471
+\TU/DejaVuSerif(0)/m/n/10 Экстракторы реализуют теоретико-информационные трансф
+ормации,
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 1462--1471
+\TU/DejaVuSerif(0)/m/n/10 приближающие выход к равномерному распределению даже
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 1462--1471
+\TU/DejaVuSerif(0)/m/n/10 на основе линейных или полиномиальных преобразований.
+
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 1462--1471
+\TU/DejaVuSerif(0)/m/n/10 необходим буфер памяти, а также мощный процессор, что
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1479
+\TU/DejaVuSerif(0)/m/n/10 путем фильтрации через некоторый детерминированный
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 1472--1479
+\TU/DejaVuSerif(0)/m/n/10 введены Сунаром, Мартином и Стинсоном в качестве шага
+
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 1472--1479
+\TU/DejaVuSerif(0)/m/n/10 постобработки для ГСП на свободных осцилляторах. Это
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 1486--1488
+[]\TU/DejaVuSerif(0)/m/n/10 Программно (off-chip): для хэшей, криптографических
+
+ []
+
+[30]
+Underfull \hbox (badness 6316) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 генераторов истинно случайных чисел. От качества её
+ []
+
+
+Overfull \hbox (1.8916pt too wide) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 последовательности, но и её пригодность для криптогра
+фических
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 зависит от компромисса между пропускной способностью,
+
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 аппаратной сложностью и требуемым уровнем безопасност
+и.
+ []
+
+
+Overfull \hbox (1.23047pt too wide) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 Однако даже идеальная постобработка не может компенси
+ровать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 слабость или атакуемость физического источника. Как
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 1490--1499
+\TU/DejaVuSerif(0)/m/n/10 подчёркивает стандарт NIST SP 800-90A, для использова
+ния
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 1502--1504
+[]\TU/DejaVuSerif(0)/m/n/10 Наличие процедуры тестирования источника на месте
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1518
+[]\TU/DejaVuSerif(0)/m/n/10 Оценка устойчивости генераторов истинной случайност
+и
+ []
+
+
+Overfull \hbox (1.22559pt too wide) in paragraph at lines 1511--1518
+\TU/DejaVuSerif(0)/m/n/10 является неотъемлемой частью обеспечения криптографич
+еской
+ []
+
+
+Overfull \hbox (13.08327pt too wide) in paragraph at lines 1511--1518
+\TU/DejaVuSerif(0)/m/n/10 безопасности. В прикладной криптографии принято анали
+зировать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1518
+\TU/DejaVuSerif(0)/m/n/10 уязвимости каждого компонента системы в отдельности,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1518
+\TU/DejaVuSerif(0)/m/n/10 поскольку компрометация даже одного элемента может
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 1519--1527
+[]\TU/DejaVuSerif(0)/m/n/10 Атаки на ГИСП подразделяются на две большие группы 
+–
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 1519--1527
+\TU/DejaVuSerif(0)/m/n/10 пассивные и активные. Пассивные атаки направлены на
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 1519--1527
+\TU/DejaVuSerif(0)/m/n/10 получение информации о внутреннем состоянии генератор
+а
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1519--1527
+\TU/DejaVuSerif(0)/m/n/10 без физического вмешательства в его работу. Цель таки
+х
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 1519--1527
+\TU/DejaVuSerif(0)/m/n/10 вероятностью. Активные атаки, напротив, предполагают
+ []
+
+
+Overfull \hbox (11.35637pt too wide) in paragraph at lines 1519--1527
+\TU/DejaVuSerif(0)/m/n/10 вмешательство в функционирование ГИСП с целью контрол
+ировать
+ []
+
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+File: pandoc_media/media/image1.png Graphic file (type bmp)
+<pandoc_media/media/image1.png>
+[31] [32]
+Underfull \hbox (badness 6995) in paragraph at lines 1575--1585
+\TU/DejaVuSerif(0)/m/n/10 используют измерения физических параметров устройства
+,
+ []
+
+
+Overfull \hbox (1.28305pt too wide) in paragraph at lines 1575--1585
+\TU/DejaVuSerif(0)/m/n/10 таких как потребляемая мощность, электромагнитное изл
+учение,
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 1575--1585
+\TU/DejaVuSerif(0)/m/n/10 случае генераторов на основе кольцевых осцилляторов (
+RO)
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 1575--1585
+\TU/DejaVuSerif(0)/m/n/10 исследователям удалось извлечь информацию о частотах 
+и
+ []
+
+
+Overfull \hbox (13.56485pt too wide) in paragraph at lines 1575--1585
+\TU/DejaVuSerif(0)/m/n/10 источник энтропии (джиттер) и делает выход ГИСП предс
+казуемым. 
+ []
+
+
+Overfull \hbox (4.37012pt too wide) in paragraph at lines 1586--1594
+[]\TU/DejaVuSerif(0)/m/n/10 Другой тип атак – инъекция ошибок (fault injection)
+ – предполагает
+ []
+
+File: pandoc_media/media/image8.png Graphic file (type bmp)
+<pandoc_media/media/image8.png>
+
+Overfull \hbox (11.88748pt too wide) in paragraph at lines 1595--1596
+[][] 
+ []
+
+[33]
+Underfull \hbox (badness 7595) in paragraph at lines 1607--1615
+[]\TU/DejaVuSerif(0)/m/n/10 Современные достижения в области машинного обучения
+
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1607--1615
+\TU/DejaVuSerif(0)/m/n/10 открыли возможности для интеллектуальных атак на ГИСП
+.
+ []
+
+
+Overfull \hbox (13.43645pt too wide) in paragraph at lines 1607--1615
+\TU/DejaVuSerif(0)/m/n/10 битстрим FPGA-реализации ГИСП (добавляя сотни дополни
+тельных
+ []
+
+
+Overfull \hbox (18.02441pt too wide) in paragraph at lines 1607--1615
+\TU/DejaVuSerif(0)/m/n/10 триггеров), можно обучить модель глубокого обучения р
+аспознавать
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 1607--1615
+\TU/DejaVuSerif(0)/m/n/10 полной компрометацией, она подчёркивает потенциальную
+
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 1607--1615
+\TU/DejaVuSerif(0)/m/n/10 опасность аппаратных троянов и направленных ML-атак в
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1623
+\TU/DejaVuSerif(0)/m/n/10 Во-первых, важно физически изолировать чувствительные
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1623
+\TU/DejaVuSerif(0)/m/n/10 компоненты ГИСП, например, размещать развязывающие
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 1616--1623
+\TU/DejaVuSerif(0)/m/n/10 структура самого ГИСП должна быть оптимизирована для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1623
+\TU/DejaVuSerif(0)/m/n/10 важно внедрение онлайн-механизмов самотестирования,
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 1624--1628
+[]\TU/DejaVuSerif(0)/m/n/10 Таким образом, надёжность ГИСП определяется не толь
+ко
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1628
+\TU/DejaVuSerif(0)/m/n/10 качеством источника энтропии, но и устойчивостью ко
+ []
+
+
+Overfull \hbox (16.53647pt too wide) in paragraph at lines 1624--1628
+\TU/DejaVuSerif(0)/m/n/10 множеству атак. Это требует системного подхода к прое
+ктированию
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 1636--1642
+[]\TU/DejaVuSerif(0)/m/n/10 Сравнение различных физических и квантовых источник
+ов
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1636--1642
+\TU/DejaVuSerif(0)/m/n/10 для разных сфер применения в зависимости от конкретны
+х
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 1636--1642
+\TU/DejaVuSerif(0)/m/n/10 требований к качеству случайности, уровню безопасност
+и,
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 1636--1642
+\TU/DejaVuSerif(0)/m/n/10 потребляемым ресурсам и технологическим возможностям
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 1643--1660
+[]\TU/DejaVuSerif(0)/m/n/10 Физические источники энтропии, такие как тепловой ш
+ум,
+ []
+
+
+Overfull \hbox (9.69629pt too wide) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 дробовой шум, лавинный шум и мерцающий шум, характери
+зуются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 относительно простой схемотехнической реализацией и
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 платформы. Это делает их особенно привлекательными
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 для встраивания в микроконтроллеры, криптографические
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 процессоры и другие устройства массового производства
+.
+ []
+
+
+Overfull \hbox (21.56738pt too wide) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 Однако такие источники могут быть чувствительны к тем
+пературным
+ []
+
+
+Overfull \hbox (7.55762pt too wide) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 колебаниям, электромагнитным наводкам, старению компо
+нентов
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 и другим нежелательным факторам, которые могут вносит
+ь
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 детерминированные искажении в сигнал, снижая истинную
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 энтропию. Например, тепловой шум достаточно стабилен,
+
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 но имеет сравнительно низкую энтропийную мощность, чт
+о
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 требуют сложной схемы усиления и фильтрации, а также
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1660
+\TU/DejaVuSerif(0)/m/n/10 могут генерировать импульсные сигналы, неравномерные
+ []
+
+[34]
+Overfull \hbox (1.87402pt too wide) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 как квантовые переходы, туннелирование, спонтанное из
+лучение
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 или рассеяние фотонов, обеспечивают наивысший уровень
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 истинной случайности, поскольку происхождение сигнала
+
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 невозможно описать детерминированными законами физики
+.
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 Это делает такие источники предпочтительными для зада
+ч,
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 где требуется абсолютная непредсказуемость, например,
+ в
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 генерации ключей для квантово-устойчивой криптографии
+.
+ []
+
+
+Overfull \hbox (11.47983pt too wide) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 внешних воздействий. Кроме того, из-за высокой чувств
+ительности
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 1661--1675
+\TU/DejaVuSerif(0)/m/n/10 нуждаются в регулярной калибровке и контроле качества
+
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 движение в турбулентных потоках, случайные колебания 
+в
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 нелинейных цепях или шум в радиоэфире. Они интересны
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 достигать очень высокой скорости генерации, что особе
+нно
+ []
+
+
+Overfull \hbox (13.30746pt too wide) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 условий и трудно поддаются строгой математической вер
+ификации,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 что делает их менее надёжными в задачах, где требуетс
+я
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1676--1690
+\TU/DejaVuSerif(0)/m/n/10 доказуемо высокая энтропия. Кроме того, при известной
+
+ []
+
+[35]
+Underfull \hbox (badness 1831) in paragraph at lines 1691--1697
+[]\TU/DejaVuSerif(0)/m/n/10 В обобщении, можно сказать, что физические источник
+и –
+ []
+
+
+Overfull \hbox (0.3291pt too wide) in paragraph at lines 1691--1697
+\TU/DejaVuSerif(0)/m/n/10 высокой стоимости, а хаотические – высокая производит
+ельность
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 1701--1708
+[]\TU/DejaVuSerif(0)/m/n/10 Современные требования к безопасности информационны
+х
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1708
+\TU/DejaVuSerif(0)/m/n/10 систем, а также рост применения криптографических и
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 1701--1708
+\TU/DejaVuSerif(0)/m/n/10 необходимость дальнейшего совершенствования физически
+х
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 1701--1708
+\TU/DejaVuSerif(0)/m/n/10 данных систем направлено на повышение их надёжности,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 1701--1708
+\TU/DejaVuSerif(0)/m/n/10 устойчивости к внешним воздействиям, скорости генерац
+ии
+ []
+
+
+Overfull \hbox (2.20541pt too wide) in paragraph at lines 1709--1716
+[]\TU/DejaVuSerif(0)/m/n/10 Миниатюризация и интеграция в чипы. Современные тех
+нологии
+ []
+
+
+Overfull \hbox (12.14063pt too wide) in paragraph at lines 1709--1716
+\TU/DejaVuSerif(0)/m/n/10 непосредственно в процессоры, контроллеры и криптогра
+фические
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 1709--1716
+\TU/DejaVuSerif(0)/m/n/10 получении случайных битов и упрощает защиту от атак н
+а
+ []
+
+
+Overfull \hbox (8.07129pt too wide) in paragraph at lines 1717--1725
+[]\TU/DejaVuSerif(0)/m/n/10 Перспективным направлением является использование к
+вантовых
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1717--1725
+\TU/DejaVuSerif(0)/m/n/10 источников энтропии – в частности, спонтанного распад
+а
+ []
+
+
+Overfull \hbox (16.77586pt too wide) in paragraph at lines 1717--1725
+\TU/DejaVuSerif(0)/m/n/10 фотонов, квантовых флуктуаций вакуума и эффекта тунне
+лирования.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1725
+\TU/DejaVuSerif(0)/m/n/10 Такие источники обладают высокой степенью истинной
+ []
+
+
+Overfull \hbox (22.61606pt too wide) in paragraph at lines 1717--1725
+\TU/DejaVuSerif(0)/m/n/10 случайности, подтверждаемой теорией квантовой неопред
+елённости,
+ []
+
+
+Overfull \hbox (4.60938pt too wide) in paragraph at lines 1726--1733
+[]\TU/DejaVuSerif(0)/m/n/10 Оптические и фотонные источники также могут быть по
+двержены
+ []
+
+
+Overfull \hbox (27.84995pt too wide) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 модернизации. Оптические ФГСП, основанные на фотоэлек
+трическом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 шуме, колебаниях интенсивности лазерного излучения и
+ []
+
+
+Overfull \hbox (11.04199pt too wide) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 спонтанном рассеянии света, демонстрируют высокую про
+пускную
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 способность и низкую коррелированность выходных битов
+.
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 Развитие интегральной фотоники и кремниевых фотонных
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 1726--1733
+\TU/DejaVuSerif(0)/m/n/10 чипов позволяет создавать компактные и масштабируемые
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1742
+[]\TU/DejaVuSerif(0)/m/n/10 Повышение надёжности генерации достигается за счёт
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 1734--1742
+\TU/DejaVuSerif(0)/m/n/10 объединения нескольких физических источников энтропии
+
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 1734--1742
+\TU/DejaVuSerif(0)/m/n/10 позволяет компенсировать слабости отдельных компонент
+ов,
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 1734--1742
+\TU/DejaVuSerif(0)/m/n/10 а также реализовать адаптивные схемы оценки качества 
+и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1742
+\TU/DejaVuSerif(0)/m/n/10 Таким образом, перспективным направлением развития
+ []
+
+
+Overfull \hbox (30.40723pt too wide) in paragraph at lines 1743--1751
+[]\TU/DejaVuSerif(0)/m/n/10 Совершенствование методов постобработки, внедрение 
+постобработки
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 1743--1751
+\TU/DejaVuSerif(0)/m/n/10 реализации алгоритмов экстракции, таких как схема фон
+
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 1743--1751
+\TU/DejaVuSerif(0)/m/n/10 Неймана, хэш-функции и решёточные методы. Аппаратная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1759
+\TU/DejaVuSerif(0)/m/n/10 ФГСП предусматривают встраивание модулей контроля,
+ []
+
+
+Overfull \hbox (2.32422pt too wide) in paragraph at lines 1752--1759
+\TU/DejaVuSerif(0)/m/n/10 способных выполнять непрерывное статистическое тестир
+ование
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1752--1759
+\TU/DejaVuSerif(0)/m/n/10 поддержании эффективного автоматического тестирования
+ и
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 1760--1764
+[]\TU/DejaVuSerif(0)/m/n/10 В рамках международных инициатив (например, NIST, I
+SO)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1770
+[]\TU/DejaVuSerif(0)/m/n/10 В совокупности данные направления определяют вектор
+
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 1765--1770
+\TU/DejaVuSerif(0)/m/n/10 дальнейших исследований и разработок в области ФГСП,
+ []
+
+
+Overfull \hbox (4.94629pt too wide) in paragraph at lines 1765--1770
+\TU/DejaVuSerif(0)/m/n/10 проверяемых источников истинной случайности для совре
+менных
+ []
+
+[37]
+Overfull \hbox (1.04004pt too wide) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 оценка физических генераторов случайных последователь
+ностей
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 (ФГСП), основанных на различных источниках энтропии.
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 Изучение теоретических основ позволило выделить важны
+е
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 свойства случайных чисел, отличать истинную случайнос
+ть
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 от псевдослучайности, а также понять роль энтропии ка
+к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 ключевого ресурса в криптографических и инженерных
+ []
+
+
+Overfull \hbox (9.6517pt too wide) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 системах. Особое внимание было уделено методам статис
+тической
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1773--1782
+\TU/DejaVuSerif(0)/m/n/10 тесты частоты, последовательности бит, оценки энтропи
+и и
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 1783--1794
+[]\TU/DejaVuSerif(0)/m/n/10 Во второй главе были подробно рассмотрены физически
+е
+ []
+
+
+Overfull \hbox (18.51758pt too wide) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 источники энтропии, применяемые в аппаратных ГСП. Эле
+ктронные
+ []
+
+
+Overfull \hbox (4.49121pt too wide) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 источники включали тепловой, лавинный, дробовой и мер
+цающий
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 аппаратная реализация, устойчивость к внешним фактора
+м
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 однако при этом требуют учета технических ограничений
+,
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 в усилении сигнала. Тепловой шум обеспечивает хорошую
+
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 воспроизводимость и низкую стоимость, в то время как
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1783--1794
+\TU/DejaVuSerif(0)/m/n/10 мерцающий шум слабо пригоден к использованию из-за
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 главы, открывают перспективы для создания генераторов
+ с
+ []
+
+
+Overfull \hbox (26.61133pt too wide) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 высокой энтропийной мощностью и принципиально непредс
+казуемым
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 теоретическую безопасность и потенциальную устойчивос
+ть
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 к широкому классу атак. Отдельно отмечены возможности
+
+ []
+
+
+Overfull \hbox (22.30664pt too wide) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 использования эффектов квантовой интерференции, тунне
+лирования
+ []
+
+
+Overfull \hbox (26.7627pt too wide) in paragraph at lines 1795--1804
+\TU/DejaVuSerif(0)/m/n/10 и спонтанной эмиссии фотонов в качестве надёжных перв
+оисточников
+ []
+
+[38]
+Underfull \hbox (badness 5652) in paragraph at lines 1812--1819
+[]\TU/DejaVuSerif(0)/m/n/10 Глава, посвящённая постобработке, подчеркнула важно
+сть
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 1812--1819
+\TU/DejaVuSerif(0)/m/n/10 цифровой обработки для повышения качества получаемых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1812--1819
+\TU/DejaVuSerif(0)/m/n/10 использования хеш-функций, декоррелирующих фильтров
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 1812--1819
+\TU/DejaVuSerif(0)/m/n/10 и нормализаторов. Методы оценки и устранения ошибок
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 1812--1819
+\TU/DejaVuSerif(0)/m/n/10 критически важны при внедрении ФГСП в ответственных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1820--1829
+[]\TU/DejaVuSerif(0)/m/n/10 Сравнительный анализ, представленный в третьей глав
+е,
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 каждого типа источников. По совокупности характеристи
+к
+ []
+
+
+Overfull \hbox (26.06934pt too wide) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 наилучшие показатели стабильности и скорости продемон
+стрировали
+ []
+
+
+Overfull \hbox (7.86572pt too wide) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 критериев: надёжности, простоты реализации и чувствит
+ельности
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 к внешним воздействиям. Также была обозначена высокая
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 чувствительность некоторых источников к помехам, что
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1820--1829
+\TU/DejaVuSerif(0)/m/n/10 требует проведения экранирования или компенсации шумо
+в
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 1830--1836
+[]\TU/DejaVuSerif(0)/m/n/10 Наконец, в разделе о перспективах развития рассмотр
+ены
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 1830--1836
+\TU/DejaVuSerif(0)/m/n/10 технологические и теоретические направления, способны
+е
+ []
+
+
+Overfull \hbox (9.54053pt too wide) in paragraph at lines 1830--1836
+\TU/DejaVuSerif(0)/m/n/10 годы: это миниатюризация компонентов, внедрение в ста
+ндартные
+ []
+
+
+Overfull \hbox (23.8563pt too wide) in paragraph at lines 1830--1836
+\TU/DejaVuSerif(0)/m/n/10 микросхемы, повышение энергоэффективности и самотести
+руемости,
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 1830--1836
+\TU/DejaVuSerif(0)/m/n/10 а также дальнейшее развитие квантовых источников как
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1843
+[]\TU/DejaVuSerif(0)/m/n/10 Таким образом, проведённое исследование подтвердило
+
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 1837--1843
+\TU/DejaVuSerif(0)/m/n/10 актуальность и сложность выбора подходящего источника
+
+ []
+
+
+Overfull \hbox (5.96825pt too wide) in paragraph at lines 1837--1843
+\TU/DejaVuSerif(0)/m/n/10 энтропии для проектирования надёжных аппаратных генер
+аторов.
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 1837--1843
+\TU/DejaVuSerif(0)/m/n/10 в области информационной безопасности, криптографии и
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1858--1859
+[]\TU/DejaVuSerif(0)/m/n/10 Матвеев Ю.Н. Цифровая обработка сигналов [Текст]:
+ []
+
+[39]
+Underfull \hbox (badness 1472) in paragraph at lines 1871--1874
+\TU/DejaVuSerif(0)/m/n/10 М.Ю. Будько, А.В. Гирик, В.А. Грозов. – Санкт-Петербу
+рг:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1879--1880
+[]\TU/DejaVuSerif(0)/m/n/10 Слеповичев, И.И. Генераторы псевдослучайных чисел
+ []
+
+
+Overfull \hbox (16.19467pt too wide) in paragraph at lines 1882--1884
+[]\TU/DejaVuSerif(0)/m/n/10 учебное пособие / И.И. Слеповичев. – Саратовский го
+сударственный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1912--1913
+[]\TU/DejaVuSerif(0)/m/n/10 Архангельская, А.В. Построение высокоскоростных
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 1925--1929
+\TU/DejaVuSerif(0)/m/n/10 статистических тестов NIST STS [Текст]: учебное пособ
+ие
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 1925--1929
+\TU/DejaVuSerif(0)/m/n/10 / Т.А. Гриненко, А.В. Потий, С.Ю. Орлова – Харьковски
+й
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1945--1946
+[]\TU/DejaVuSerif(0)/m/n/10 Григорьев, А.Ю. Методы тестирования генераторов
+ []
+
+[40]
+Underfull \hbox (badness 2680) in paragraph at lines 1956--1957
+[]\TU/DejaVuSerif(0)/m/n/10 Якимов, А.В. Физика шумов и флуктуаций параметров
+ []
+
+
+Overfull \hbox (8.00244pt too wide) in paragraph at lines 1980--1983
+\TU/DejaVuSerif(0)/m/n/10 В.Е. Стригалев, И.К. Мешковский – Санкт-Петербург: Ун
+иверситет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
+
+ []
+
+
+Overfull \hbox (3.50018pt too wide) in paragraph at lines 2026--2027
+\TU/DejaVuSerif(0)/m/n/10 неперекрывающихся 
+ []
+
+[41] [42] [43]
+Overfull \hbox (25.02779pt too wide) in paragraph at lines 2101--2102
+[]\TU/DejaVuSerif(0)/b/n/10 Источник  
+ []
+
+
+Overfull \hbox (54.47603pt too wide) in paragraph at lines 2103--2104
+[]\TU/DejaVuSerif(0)/b/n/10 Спектральный 
+ []
+
+
+Overfull \hbox (27.96165pt too wide) in paragraph at lines 2105--2106
+[]\TU/DejaVuSerif(0)/b/n/10 Скорость 
+ []
+
+
+Overfull \hbox (35.24193pt too wide) in paragraph at lines 2105--2106
+\TU/DejaVuSerif(0)/b/n/10 генерации  
+ []
+
+
+Overfull \hbox (31.98273pt too wide) in paragraph at lines 2107--2108
+[]\TU/DejaVuSerif(0)/b/n/10 Качество 
+ []
+
+
+Overfull \hbox (32.24152pt too wide) in paragraph at lines 2107--2108
+\TU/DejaVuSerif(0)/b/n/10 энтропии  
+ []
+
+
+Overfull \hbox (33.88255pt too wide) in paragraph at lines 2109--2110
+[]\TU/DejaVuSerif(0)/b/n/10 Сложность 
+ []
+
+
+Overfull \hbox (38.42845pt too wide) in paragraph at lines 2109--2110
+\TU/DejaVuSerif(0)/b/n/10 реализации  
+ []
+
+
+Overfull \hbox (39.39642pt too wide) in paragraph at lines 2111--2112
+[]\TU/DejaVuSerif(0)/b/n/10 Устойчивость 
+ []
+
+
+Overfull \hbox (12.28217pt too wide) in paragraph at lines 2111--2112
+\TU/DejaVuSerif(0)/b/n/10 внешним 
+ []
+
+
+Overfull \hbox (40.6513pt too wide) in paragraph at lines 2111--2112
+\TU/DejaVuSerif(0)/b/n/10 воздействиям  
+ []
+
+
+Overfull \hbox (21.40219pt too wide) in paragraph at lines 2113--2114
+[]\TU/DejaVuSerif(0)/b/n/10 Защита 
+ []
+
+
+Overfull \hbox (98.89243pt too wide) in paragraph at lines 2113--2114
+\TU/DejaVuSerif(0)/b/n/10 атак/моделирования  
+ []
+
+
+Overfull \hbox (32.07112pt too wide) in paragraph at lines 2115--2116
+[]\TU/DejaVuSerif(0)/b/n/10 Комментарии 
+ []
+
+
+Overfull \hbox (6.66585pt too wide) in paragraph at lines 2115--2116
+\TU/DejaVuSerif(0)/b/n/10 Примеры 
+ []
+
+
+Overfull \hbox (23.33089pt too wide) in paragraph at lines 2115--2116
+\TU/DejaVuSerif(0)/b/n/10 применения  
+ []
+
+
+Overfull \hbox (23.22603pt too wide) in paragraph at lines 2121--2121
+[]|\TU/DejaVuSerif(0)/b/n/10 Тепловой 
+ []
+
+
+Overfull \hbox (1.59029pt too wide) in paragraph at lines 2121--2121
+[]|\TU/DejaVuSerif(0)/m/n/10 Белый 
+ []
+
+
+Overfull \hbox (18.78685pt too wide) in paragraph at lines 2121--2122
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя 
+ []
+
+
+Overfull \hbox (6.00037pt too wide) in paragraph at lines 2121--2122
+\TU/DejaVuSerif(0)/m/n/10 (~10⁴– 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2121--2122
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (21.4505pt too wide) in paragraph at lines 2122--2122
+[]|\TU/DejaVuSerif(0)/m/n/10 Среднее|  
+ []
+
+
+Overfull \hbox (8.40404pt too wide) in paragraph at lines 2122--2122
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (2.89252pt too wide) in paragraph at lines 2122--2123
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя 
+ []
+
+
+Overfull \hbox (2.50252pt too wide) in paragraph at lines 2122--2123
+\TU/DejaVuSerif(0)/m/n/10 (зависит 
+ []
+
+
+Overfull \hbox (39.51541pt too wide) in paragraph at lines 2122--2123
+\TU/DejaVuSerif(0)/m/n/10 сопротивления, 
+ []
+
+
+Overfull \hbox (31.3349pt too wide) in paragraph at lines 2122--2123
+\TU/DejaVuSerif(0)/m/n/10 температуры)|  
+ []
+
+
+Overfull \hbox (20.15805pt too wide) in paragraph at lines 2123--2123
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая– 
+ []
+
+
+Overfull \hbox (20.15707pt too wide) in paragraph at lines 2123--2123
+\TU/DejaVuSerif(0)/m/n/10 средняя|  
+ []
+
+
+Overfull \hbox (22.19319pt too wide) in paragraph at lines 2123--2125
+\TU/DejaVuSerif(0)/m/n/10 используется 
+ []
+
+
+Overfull \hbox (29.45882pt too wide) in paragraph at lines 2123--2125
+\TU/DejaVuSerif(0)/m/n/10 постобработки|  
+ []
+
+
+Overfull \hbox (24.27583pt too wide) in paragraph at lines 2125--2125
+[]|\TU/DejaVuSerif(0)/b/n/10 Дробовой 
+ []
+
+
+Overfull \hbox (22.78685pt too wide) in paragraph at lines 2125--2125
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя– 
+ []
+
+
+Overfull \hbox (17.10716pt too wide) in paragraph at lines 2125--2125
+\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (23.1394pt too wide) in paragraph at lines 2125--2125
+[]|\TU/DejaVuSerif(0)/m/n/10 Среднее- 
+ []
+
+
+Overfull \hbox (20.22003pt too wide) in paragraph at lines 2125--2125
+\TU/DejaVuSerif(0)/m/n/10 высокое|  
+ []
+
+
+Overfull \hbox (14.45384pt too wide) in paragraph at lines 2125--2125
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя|  
+ []
+
+
+Overfull \hbox (6.89252pt too wide) in paragraph at lines 2126--2126
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя– 
+ []
+
+
+Overfull \hbox (1.21283pt too wide) in paragraph at lines 2126--2126
+\TU/DejaVuSerif(0)/m/n/10 высокая 
+ []
+
+
+Overfull \hbox (32.78084pt too wide) in paragraph at lines 2126--2126
+\TU/DejaVuSerif(0)/m/n/10 (дискретность 
+ []
+
+
+Overfull \hbox (15.95404pt too wide) in paragraph at lines 2126--2126
+\TU/DejaVuSerif(0)/m/n/10 устойчива)|  
+ []
+
+
+Overfull \hbox (22.20786pt too wide) in paragraph at lines 2126--2126
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя|  
+ []
+
+
+Overfull \hbox (20.50862pt too wide) in paragraph at lines 2126--2128
+\TU/DejaVuSerif(0)/m/n/10 применяется 
+ []
+
+
+Overfull \hbox (13.47249pt too wide) in paragraph at lines 2126--2128
+\TU/DejaVuSerif(0)/m/n/10 туннельных 
+ []
+
+
+Overfull \hbox (29.1147pt too wide) in paragraph at lines 2128--2128
+[]|\TU/DejaVuSerif(0)/b/n/10 Лавинный 
+ []
+
+
+Overfull \hbox (62.06392pt too wide) in paragraph at lines 2128--2128
+[]|\TU/DejaVuSerif(0)/m/n/10 Широкополосный 
+ []
+
+
+Overfull \hbox (7.33247pt too wide) in paragraph at lines 2128--2128
+\TU/DejaVuSerif(0)/m/n/10 пиками|  
+ []
+
+
+Overfull \hbox (18.82591pt too wide) in paragraph at lines 2128--2129
+[]|\TU/DejaVuSerif(0)/m/n/10 Высокая 
+ []
+
+
+Overfull \hbox (6.00037pt too wide) in paragraph at lines 2128--2129
+\TU/DejaVuSerif(0)/m/n/10 (~10⁶– 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2128--2129
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (21.93878pt too wide) in paragraph at lines 2129--2129
+[]|\TU/DejaVuSerif(0)/m/n/10 Высокое|  
+ []
+
+
+Overfull \hbox (18.45384pt too wide) in paragraph at lines 2129--2129
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя– 
+ []
+
+
+Overfull \hbox (12.77415pt too wide) in paragraph at lines 2129--2129
+\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (6.89252pt too wide) in paragraph at lines 2130--2130
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя– 
+ []
+
+
+Overfull \hbox (1.21283pt too wide) in paragraph at lines 2130--2130
+\TU/DejaVuSerif(0)/m/n/10 высокая 
+ []
+
+
+Overfull \hbox (2.50252pt too wide) in paragraph at lines 2130--2130
+\TU/DejaVuSerif(0)/m/n/10 (зависит 
+ []
+
+
+Overfull \hbox (23.89676pt too wide) in paragraph at lines 2130--2130
+[]|\TU/DejaVuSerif(0)/m/n/10 Средняя- 
+ []
+
+
+Overfull \hbox (20.52817pt too wide) in paragraph at lines 2130--2130
+\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (9.68343pt too wide) in paragraph at lines 2131--2132
+[]|\TU/DejaVuSerif(0)/m/n/10 Популярен 
+ []
+
+
+Overfull \hbox (2.28596pt too wide) in paragraph at lines 2131--2132
+\TU/DejaVuSerif(0)/m/n/10 лавинных 
+ []
+
+
+Overfull \hbox (14.33855pt too wide) in paragraph at lines 2131--2132
+\TU/DejaVuSerif(0)/m/n/10 фотодиодах, 
+ []
+
+
+Overfull \hbox (12.77913pt too wide) in paragraph at lines 2131--2132
+\TU/DejaVuSerif(0)/m/n/10 встроенных 
+ []
+
+
+Overfull \hbox (41.54634pt too wide) in paragraph at lines 2132--2132
+[]|\TU/DejaVuSerif(0)/b/n/10 Мерцающий 
+ []
+
+
+Overfull \hbox (11.82466pt too wide) in paragraph at lines 2132--2132
+[]|\TU/DejaVuSerif(0)/m/n/10 Розовый 
+ []
+
+
+Overfull \hbox (12.73705pt too wide) in paragraph at lines 2132--2133
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая 
+ []
+
+
+Overfull \hbox (2.00037pt too wide) in paragraph at lines 2132--2133
+\TU/DejaVuSerif(0)/m/n/10 (<10³ 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2132--2133
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (15.84991pt too wide) in paragraph at lines 2133--2133
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкое|  
+ []
+
+
+Overfull \hbox (8.40404pt too wide) in paragraph at lines 2133--2133
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (19.57283pt too wide) in paragraph at lines 2133--2134
+\TU/DejaVuSerif(0)/m/n/10 (параметры 
+ []
+
+
+Overfull \hbox (12.57526pt too wide) in paragraph at lines 2133--2134
+\TU/DejaVuSerif(0)/m/n/10 ”плавают”, 
+ []
+
+
+Overfull \hbox (40.90521pt too wide) in paragraph at lines 2133--2134
+\TU/DejaVuSerif(0)/m/n/10 нестабильность 
+ []
+
+
+Overfull \hbox (3.71283pt too wide) in paragraph at lines 2133--2134
+\TU/DejaVuSerif(0)/m/n/10 спектра)|  
+ []
+
+
+Overfull \hbox (16.15805pt too wide) in paragraph at lines 2134--2134
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (11.37776pt too wide) in paragraph at lines 2134--2136
+[]|\TU/DejaVuSerif(0)/m/n/10 Подвержен 
+ []
+
+
+Overfull \hbox (4.50276pt too wide) in paragraph at lines 2134--2136
+\TU/DejaVuSerif(0)/m/n/10 внешнему 
+ []
+
+
+Overfull \hbox (7.18343pt too wide) in paragraph at lines 2134--2136
+\TU/DejaVuSerif(0)/m/n/10 усиленной 
+ []
+
+
+Overfull \hbox (14.69319pt too wide) in paragraph at lines 2134--2136
+\TU/DejaVuSerif(0)/m/n/10 фильтрации|  
+ []
+
+
+Overfull \hbox (27.82564pt too wide) in paragraph at lines 2136--2136
+[]|\TU/DejaVuSerif(0)/b/n/10 Квантово- 
+ []
+
+
+Overfull \hbox (36.77583pt too wide) in paragraph at lines 2136--2136
+\TU/DejaVuSerif(0)/b/n/10 оптический 
+ []
+
+
+Overfull \hbox (32.71333pt too wide) in paragraph at lines 2136--2136
+\TU/DejaVuSerif(0)/b/n/10 (фотонный 
+ []
+
+
+Overfull \hbox (25.97017pt too wide) in paragraph at lines 2136--2136
+\TU/DejaVuSerif(0)/b/n/10 делитель)|  
+ []
+
+
+Overfull \hbox (1.59029pt too wide) in paragraph at lines 2137--2137
+[]|\TU/DejaVuSerif(0)/m/n/10 Белый 
+ []
+
+
+Overfull \hbox (33.9249pt too wide) in paragraph at lines 2137--2137
+\TU/DejaVuSerif(0)/m/n/10 (дискретные 
+ []
+
+
+Overfull \hbox (15.35493pt too wide) in paragraph at lines 2137--2137
+\TU/DejaVuSerif(0)/m/n/10 события)|  
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 2137
+ []
+
+
+Overfull \hbox (6.21361pt too wide) in paragraph at lines 2137--2137
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (17.10716pt too wide) in paragraph at lines 2137--2137
+\TU/DejaVuSerif(0)/m/n/10 высокая 
+ []
+
+
+Overfull \hbox (6.00037pt too wide) in paragraph at lines 2137--2137
+\TU/DejaVuSerif(0)/m/n/10 (~10⁶– 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2137--2137
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (9.65851pt too wide) in paragraph at lines 2138--2138
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (20.22003pt too wide) in paragraph at lines 2138--2138
+\TU/DejaVuSerif(0)/m/n/10 высокое|  
+ []
+
+
+Overfull \hbox (14.4929pt too wide) in paragraph at lines 2138--2138
+[]|\TU/DejaVuSerif(0)/m/n/10 Высокая|  
+ []
+
+
+Overfull \hbox (2.93158pt too wide) in paragraph at lines 2138--2139
+[]|\TU/DejaVuSerif(0)/m/n/10 Высокая 
+ []
+
+
+Overfull \hbox (43.07806pt too wide) in paragraph at lines 2138--2139
+\TU/DejaVuSerif(0)/m/n/10 стабилизирован 
+ []
+
+
+Overfull \hbox (10.83685pt too wide) in paragraph at lines 2138--2139
+\TU/DejaVuSerif(0)/m/n/10 фотонный 
+ []
+
+
+Overfull \hbox (5.456pt too wide) in paragraph at lines 2138--2139
+\TU/DejaVuSerif(0)/m/n/10 питание)|  
+ []
+
+
+Overfull \hbox (9.63461pt too wide) in paragraph at lines 2139--2139
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (20.52817pt too wide) in paragraph at lines 2139--2139
+\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (59.67366pt too wide) in paragraph at lines 2139--2141
+\TU/DejaVuSerif(0)/m/n/10 сертифицированные 
+ []
+
+
+Overfull \hbox (6.31429pt too wide) in paragraph at lines 2139--2141
+\TU/DejaVuSerif(0)/m/n/10 квантовые 
+ []
+
+
+Overfull \hbox (12.76448pt too wide) in paragraph at lines 2139--2141
+\TU/DejaVuSerif(0)/m/n/10 генераторы|  
+ []
+
+
+Overfull \hbox (61.12154pt too wide) in paragraph at lines 2141--2141
+[]|\TU/DejaVuSerif(0)/b/n/10 Радиоактивный 
+ []
+
+
+Overfull \hbox (7.37154pt too wide) in paragraph at lines 2141--2141
+\TU/DejaVuSerif(0)/b/n/10 распад|  
+ []
+
+
+Overfull \hbox (6.21361pt too wide) in paragraph at lines 2141--2142
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (10.68138pt too wide) in paragraph at lines 2141--2142
+\TU/DejaVuSerif(0)/m/n/10 низкая 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2141--2142
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (9.65851pt too wide) in paragraph at lines 2142--2142
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (20.22003pt too wide) in paragraph at lines 2142--2142
+\TU/DejaVuSerif(0)/m/n/10 высокое|  
+ []
+
+
+Overfull \hbox (1.8806pt too wide) in paragraph at lines 2142--2143
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень  
+ []
+
+
+Overfull \hbox (12.77415pt too wide) in paragraph at lines 2144--2144
+[]\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (1.21283pt too wide) in paragraph at lines 2146--2146
+[]\TU/DejaVuSerif(0)/m/n/10 высокая 
+ []
+
+
+Overfull \hbox (17.33162pt too wide) in paragraph at lines 2146--2146
+\TU/DejaVuSerif(0)/m/n/10 (независим 
+ []
+
+
+Overfull \hbox (4.24017pt too wide) in paragraph at lines 2146--2146
+\TU/DejaVuSerif(0)/m/n/10 внешней 
+ []
+
+
+Overfull \hbox (9.63461pt too wide) in paragraph at lines 2146--2146
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (20.52817pt too wide) in paragraph at lines 2146--2146
+\TU/DejaVuSerif(0)/m/n/10 высокая|  
+ []
+
+
+Overfull \hbox (9.47346pt too wide) in paragraph at lines 2146--2148
+[]|\TU/DejaVuSerif(0)/m/n/10 Эталонные 
+ []
+
+
+Overfull \hbox (24.98128pt too wide) in paragraph at lines 2146--2148
+\TU/DejaVuSerif(0)/m/n/10 используются 
+ []
+
+
+Overfull \hbox (57.74983pt too wide) in paragraph at lines 2146--2148
+\TU/DejaVuSerif(0)/m/n/10 высокозащищённых 
+ []
+
+
+Overfull \hbox (53.78267pt too wide) in paragraph at lines 2148--2148
+[]|\TU/DejaVuSerif(0)/b/n/10 Механический 
+ []
+
+
+Overfull \hbox (22.99654pt too wide) in paragraph at lines 2148--2148
+\TU/DejaVuSerif(0)/b/n/10 источник|  
+ []
+
+
+Overfull \hbox (5.76509pt too wide) in paragraph at lines 2149--2149
+[]|\TU/DejaVuSerif(0)/m/n/10 Спектр 
+ []
+
+
+Overfull \hbox (8.85591pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 зависит 
+ []
+
+
+Overfull \hbox (44.02193pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 конфигурации 
+ []
+
+
+Overfull \hbox (0.58505pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 (часто 
+ []
+
+
+Overfull \hbox (40.15474pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 псевдобелый)|  
+ []
+
+
+Overfull \vbox (48.0pt too high) detected at line 2149
+ []
+
+
+Overfull \hbox (12.73705pt too wide) in paragraph at lines 2149--2149
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая 
+ []
+
+
+Overfull \hbox (2.00037pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 (<10² 
+ []
+
+
+Overfull \hbox (4.46556pt too wide) in paragraph at lines 2149--2149
+\TU/DejaVuSerif(0)/m/n/10 бит/с)|  
+ []
+
+
+Overfull \hbox (15.84991pt too wide) in paragraph at lines 2149--2150
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкое|  
+ []
+
+
+Overfull \hbox (8.40404pt too wide) in paragraph at lines 2150--2150
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (13.0219pt too wide) in paragraph at lines 2152--2152
+[]\TU/DejaVuSerif(0)/m/n/10 (вибрации, 
+ []
+
+
+Overfull \hbox (24.01556pt too wide) in paragraph at lines 2152--2152
+\TU/DejaVuSerif(0)/m/n/10 подвержены 
+ []
+
+
+Overfull \hbox (11.02728pt too wide) in paragraph at lines 2152--2152
+\TU/DejaVuSerif(0)/m/n/10 факторов)|  
+ []
+
+
+Overfull \vbox (48.0pt too high) detected at line 2152
+ []
+
+
+Overfull \hbox (9.63461pt too wide) in paragraph at lines 2152--2152
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (14.10239pt too wide) in paragraph at lines 2152--2152
+\TU/DejaVuSerif(0)/m/n/10 низкая|  
+ []
+
+
+Overfull \hbox (55.07893pt too wide) in paragraph at lines 2153--2154
+[]|\TU/DejaVuSerif(0)/m/n/10 Демонстрационные 
+ []
+
+
+Overfull \hbox (11.16472pt too wide) in paragraph at lines 2153--2154
+\TU/DejaVuSerif(0)/m/n/10 устройства, 
+ []
+
+
+Overfull \hbox (13.5555pt too wide) in paragraph at lines 2153--2154
+\TU/DejaVuSerif(0)/m/n/10 устаревшие 
+ []
+
+
+Overfull \hbox (1.12386pt too wide) in paragraph at lines 2153--2154
+\TU/DejaVuSerif(0)/m/n/10 автоматы|  
+ []
+
+
+Overfull \hbox (50.64302pt too wide) in paragraph at lines 2154--2154
+[]|\TU/DejaVuSerif(0)/b/n/10 Акустический 
+ []
+
+
+Overfull \hbox (22.99654pt too wide) in paragraph at lines 2154--2154
+\TU/DejaVuSerif(0)/b/n/10 источник|  
+ []
+
+
+Overfull \hbox (12.73705pt too wide) in paragraph at lines 2154--2154
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (15.84991pt too wide) in paragraph at lines 2154--2154
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкое|  
+ []
+
+
+Overfull \hbox (8.40404pt too wide) in paragraph at lines 2154--2154
+[]|\TU/DejaVuSerif(0)/m/n/10 Низкая|  
+ []
+
+
+Overfull \hbox (9.63461pt too wide) in paragraph at lines 2154--2155
+[]|\TU/DejaVuSerif(0)/m/n/10 Очень 
+ []
+
+
+Overfull \hbox (14.10239pt too wide) in paragraph at lines 2154--2155
+\TU/DejaVuSerif(0)/m/n/10 низкая|  
+ []
+
+
+Overfull \hbox (43.56526pt too wide) in paragraph at lines 2155--2157
+[]|\TU/DejaVuSerif(0)/m/n/10 Вспомогательная 
+ []
+
+
+Overfull \hbox (0.60628pt too wide) in paragraph at lines 2155--2157
+\TU/DejaVuSerif(0)/m/n/10 энтропия 
+ []
+
+
+Overfull \hbox (8.30402pt too wide) in paragraph at lines 2155--2157
+\TU/DejaVuSerif(0)/m/n/10 (например, 
+ []
+
+[44] [45]
+Overfull \hbox (3.89355pt too wide) in paragraph at lines 2166--2169
+[]\TU/DejaVuSerif(0)/m/n/10 Низкое – сильно коррелированные значения, шум подве
+ржен
+ []
+
+
+Overfull \hbox (21.2225pt too wide) in paragraph at lines 2172--2174
+[]\TU/DejaVuSerif(0)/m/n/10 Высокое – почти идеальная равномерность и непредска
+зуемость,
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 2183--2185
+[]\TU/DejaVuSerif(0)/m/n/10 Средняя – требуется физический доступ или точная
+ []
+
+[46] (./Курсовая_работа_Шестаков_Влад_2_pandoc.aux) ) 
+Here is how much of TeX's memory you used:
+ 18668 strings out of 478190
+ 347098 string characters out of 5854827
+ 823711 words of memory out of 5000000
+ 38992 multiletter control sequences out of 15000+600000
+ 473018 words of font info for 88 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 86i,9n,122p,1035b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Курсовая_работа_Шестаков_Влад_2_pandoc.pdf (46 pages).
