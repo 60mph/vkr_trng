@@ -70,6 +70,7 @@ trng/
 │   ├── autocorrelation.py     ← автокорреляция при разных лагах
 │   ├── spectral.py            ← спектральная плотность (метод Уэлча)
 │   ├── entropy.py             ← Shannon + min-entropy (NIST SP 800-90B)
+│   ├── bits_image.py          ← битовый поток → PNG n×m (ч/б)
 │   └── report.py              ← сводный отчёт (md + png) по одному источнику
 │
 ├── nist_sts/                  ← интеграция с официальным пакетом NIST STS 2.1.2
@@ -78,7 +79,7 @@ trng/
 │   └── parse_results.py       ← finalAnalysisReport.txt → CSV/Markdown
 │
 ├── scripts/
-│   └── pipeline.py            ← end-to-end: capture → extract → analyze → NIST → report
+│   └── pipeline.py            ← end-to-end: capture → extract → bits_image → NIST → report
 │
 └── data/                      ← данные (gitignored, кроме примеров)
     ├── raw/                   ← бинарные дампы прямо с Arduino
@@ -141,6 +142,7 @@ python scripts/pipeline.py --source 02_zener --port /dev/ttyUSB0 --bytes 1048576
 Результат окажется в `data/reports/02_zener/`:
 
 - `report.md`      — сводка с p-value по NIST STS, Shannon, min-entropy;
+- `bits_image.png` — визуализация итогового битового потока (512×512 по умолчанию);
 - `histogram.png`  — гистограмма выборок;
 - `autocorr.png`   — автокорреляция;
 - `psd.png`        — спектральная плотность мощности;
