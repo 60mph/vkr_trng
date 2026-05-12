@@ -40,19 +40,19 @@ def run(cmd: list[str]) -> dict:
 
 def make_single_report(raw: Path | None, bits: Path | None,
                        nist_csv: Path | None, out_dir: Path,
-                       source_name: str) -> Path:
+                       source_name: str,
+                       nist_sections: list[tuple[str, Path]] | None = None) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     parts: list[str] = []
     parts.append(f"# Отчёт по источнику {source_name}\n")
 
-    # 1) Сырая часть
     raw_stats = {}
     if raw and raw.exists():
         hist_png  = out_dir / "histogram_raw.png"
         hist_json = out_dir / "histogram_raw.json"
         run([sys.executable, str(THIS_DIR / "histogram.py"),
              "--in", str(raw), "--kind", "samples", "--out", str(hist_png),
-             "--json", str(hist_json), "--title", f"{source_name} — гистограмма ADC отсчётов"])
+             "--json", str(hist_json)])
         raw_stats["hist"] = json.loads(hist_json.read_text()) if hist_json.exists() else {}
 
         psd_png  = out_dir / "psd_raw.png"
@@ -84,7 +84,6 @@ def make_single_report(raw: Path | None, bits: Path | None,
                          f"пик на {p.get('peak_hz')} Гц, "
                          f"медианная PSD = {p.get('median_pxx'):.2e}\n")
 
-    # 2) Биты после извлечения
     bit_stats = {}
     if bits and bits.exists():
         ent_json = out_dir / "entropy_bits.json"
@@ -104,6 +103,9 @@ def make_single_report(raw: Path | None, bits: Path | None,
         bit_stats["acf"] = json.loads(ac_b_json.read_text()) if ac_b_json.exists() else {}
 
         parts.append("## Извлечённые биты\n")
+        bits_map = out_dir / "bits_image.png"
+        if bits_map.exists():
+            parts.append(f"![Карта битового потока (Von Neumann)]({bits_map.name})\n")
         parts.append(f"![Автокорреляция бит]({ac_b_png.name})\n")
         if bit_stats.get("entropy_bits"):
             e = bit_stats["entropy_bits"]
@@ -116,24 +118,50 @@ def make_single_report(raw: Path | None, bits: Path | None,
                          f"min-H={e.get('min_entropy_per_symbol'):.4f}/8, "
                          f"MCV-min-H={e.get('mcv_min_entropy_per_symbol'):.4f}/8\n")
 
-    # 3) NIST STS
-    if nist_csv and nist_csv.exists():
+    if nist_sections:
         parts.append("## NIST STS\n")
-        with nist_csv.open() as f:
-            rdr = csv.reader(f)
-            header = next(rdr, None)
-            rows = list(rdr)
-        if header:
-            parts.append("| " + " | ".join(header) + " |")
-            parts.append("|" + "|".join(["---"] * len(header)) + "|")
-            for row in rows:
-                parts.append("| " + " | ".join(row) + " |")
-        parts.append("")
+        parts.append(
+            "_NIST STS 2.1.2. Ниже: **LSB** — упакованные биты после `extract_bits` "
+            "(не путать с `run_001.bin`, где лежат uint16 отсчёты АЦП); **VN** — тот же поток "
+            "после Von Neumann. Полные таблицы и `finalAnalysisReport.txt` — в `nist_lsb/` и `nist_vn/`._\n"
+        )
+        for label, md_path in nist_sections:
+            p = Path(md_path)
+            parts.append(f"### {label}\n")
+            if p.is_file():
+                parts.append(p.read_text(encoding="utf-8"))
+            else:
+                parts.append(f"_(файл не найден: `{p}`)_\n")
+            parts.append("")
+    elif nist_csv and nist_csv.exists():
+        parts.append("## NIST STS\n")
+        parts.append(
+            "_NIST STS 2.1.2: 10 битовых последовательностей по 1 Mbit "
+            "(`streams × nist_n_bits / 8` байт на вход `assess`). "
+            "Полная таблица — в `nist/results.csv`, сырой отчёт NIST — "
+            "в `nist/finalAnalysisReport.txt`. "
+            "Тесты `RandomExcursions(Variant)` дают `----`, если в потоке "
+            "не нашлось достаточно «прогулок» — это особенность теста._\n"
+        )
+        md_path = nist_csv.with_name("results.md")
+        if md_path.exists():
+            parts.append(md_path.read_text(encoding="utf-8"))
+            parts.append("")
+        else:
+            with nist_csv.open() as f:
+                rdr = csv.reader(f)
+                header = next(rdr, None)
+                rows = list(rdr)
+            if header:
+                parts.append("| " + " | ".join(header) + " |")
+                parts.append("|" + "|".join(["---"] * len(header)) + "|")
+                for row in rows:
+                    parts.append("| " + " | ".join(row) + " |")
+            parts.append("")
 
     report_md = out_dir / "report.md"
     report_md.write_text("\n".join(parts), encoding="utf-8")
 
-    # JSON-сводка для compare
     summary = {
         "source": source_name,
         "raw":    raw_stats,
@@ -148,12 +176,25 @@ def main() -> int:
     ap.add_argument("--raw",  type=Path, default=None)
     ap.add_argument("--bits", type=Path, default=None)
     ap.add_argument("--nist-csv", type=Path, default=None)
+    ap.add_argument(
+        "--nist-section",
+        nargs=2,
+        metavar=("LABEL", "RESULTS_MD"),
+        action="append",
+        default=[],
+        dest="nist_sections",
+        help="подраздел NIST: подпись и путь к results.md (можно повторять)",
+    )
     ap.add_argument("--out-dir",  type=Path, required=True)
     ap.add_argument("--source",   type=str, required=True,
                     help="имя источника, например 02_zener")
     args = ap.parse_args()
 
-    rep = make_single_report(args.raw, args.bits, args.nist_csv, args.out_dir, args.source)
+    sections = [(a[0], Path(a[1])) for a in (args.nist_sections or [])]
+    rep = make_single_report(
+        args.raw, args.bits, args.nist_csv, args.out_dir, args.source,
+        nist_sections=sections if sections else None,
+    )
     print(f"[*] Готов отчёт: {rep}")
     return 0
 

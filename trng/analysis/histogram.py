@@ -53,12 +53,29 @@ def main() -> int:
     counts, edges = np.histogram(data, bins=args.bins, range=(0, args.bins))
     chi2, pval = chi2_uniform(counts)
 
+    plt.rcParams.update(
+        {
+            "font.size": 10,
+            "axes.titlesize": 11,
+            "axes.labelsize": 10,
+            "axes.titlepad": 8,
+            "axes.grid": False,
+        }
+    )
+
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.bar(edges[:-1], counts, width=1.0)
-    title = args.title or f"{src.name} — гистограмма"
+    if args.title:
+        title = args.title
+    else:
+        title = (
+            "Гистограмма отсчётов АЦП"
+            if args.kind == "samples"
+            else "Гистограмма распределения байт"
+        )
     ax.set_title(title)
-    ax.set_xlabel("значение")
-    ax.set_ylabel("частота")
+    ax.set_xlabel("Код отсчёта АЦП" if args.kind == "samples" else "Значение байта")
+    ax.set_ylabel("Частота")
     ax.text(0.98, 0.95, f"χ² = {chi2:.1f}\np = {pval:.3e}",
             ha="right", va="top", transform=ax.transAxes,
             bbox=dict(facecolor="white", alpha=0.8))

@@ -29,12 +29,20 @@ import sys
 from pathlib import Path
 
 
-# Каждая строка теста заканчивается именем теста (буквы/пробелы/символы).
+# Формат NIST STS 2.1.2 (finalAnalysisReport.txt):
+#     C1  C2  ... C10  P-VALUE [*]   PROPORTION [*]   STATISTICAL TEST
+# Примеры реальных строк:
+#     "10   0   0   0   0   0   0   0   0   0  0.000000 *    0/10   *  Frequency"
+#     " 3   1   0   1   2   0   1   1   1   1  0.911413     10/10      Frequency"
+#     " 0   0   0   0   0   0   0   0   0   0     ----     ------     RandomExcursions"
+# Звёздочка после p-value/proportion — флаг «FAIL» от NIST, мы парсим её отдельно.
 LINE_RE = re.compile(
     r"^\s*"
-    r"(?P<bins>(?:\s*[\d\*]+){10})\s+"          # 10 столбцов C1..C10 (могут быть * * *)
-    r"(?P<pvalue>[\d\.\*]+)\s+"
-    r"(?P<prop>(?:\d+/\d+|--|\*+))\s+"
+    r"(?P<bins>(?:\s*[\d\*]+){10})\s+"
+    r"(?P<pvalue>[\d\.]+|----|\*+)\s*"
+    r"(?P<pflag>\*?)\s+"
+    r"(?P<prop>\d+/\d+|-+|\*+)\s*"
+    r"(?P<propflag>\*?)\s+"
     r"(?P<name>.+?)\s*$"
 )
 
@@ -46,6 +54,17 @@ def proportion_pass(passed: int, total: int) -> tuple[bool, float, float]:
     half = 3.0 * math.sqrt(p_hat * (1 - p_hat) / total)
     lo, hi = p_hat - half, p_hat + half
     return (lo <= p <= hi), lo, hi
+
+
+GENERATOR_RE = re.compile(r"generator is\s*<([^>]+)>")
+
+
+def parse_input_file(path: Path) -> str | None:
+    for line in path.read_text(errors="replace").splitlines()[:20]:
+        m = GENERATOR_RE.search(line)
+        if m:
+            return m.group(1).strip()
+    return None
 
 
 def parse(path: Path) -> list[dict]:
@@ -63,7 +82,7 @@ def parse(path: Path) -> list[dict]:
 
         pv_raw = m["pvalue"]
         pv: float | None
-        if pv_raw == "*" * len(pv_raw) or pv_raw.startswith("*"):
+        if pv_raw.startswith("-") or pv_raw.startswith("*"):
             pv = None
         else:
             try:
@@ -80,7 +99,10 @@ def parse(path: Path) -> list[dict]:
 
         prop_ok, lo, hi = proportion_pass(passed, total) if total else (False, 0, 0)
         pv_ok = pv is not None and pv >= 1e-4
-        verdict = "PASS" if (pv_ok and prop_ok) else "FAIL"
+        if total == 0 and pv is None:
+            verdict = "N/A"
+        else:
+            verdict = "PASS" if (pv_ok and prop_ok) else "FAIL"
 
         rows.append({
             "test":        name,
@@ -105,19 +127,85 @@ def write_csv(rows: list[dict], path: Path) -> None:
         for r in rows: w.writerow(r)
 
 
-def write_md(rows: list[dict], path: Path) -> None:
+def aggregate(rows: list[dict]) -> list[dict]:
+    """Сворачивает повторяющиеся имена тестов (NonOverlappingTemplate × N шаблонов,
+    CumulativeSums × 2 направления, Serial × 2 …) в одну строку:
+      - sub_runs            — сколько прогонов под этим именем,
+      - passed_total/total  — суммарно пройденных/проверенных битовых последовательностей,
+      - p_value_min/max     — минимальное/максимальное p-value среди подтестов,
+      - fail_sub            — сколько подтестов вердикт != PASS.
+    Сохраняет порядок появления имён в исходном отчёте."""
+    grouped: dict[str, list[dict]] = {}
+    order: list[str] = []
+    for r in rows:
+        name = r["test"]
+        if name not in grouped:
+            grouped[name] = []
+            order.append(name)
+        grouped[name].append(r)
+
+    out: list[dict] = []
+    for name in order:
+        items = grouped[name]
+        pvs = [it["p_value"] for it in items if isinstance(it["p_value"], float)]
+        total = sum(it["total"] for it in items)
+        passed = sum(it["passed"] for it in items)
+        verdicts = [it["verdict"] for it in items]
+        fail_sub = sum(1 for v in verdicts if v == "FAIL")
+        na_sub = sum(1 for v in verdicts if v == "N/A")
+        if na_sub == len(items):
+            verdict = "N/A"
+        elif fail_sub == 0:
+            verdict = "PASS"
+        else:
+            verdict = "FAIL"
+        out.append({
+            "test": name,
+            "sub_runs": len(items),
+            "p_min": min(pvs) if pvs else None,
+            "p_max": max(pvs) if pvs else None,
+            "passed": passed,
+            "total": total,
+            "fail_sub": fail_sub,
+            "na_sub": na_sub,
+            "verdict": verdict,
+        })
+    return out
+
+
+def write_md(rows: list[dict], path: Path, input_file: str | None = None) -> None:
     if not rows:
         path.write_text("(NIST STS не вернул ни одной валидной строки)\n"); return
-    lines = [
-        "| Тест | p-value | пройдено / всего | допустимый интервал | вердикт |",
-        "|------|--------:|------------------|--------------------:|---------|",
+
+    agg = aggregate(rows)
+    n_pass = sum(1 for r in agg if r["verdict"] == "PASS")
+    n_fail = sum(1 for r in agg if r["verdict"] == "FAIL")
+    n_na = sum(1 for r in agg if r["verdict"] == "N/A")
+    lines: list[str] = []
+    if input_file:
+        lines.append(f"**Входной файл NIST:** `{input_file}`.")
+        lines.append("")
+    lines += [
+        f"**Сводка по типам тестов:** PASS={n_pass}, FAIL={n_fail}, N/A={n_na} "
+        f"(из {len(agg)} групп; всего подтестов = {sum(r['sub_runs'] for r in agg)}).",
+        "",
+        "| Тест | подтестов | p-value min / max | пройдено / всего | вердикт |",
+        "|------|----------:|------------------:|-----------------:|---------|",
     ]
-    for r in rows:
-        pv = f"{r['p_value']:.4f}" if isinstance(r["p_value"], float) else "—"
-        prop = f"{r['passed']}/{r['total']}" if r["total"] else r["proportion"]
-        ci = f"{r['prop_lo']:.3f}…{r['prop_hi']:.3f}" if r["total"] else "—"
-        verdict_md = "**PASS**" if r["verdict"] == "PASS" else "**FAIL**"
-        lines.append(f"| {r['test']} | {pv} | {prop} | {ci} | {verdict_md} |")
+    for r in agg:
+        if r["p_min"] is None:
+            pv = "—"
+        elif r["sub_runs"] == 1:
+            pv = f"{r['p_min']:.4f}"
+        else:
+            pv = f"{r['p_min']:.4f} / {r['p_max']:.4f}"
+        prop = f"{r['passed']}/{r['total']}" if r["total"] else "—"
+        verdict_md = {
+            "PASS": "**PASS**",
+            "FAIL": "**FAIL**",
+            "N/A":  "N/A",
+        }[r["verdict"]]
+        lines.append(f"| {r['test']} | {r['sub_runs']} | {pv} | {prop} | {verdict_md} |")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -129,11 +217,14 @@ def main() -> int:
     args = ap.parse_args()
 
     rows = parse(Path(args.inp))
+    input_file = parse_input_file(Path(args.inp))
     Path(args.csv).parent.mkdir(parents=True, exist_ok=True)
     write_csv(rows, Path(args.csv))
-    write_md(rows, Path(args.md))
+    write_md(rows, Path(args.md), input_file=input_file)
     npass = sum(1 for r in rows if r["verdict"] == "PASS")
-    print(f"[*] {len(rows)} тестов, PASS={npass}, FAIL={len(rows)-npass}")
+    nfail = sum(1 for r in rows if r["verdict"] == "FAIL")
+    nna   = sum(1 for r in rows if r["verdict"] == "N/A")
+    print(f"[*] {len(rows)} подтестов: PASS={npass}, FAIL={nfail}, N/A={nna}")
     return 0
 
 

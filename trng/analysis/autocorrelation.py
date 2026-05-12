@@ -48,6 +48,7 @@ def main() -> int:
     ap.add_argument("--json", default=None)
     ap.add_argument("--max-points", type=int, default=2_000_000,
                     help="ограничение объёма для скорости (хвост отбрасываем)")
+    ap.add_argument("--title", default=None, help="заголовок рисунка (без имён файлов)")
     args = ap.parse_args()
 
     src = Path(args.inp)
@@ -68,14 +69,31 @@ def main() -> int:
     n_outside = int(np.sum(np.abs(acf[1:]) > ci))
     pct_outside = n_outside / max_lag
 
+    plt.rcParams.update(
+        {
+            "font.size": 10,
+            "axes.titlesize": 11,
+            "axes.labelsize": 10,
+            "axes.titlepad": 8,
+        }
+    )
+
+    base_title = (
+        "Автокорреляция отсчётов АЦП"
+        if args.kind == "samples"
+        else "Автокорреляция битового потока"
+    )
     fig, ax = plt.subplots(figsize=(9, 4))
-    ax.plot(acf, lw=0.8)
-    ax.axhline(+ci, color="r", lw=0.5, ls="--")
-    ax.axhline(-ci, color="r", lw=0.5, ls="--")
-    ax.set_xlabel("лаг τ"); ax.set_ylabel("Corr(X_t, X_{t+τ})")
-    ax.set_title(f"{src.name} — автокорреляция, max_lag={max_lag}")
+    ax.plot(acf, lw=0.8, color="#1f4f8c")
+    ax.axhline(+ci, color="crimson", lw=0.7, ls="--", alpha=0.85)
+    ax.axhline(-ci, color="crimson", lw=0.7, ls="--", alpha=0.85)
+    ax.set_xlabel(r"Лаг $\tau$")
+    ax.set_ylabel(r"Нормированная АКФ $\rho(\tau)$")
+    ax.set_title(args.title or base_title)
+    ax.grid(True, ls=":", lw=0.5, alpha=0.5)
     ax.text(0.98, 0.95,
-            f"вне 95% CI: {n_outside}/{max_lag} ({pct_outside*100:.1f} %)",
+            f"$\\tau_\\mathrm{{max}}={max_lag}$\n"
+            f"Вне 95% ДИ: {n_outside}/{max_lag} ({pct_outside*100:.1f}%)",
             ha="right", va="top", transform=ax.transAxes,
             bbox=dict(facecolor="white", alpha=0.8))
     out_png = Path(args.out); out_png.parent.mkdir(parents=True, exist_ok=True)

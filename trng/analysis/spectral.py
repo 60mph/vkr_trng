@@ -49,6 +49,7 @@ def main() -> int:
     ap.add_argument("--out",  required=True, help=".png")
     ap.add_argument("--json", default=None)
     ap.add_argument("--max-samples", type=int, default=2_000_000)
+    ap.add_argument("--title", default=None, help="заголовок рисунка (без имён файлов)")
     args = ap.parse_args()
 
     src = Path(args.inp)
@@ -60,17 +61,27 @@ def main() -> int:
 
     f, pxx = welch(x - x.mean(), fs=fs, nperseg=min(args.nperseg, x.size))
 
+    plt.rcParams.update(
+        {
+            "font.size": 10,
+            "axes.titlesize": 11,
+            "axes.labelsize": 10,
+            "axes.titlepad": 8,
+        }
+    )
+
     fig, ax = plt.subplots(figsize=(9, 4))
     ax.loglog(f[1:], pxx[1:])
-    ax.set_xlabel("частота, Гц"); ax.set_ylabel("PSD, отсчёт²/Гц")
-    ax.set_title(f"{src.name} — спектральная плотность (Welch)")
-    ax.grid(True, which="both", ls=":", lw=0.5)
+    ax.set_xlabel("Частота $f$, Гц")
+    ax.set_ylabel(r"СПМ $S_{xx}(f)$, отсч.²/Гц")
+    ax.set_title(args.title or "Спектральная плотность мощности (метод Уэлча)")
+    ax.grid(True, which="both", ls=":", lw=0.5, alpha=0.65)
 
     # Поиск самого яркого пика — обычно 50/100 Гц помеха.
     peak_idx = int(np.argmax(pxx[1:]) + 1)
     ax.axvline(f[peak_idx], color="r", lw=0.6, ls="--")
     ax.text(0.02, 0.95,
-            f"пик: {f[peak_idx]:.1f} Гц\nфон (медиана PSD): {np.median(pxx[1:]):.2e}",
+            f"Пик: {f[peak_idx]:.1f} Гц\nМедиана СПМ: {np.median(pxx[1:]):.2e}",
             ha="left", va="top", transform=ax.transAxes,
             bbox=dict(facecolor="white", alpha=0.8))
     out_png = Path(args.out); out_png.parent.mkdir(parents=True, exist_ok=True)

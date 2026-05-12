@@ -37,27 +37,49 @@ done
     exit 2
 }
 
-[[ -x "$STS_DIR/assess" ]] || { echo "[!] $STS_DIR/assess not found; build NIST STS first" >&2; exit 1; }
+if [[ "$STREAMS" -lt 2 ]]; then
+    echo "[*] Подсказка: при числе потоков < 2 в finalAnalysisReport часто стоит P-VALUE ---- (нет оценки однородности); для диплома обычно берут ≥10 потоков." >&2
+fi
 
 mkdir -p "$OUT"
 ABS_OUT=$(readlink -f "$OUT")
 ABS_IN=$(readlink -f "$IN")
 
-# assess создаёт experiments/ в TEKUSCHEM каталоге → запускаем из STS_DIR
+need_bytes=$(( (STREAMS * N_BITS + 7) / 8 ))
+insize=$(stat -c%s "$IN")
+if [[ "$insize" -lt "$need_bytes" ]]; then
+    echo "[!] Входной файл ${insize} B меньше требуемых ${need_bytes} B ($STREAMS потоков по $N_BITS бит). Увеличьте захват, отключите Von Neumann для STS или уменьшите --streams / --n_bits." >&2
+    exit 1
+fi
+
+# assess создаёт experiments/ в текущем каталоге → запускаем из STS_DIR
 pushd "$STS_DIR" >/dev/null
 
 # Нужно стереть прежние experiments чтобы корректно прогнать заново.
 rm -rf experiments
-mkdir -p experiments
+# assess открывает experiments/AlgorithmTesting/freq.txt и
+# experiments/<Generator>/<TestName>/stats.txt без mkdir — каталоги должны существовать.
+GEN_DIR=AlgorithmTesting
+TESTS=(
+    Frequency BlockFrequency CumulativeSums Runs LongestRun Rank FFT
+    NonOverlappingTemplate OverlappingTemplate Universal ApproximateEntropy
+    RandomExcursions RandomExcursionsVariant Serial LinearComplexity
+)
+mkdir -p "experiments/$GEN_DIR"
+for t in "${TESTS[@]}"; do
+    mkdir -p "experiments/$GEN_DIR/$t"
+done
 
 # Меню assess (см. sts-2.1.2/README):
 #   0 — Input File
 #   <path>
 #   1 — All tests
-#   0 — Default parameters (m, n, blocks…)
-#   1 — Apply all
+#   0 — Default parameters (без смены M/m в подменю)
+#   <STREAMS> — число битовых последовательностей
 #   1 — Binary input file
 # и наконец число BITSTREAMS = $STREAMS, длина = $N_BITS.
+# assess часто завершается с кодом 1 даже при успешном прогоне — проверяем отчёт.
+set +e
 ./assess $N_BITS <<EOF
 0
 $ABS_IN
@@ -66,10 +88,15 @@ $ABS_IN
 $STREAMS
 1
 EOF
+assess_rc=$?
+set -euo pipefail
 
 # финальный отчёт
 REPORT=experiments/AlgorithmTesting/finalAnalysisReport.txt
-[[ -f "$REPORT" ]] || { echo "[!] No $REPORT" >&2; exit 1; }
+[[ -f "$REPORT" ]] || {
+    echo "[!] Нет $REPORT (код assess=$assess_rc)" >&2
+    exit 1
+}
 cp "$REPORT" "$ABS_OUT/finalAnalysisReport.txt"
 popd >/dev/null
 
