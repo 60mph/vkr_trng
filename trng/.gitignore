@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Captured/processed data — может быть очень большой.
+# Версионируем только маленькие "примеры" в data/samples/
+data/raw/*
+data/processed/*
+data/reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+
+# Сборка прошивки
+firmware/**/build/
+firmware/**/*.hex
+firmware/**/*.elf
+
+# Сборка NIST STS
+nist_sts/sts-2.1.2/
+nist_sts/experiments/
+nist_sts/*.tar.gz
