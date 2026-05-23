@@ -26,30 +26,52 @@
     {1}{92.47804pt}\LT@entry 
     {1}{168.48532pt}\LT@entry 
     {1}{169.99586pt}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Подключение модуля KY-037 к плате Arduino: выход \textit  {AO} модуля соединён с аналоговым входом АЦП, питание --- от шины платы}}{34}{figure.1}\protected@file@percent }
-\newlabel{fig:mic_wiring}{{1}{34}{Подключение модуля KY-037 к плате Arduino: выход \textit {AO} модуля соединён с аналоговым входом АЦП, питание --- от шины платы}{figure.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Параметры сеанса записи акустического канала и производные скорости}}{34}{table.2}\protected@file@percent }
-\newlabel{tab:mic_capture}{{2}{34}{Параметры сеанса записи акустического канала и производные скорости}{table.2}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Сводные показатели сырого АЦП-сигнала (конечная выборка эксперимента)}}{35}{table.3}\protected@file@percent }
-\newlabel{tab:mic_raw_stats}{{3}{35}{Сводные показатели сырого АЦП-сигнала (конечная выборка эксперимента)}{table.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Гистограмма распределения отсчётов АЦП для акустического канала}}{36}{figure.2}\protected@file@percent }
-\newlabel{fig:mic_hist}{{2}{36}{Гистограмма распределения отсчётов АЦП для акустического канала}{figure.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Автокорреляция отсчётов АЦП (временная зависимость)}}{36}{figure.3}\protected@file@percent }
-\newlabel{fig:mic_acf_raw}{{3}{36}{Автокорреляция отсчётов АЦП (временная зависимость)}{figure.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Спектральные характеристики по оценке Уэлча}}{36}{table.4}\protected@file@percent }
-\newlabel{tab:mic_psd_stats}{{4}{36}{Спектральные характеристики по оценке Уэлча}{table.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Оценки энтропии на символ для постобработанной последовательности (фон Нейман)}}{36}{table.5}\protected@file@percent }
-\newlabel{tab:mic_entropy}{{5}{36}{Оценки энтропии на символ для постобработанной последовательности (фон Нейман)}{table.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Оценка спектральной плотности мощности входного сигнала}}{37}{figure.4}\protected@file@percent }
-\newlabel{fig:mic_psd}{{4}{37}{Оценка спектральной плотности мощности входного сигнала}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Визуализация первых $40000$ бит после извлечения МЗР и постобработки по схеме фон Неймана (матрица $200\times 200$ пикселей; белый --- единица, чёрный --- ноль)}}{37}{figure.5}\protected@file@percent }
-\newlabel{fig:mic_bits_map}{{5}{37}{Визуализация первых $40000$ бит после извлечения МЗР и постобработки по схеме фон Неймана (матрица $200\times 200$ пикселей; белый --- единица, чёрный --- ноль)}{figure.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Автокорреляция битового потока после постобработки по схеме фон Неймана}}{38}{figure.6}\protected@file@percent }
-\newlabel{fig:mic_acf_bits}{{6}{38}{Автокорреляция битового потока после постобработки по схеме фон Неймана}{figure.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Сводка NIST STS для последовательности МЗР без схемы фон Неймана}}{40}{table.6}\protected@file@percent }
-\newlabel{tab:nist_lsb}{{6}{40}{Сводка NIST STS для последовательности МЗР без схемы фон Неймана}{table.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Сводка NIST STS для последовательности после схемы фон Неймана}}{40}{table.7}\protected@file@percent }
-\newlabel{tab:nist_vn}{{7}{40}{Сводка NIST STS для последовательности после схемы фон Неймана}{table.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Структура стенда усиления шума резистора и подключение к Arduino Nano (виртуальная середина $V_\mathrm {mid}$, два неинвертирующих каскада, выход на A0)}}{34}{figure.1}\protected@file@percent }
+\newlabel{fig:thermal_schematic}{{1}{34}{Структура стенда усиления шума резистора и подключение к Arduino Nano (виртуальная середина $V_\mathrm {mid}$, два неинвертирующих каскада, выход на A0)}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Варианты теплового эксперимента и расчётные коэффициенты усиления}}{35}{table.2}\protected@file@percent }
+\newlabel{tab:thermal_setups}{{2}{35}{Варианты теплового эксперимента и расчётные коэффициенты усиления}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Сводная статистика сырого АЦП и медиана СПМ (частота пика в спектральной оценке Уэлча)}}{36}{table.3}\protected@file@percent }
+\newlabel{tab:thermal_results}{{3}{36}{Сводная статистика сырого АЦП и медиана СПМ (частота пика в спектральной оценке Уэлча)}{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Гистограммы отсчётов АЦП ($N=85\cdot 10^6$) для трёх постановок теплового канала}}{36}{figure.2}\protected@file@percent }
+\newlabel{fig:thermal_hist_three}{{2}{36}{Гистограммы отсчётов АЦП ($N=85\cdot 10^6$) для трёх постановок теплового канала}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Автокорреляция отсчётов АЦП для трёх постановок теплового канала}}{36}{figure.3}\protected@file@percent }
+\newlabel{fig:thermal_autocorr_three}{{3}{36}{Автокорреляция отсчётов АЦП для трёх постановок теплового канала}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces NIST STS (МЗР без фон Неймана). Опыт 1: LM358, $R_{f1}=1$~МОм. Сводка: PASS${}=2$, FAIL${}=11$, N/A${}=2$.}}{37}{table.4}\protected@file@percent }
+\newlabel{tab:thermal_exp1_nist_lsb}{{4}{37}{NIST STS (МЗР без фон Неймана). Опыт 1: LM358, $R_{f1}=1$~МОм. Сводка: PASS${}=2$, FAIL${}=11$, N/A${}=2$}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces NIST STS (после фон Неймана). Опыт 1: LM358, $R_{f1}=1$~МОм. Сводка: PASS${}=4$, FAIL${}=11$, N/A${}=0$.}}{37}{table.5}\protected@file@percent }
+\newlabel{tab:thermal_exp1_nist_vn}{{5}{37}{NIST STS (после фон Неймана). Опыт 1: LM358, $R_{f1}=1$~МОм. Сводка: PASS${}=4$, FAIL${}=11$, N/A${}=0$}{table.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces NIST STS (МЗР без фон Неймана). Опыт 2: TL072, $R_{f1}=1$~МОм. Сводка: PASS${}=1$, FAIL${}=12$, N/A${}=2$.}}{37}{table.6}\protected@file@percent }
+\newlabel{tab:thermal_exp2_nist_lsb}{{6}{37}{NIST STS (МЗР без фон Неймана). Опыт 2: TL072, $R_{f1}=1$~МОм. Сводка: PASS${}=1$, FAIL${}=12$, N/A${}=2$}{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces NIST STS (после фон Неймана). Опыт 2: TL072, $R_{f1}=1$~МОм. Сводка: PASS${}=4$, FAIL${}=11$, N/A${}=0$.}}{38}{table.7}\protected@file@percent }
+\newlabel{tab:thermal_exp2_nist_vn}{{7}{38}{NIST STS (после фон Неймана). Опыт 2: TL072, $R_{f1}=1$~МОм. Сводка: PASS${}=4$, FAIL${}=11$, N/A${}=0$}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces NIST STS (МЗР без фон Неймана). Опыт 3: LM358, $R_{f1}=10$~МОм. Сводка: PASS${}=2$, FAIL${}=11$, N/A${}=2$.}}{38}{table.8}\protected@file@percent }
+\newlabel{tab:thermal_exp3_nist_lsb}{{8}{38}{NIST STS (МЗР без фон Неймана). Опыт 3: LM358, $R_{f1}=10$~МОм. Сводка: PASS${}=2$, FAIL${}=11$, N/A${}=2$}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces NIST STS (после фон Неймана). Опыт 3: LM358, $R_{f1}=10$~МОм. Сводка: PASS${}=2$, FAIL${}=13$, N/A${}=0$.}}{38}{table.9}\protected@file@percent }
+\newlabel{tab:thermal_exp3_nist_vn}{{9}{38}{NIST STS (после фон Неймана). Опыт 3: LM358, $R_{f1}=10$~МОм. Сводка: PASS${}=2$, FAIL${}=13$, N/A${}=0$}{table.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Подключение модуля KY-037 к плате Arduino: выход \textit  {AO} модуля соединён с аналоговым входом АЦП, питание --- от шины платы}}{40}{figure.4}\protected@file@percent }
+\newlabel{fig:mic_wiring}{{4}{40}{Подключение модуля KY-037 к плате Arduino: выход \textit {AO} модуля соединён с аналоговым входом АЦП, питание --- от шины платы}{figure.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Параметры сеанса записи акустического канала и производные скорости}}{40}{table.10}\protected@file@percent }
+\newlabel{tab:mic_capture}{{10}{40}{Параметры сеанса записи акустического канала и производные скорости}{table.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Сводные показатели сырого АЦП-сигнала (конечная выборка эксперимента)}}{41}{table.11}\protected@file@percent }
+\newlabel{tab:mic_raw_stats}{{11}{41}{Сводные показатели сырого АЦП-сигнала (конечная выборка эксперимента)}{table.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Спектральные характеристики по оценке Уэлча}}{41}{table.12}\protected@file@percent }
+\newlabel{tab:mic_psd_stats}{{12}{41}{Спектральные характеристики по оценке Уэлча}{table.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Гистограмма распределения отсчётов АЦП для акустического канала}}{42}{figure.5}\protected@file@percent }
+\newlabel{fig:mic_hist}{{5}{42}{Гистограмма распределения отсчётов АЦП для акустического канала}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Автокорреляция отсчётов АЦП (временная зависимость)}}{42}{figure.6}\protected@file@percent }
+\newlabel{fig:mic_acf_raw}{{6}{42}{Автокорреляция отсчётов АЦП (временная зависимость)}{figure.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Оценки энтропии на символ для постобработанной последовательности (фон Нейман)}}{42}{table.13}\protected@file@percent }
+\newlabel{tab:mic_entropy}{{13}{42}{Оценки энтропии на символ для постобработанной последовательности (фон Нейман)}{table.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Оценка спектральной плотности мощности входного сигнала}}{43}{figure.7}\protected@file@percent }
+\newlabel{fig:mic_psd}{{7}{43}{Оценка спектральной плотности мощности входного сигнала}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Визуализация первых $40000$ бит после извлечения МЗР и постобработки по схеме фон Неймана (матрица $200\times 200$ пикселей; белый --- единица, чёрный --- ноль)}}{43}{figure.8}\protected@file@percent }
+\newlabel{fig:mic_bits_map}{{8}{43}{Визуализация первых $40000$ бит после извлечения МЗР и постобработки по схеме фон Неймана (матрица $200\times 200$ пикселей; белый --- единица, чёрный --- ноль)}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Автокорреляция битового потока после постобработки по схеме фон Неймана}}{44}{figure.9}\protected@file@percent }
+\newlabel{fig:mic_acf_bits}{{9}{44}{Автокорреляция битового потока после постобработки по схеме фон Неймана}{figure.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Сводка NIST STS для последовательности МЗР без схемы фон Неймана}}{46}{table.14}\protected@file@percent }
+\newlabel{tab:nist_lsb}{{14}{46}{Сводка NIST STS для последовательности МЗР без схемы фон Неймана}{table.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Сводка NIST STS для последовательности после схемы фон Неймана}}{47}{table.15}\protected@file@percent }
+\newlabel{tab:nist_vn}{{15}{47}{Сводка NIST STS для последовательности после схемы фон Неймана}{table.15}{}}
 \gdef \LT@ii {\LT@entry 
     {1}{34.09169pt}\LT@entry 
     {1}{158.24591pt}\LT@entry 
@@ -63,4 +85,4 @@
     {1}{116.21686pt}\LT@entry 
     {1}{65.96472pt}\LT@entry 
     {1}{133.73775pt}}
-\gdef \@abspage@last{50}
+\gdef \@abspage@last{56}

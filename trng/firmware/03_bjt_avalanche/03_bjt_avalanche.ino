@@ -4,7 +4,7 @@
  *
  * Схема (рекомендуется 2N3904 или 2N2222):
  *   Коллектор не подключаем (NC).
- *   База — на GND через 1 МОм + AC-связь 10 мкФ → вход TL072(A).
+ *   База — на GND через 1 МОм + AC-связь 10 мкФ → вход LM358(A).
  *   Эмиттер — к +9 В через резистор 470 кОм.
  *   При U_BE_reverse ≥ 7 В переход идёт в лавинный пробой, ток ~1–10 мкА
  *   с очень шумной флуктуацией. Сигнал — широкополосный белый шум (см. 2.1
@@ -17,14 +17,16 @@
 #include "adc_fast.h"
 
 constexpr uint8_t  ADC_CHANNEL  = 0;
+// ADPS=16 → 16 MHz / 16 / 13 ≈ 76.9 kS/s (как 02_zener, см. adc_fast.h)
 constexpr uint8_t  ADC_PRESCALE = 4;
-constexpr uint32_t SAMPLE_RATE_HZ = 76923UL;
+constexpr uint32_t SAMPLE_RATE_HZ = 16000000UL / 16UL / 13UL;
 
 void setup() {
     Serial.begin(TRNG_BAUD);
     while (!Serial) {}
     trng_print_banner("03_bjt_avalanche", 10, SAMPLE_RATE_HZ, "AVCC",
-                      "2N3904 BE reverse breakdown @ ~9V, TL072 x2 amplification");
+                      "2N3904 NC collector, BE avalanche ~9V, C_in 1uF, "
+                      "LM358 Au1~=1000, Au2~=11, A0");
     adc_fast_init(ADC_CHANNEL, ADC_PRESCALE, ADC_REF_AVCC);
 }
 

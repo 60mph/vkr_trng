@@ -9,7 +9,7 @@ extract_bits.py — преобразование сырых ADC-отсчётов
 Расширения:
     --whiten xor — XOR-отбеливание соседних блоков
     --skip       — отбросить первые N байт (transient после reset)
-    --bits 1..8  — число LSB на отсчёт (по умолчанию 1)
+    --bits 1..16 — число LSB на отсчёт (по умолчанию 1; для uint16le максимум 16)
 
 Пример:
     python extract_bits.py \\
@@ -30,11 +30,15 @@ def extract_lsb_bits(samples: np.ndarray, n_bits: int) -> np.ndarray:
     """Возвращает байтовый массив, упакованный из младших n_bits каждого отсчёта.
     Биты упаковываются MSB-first, как в np.packbits."""
     mask = (1 << n_bits) - 1
-    lsb = (samples & mask).astype(np.uint8)
+    vals = (samples.astype(np.uint32) & mask)
     if n_bits == 1:
-        bits = lsb.astype(np.uint8)
-    else:
+        bits = (vals & 1).astype(np.uint8)
+    elif n_bits <= 8:
+        lsb = vals.astype(np.uint8)
         bits = np.unpackbits(lsb.reshape(-1, 1), axis=1, count=n_bits, bitorder="big").reshape(-1)
+    else:
+        shifts = np.arange(n_bits - 1, -1, -1, dtype=np.uint32)
+        bits = ((vals[:, None] >> shifts) & 1).astype(np.uint8).reshape(-1)
     # Дополним до целого числа байт нулями (отрезаем хвост, чтобы не вносить смещение).
     n_full = (bits.size // 8) * 8
     return np.packbits(bits[:n_full], bitorder="big")
@@ -51,13 +55,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--in",   dest="inp", required=True, help="путь к raw .bin (uint16le)")
     ap.add_argument("--out",  required=True)
-    ap.add_argument("--bits", type=int, default=1, help="сколько младших бит брать (1..8)")
+    ap.add_argument("--bits", type=int, default=1, help="сколько младших бит брать (1..16)")
     ap.add_argument("--skip", type=int, default=0, help="пропустить N начальных uint16 отсчётов")
     ap.add_argument("--whiten", choices=["none", "xor"], default="none")
     args = ap.parse_args()
 
-    if not (1 <= args.bits <= 8):
-        print("--bits должен быть от 1 до 8", file=sys.stderr); return 2
+    if not (1 <= args.bits <= 16):
+        print("--bits должен быть от 1 до 16", file=sys.stderr); return 2
 
     src = Path(args.inp)
     dst = Path(args.out)

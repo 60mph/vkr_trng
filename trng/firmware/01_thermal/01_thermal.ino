@@ -3,11 +3,10 @@
  * ============================================
  *
  * Схема:
- *   R = 1 МОм между неинвертирующим входом TL072(A) и V_mid (2.5 В).
- *   Не-инвертирующий усилитель Au = 1 + Rf/Rg, типично 1000 (Rf=1 МОм, Rg=1 кОм).
- *   Каскад 2 на TL072(B) — ещё 100×, итого ~10⁵ ×.
- *   Выход подаётся через AC-связь 10 мкФ + резистивный делитель 100 кОм/100 кОм
- *   на A0 Arduino, чтобы уровень был около 2.5 В.
+ *   R_n = 1 МОм между +IN_A (LM358) и GND (тепловой шум). Опора каскада — V_mid.
+ *   Неинвертирующий усилитель Au = 1 + Rf/Rg, типично 1000 (Rf=1 МОм, Rg=1 кОм).
+ *   Каскад 2 на втором ОУ — ещё ~100×, итого ~10⁵ ×.
+ *   Выход OUT_B → A0 (см. hardware/01_thermal.md).
  *
  * Подробная схема — см. ../../hardware/01_thermal.md
  *
@@ -27,7 +26,7 @@ void setup() {
     Serial.begin(TRNG_BAUD);
     while (!Serial) { /* wait for USB */ }
     trng_print_banner("01_thermal", 10, SAMPLE_RATE_HZ, "AVCC",
-                      "TL072 x2 (~1e5 gain), 1MOhm thermal source, AC-coupled to A0");
+                      "LM358 x2 (~1e5 gain), 1MOhm thermal source, AC-coupled to A0");
     adc_fast_init(ADC_CHANNEL, ADC_PRESCALE, ADC_REF_AVCC);
 }
 

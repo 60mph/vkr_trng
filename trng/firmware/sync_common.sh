@@ -8,7 +8,8 @@
 set -e
 cd "$(dirname "$0")"
 
-for sketch_dir in 0[1-9]_*/; do
+# Папки вида NN_name/ (NN — две цифры): 01_thermal … 10_numeric_avg_test
+for sketch_dir in [0-9][0-9]_*/; do
     [[ -d "$sketch_dir" ]] || continue
     for header in trng_protocol.h adc_fast.h; do
         link="$sketch_dir$header"

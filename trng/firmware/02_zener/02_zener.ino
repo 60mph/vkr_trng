@@ -6,7 +6,7 @@
  *   Внешнее питание +9 В (от Arduino Vin или внешний БП) через 100 кОм
  *   подаётся на катод стабилитрона 5,1 В 1 Вт; анод — на GND. Режим — около
  *   точки пробоя, ток ~40 мкА (нестабильный, шумящий).
- *   Через AC-связь 10 мкФ и резистор 1 МОм шум попадает на + вход TL072(A),
+ *   Через AC-связь 10 мкФ и резистор 1 МОм шум попадает на + вход LM358(A),
  *   далее два каскада усиления (Au_total ~ 1000), смещение 2.5 В, выход на A0.
  *
  * Подробная схема — ../../hardware/02_zener.md
@@ -23,7 +23,7 @@ void setup() {
     Serial.begin(TRNG_BAUD);
     while (!Serial) {}
     trng_print_banner("02_zener", 10, SAMPLE_RATE_HZ, "AVCC",
-                      "5.1V Zener at breakdown, AC-coupled, 2x TL072 ~1000 gain");
+                      "5.1V Zener at breakdown, AC-coupled, 2x LM358 ~1000 gain");
     adc_fast_init(ADC_CHANNEL, ADC_PRESCALE, ADC_REF_AVCC);
 }
 

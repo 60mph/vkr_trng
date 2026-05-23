@@ -71,6 +71,5 @@ void setup() {
 }
 
 void loop() {
-    // Вся работа — в ISR(WDT_vect).
-    sleep_mode_disable();
+    // Захват и UART — в ISR(WDT_vect); здесь просто ждём.
 }

@@ -2,8 +2,7 @@
 """
 pipeline.py — end-to-end конвейер для одного источника.
 
-  capture → extract_bits → von_neumann → bits_image.png (n×m пикселей)
-         → NIST STS → report.py (гистограмма, PSD, автокорреляция, …)
+  capture → … → report.py (гистограмма, PSD, **осциллограммы начала записи** 1 s / ½ / ¼ / ⅛, …)
 
 Пример:
     python scripts/pipeline.py --source 02_zener \\
@@ -18,6 +17,11 @@ pipeline.py — end-to-end конвейер для одного источник
 
     NIST: `--nist` (папка `nist/`), `--nist-dual` (`nist_lsb/`, `nist_vn/`), `--auto-bytes-for-nist`.
     Нужен собранный `nist_sts/sts-2.1.2/assess` или явный `--sts`.
+
+Если после пайплайна планируется **ещё один** этап (например
+`scripts/postprocessing_nist_scan.py --after-von-neumann`), второй поток сильнее
+«сжимается». Тогда имеет смысл задать `--nist-raw-margin` > 1 (или просто указать
+больший явный `--bytes`, он не будет уменьшен автоматикой ниже нужного STS).
 
 Если опустить `--port`, шаг capture пропускается, а используется уже существующий
 data/raw/<source>/run_001.bin.
@@ -82,7 +86,7 @@ def main() -> int:
     ap.add_argument("--port",   default=None,   help="serial-порт; если пропущен — используем готовый файл")
     ap.add_argument("--baud",   type=int, default=1_000_000)
     ap.add_argument("--bytes",  type=int, default=10 * 1024 * 1024)
-    ap.add_argument("--bits",   type=int, default=1, help="LSB на отсчёт")
+    ap.add_argument("--bits",   type=int, default=1, help="LSB на отсчёт (1..16, для clock_jitter — до 16)")
     ap.add_argument("--no-vn",  action="store_true", help="не применять Von Neumann")
     ap.add_argument("--nist",   action="store_true", help="прогнать NIST STS (нужен собранный nist_sts/sts-2.1.2/assess)")
     ap.add_argument(
@@ -95,11 +99,33 @@ def main() -> int:
         action="store_true",
         help="если задан --nist-dual (или одиночный --nist), поднять --bytes до минимума для выбранного режима",
     )
+    ap.add_argument(
+        "--nist-raw-margin",
+        type=float,
+        default=1.0,
+        help=(
+            "множитель к автоматически вычисленному минимуму raw (--auto-bytes-for-nist): "
+            "запас длины сыгога для второй постобработки после VN, хвост отчётов и т.д. "
+            "Например 8–16 при сильном последующем decimation XOR."
+        ),
+    )
     ap.add_argument("--sts",    default=None, help="каталог NIST sts-2.1.2 (перекрывает путь при --nist)")
     ap.add_argument("--streams",type=int, default=10)
     ap.add_argument("--nist-bits", choices=["auto", "final", "lsb"], default="auto",
                     help="auto: если после VN мало данных для STS — брать LSB; final/lsb — явно")
     ap.add_argument("--nist-n-bits", type=int, default=1_000_000, help="длина одного битового потока для assess (как в NIST, по умолчанию 1M)")
+    ap.add_argument(
+        "--nist-vn-streams",
+        type=int,
+        default=None,
+        help="для --nist-dual: число потоков STS по VN (по умолчанию = --streams; меньше = укороченный прогон)",
+    )
+    ap.add_argument(
+        "--nist-vn-n-bits",
+        type=int,
+        default=None,
+        help="для --nist-dual: бит на поток STS по VN (по умолчанию = --nist-n-bits)",
+    )
     ap.add_argument(
         "--bits-img-width",
         type=int,
@@ -122,18 +148,26 @@ def main() -> int:
     args = ap.parse_args()
 
     want_nist = args.nist or args.nist_dual
+    vn_streams = args.nist_vn_streams if args.nist_vn_streams is not None else args.streams
+    vn_n_bits = args.nist_vn_n_bits if args.nist_vn_n_bits is not None else args.nist_n_bits
     if args.auto_bytes_for_nist and want_nist:
         if args.nist_dual:
-            need_raw = min_raw_bytes_for_nist_dual(
-                args.streams, args.nist_n_bits, args.bits
+            need_raw = max(
+                min_raw_bytes_for_nist_lsb(args.streams, args.nist_n_bits, args.bits),
+                min_raw_bytes_for_nist_after_vn(vn_streams, vn_n_bits, args.bits),
             )
         else:
             need_raw = min_raw_bytes_for_nist_lsb(
                 args.streams, args.nist_n_bits, args.bits
             )
+        if args.nist_raw_margin < 1.0:
+            print("[!] --nist-raw-margin < 1 отсечено до 1.0", file=sys.stderr)
+            args.nist_raw_margin = 1.0
+        need_raw = int(math.ceil(need_raw * args.nist_raw_margin))
         if args.bytes < need_raw:
             print(
-                f"[*] --auto-bytes-for-nist: {args.bytes} → {need_raw} байт raw (uint16le)",
+                f"[*] --auto-bytes-for-nist: {args.bytes} → {need_raw} байт raw "
+                f"(uint16le, margin={args.nist_raw_margin:g}×)",
                 file=sys.stderr,
             )
             args.bytes = need_raw
@@ -207,10 +241,18 @@ def main() -> int:
     nist_section_args: list[list[str]] = []
     if sts_dir:
         need_b = (args.streams * args.nist_n_bits + 7) // 8
+        need_b_vn = (vn_streams * vn_n_bits + 7) // 8
 
-        def _run_sts(inp: Path, out_sub: str) -> None:
+        def _run_sts(
+            inp: Path,
+            out_sub: str,
+            streams: int | None = None,
+            n_bits: int | None = None,
+        ) -> None:
             d = rep_dir / out_sub
             d.mkdir(parents=True, exist_ok=True)
+            st = args.streams if streams is None else streams
+            nb = args.nist_n_bits if n_bits is None else n_bits
             sh(
                 [
                     "bash",
@@ -222,9 +264,9 @@ def main() -> int:
                     "--out",
                     str(d),
                     "--streams",
-                    str(args.streams),
+                    str(st),
                     "--n-bits",
-                    str(args.nist_n_bits),
+                    str(nb),
                 ]
             )
 
@@ -233,24 +275,34 @@ def main() -> int:
                 print("[!] --nist-dual требует Von Neumann (уберите --no-vn)", file=sys.stderr)
                 return 1
             lsb_ok = bits_lsb.stat().st_size >= need_b
-            vn_ok = bits_final.stat().st_size >= need_b
+            vn_ok = bits_final.stat().st_size >= need_b_vn
             if not lsb_ok or not vn_ok:
-                mn = min_raw_bytes_for_nist_dual(
+                mn_lsb = min_raw_bytes_for_nist_lsb(
                     args.streams, args.nist_n_bits, args.bits
                 )
+                mn_vn = min_raw_bytes_for_nist_after_vn(
+                    vn_streams, vn_n_bits, args.bits
+                )
                 print(
-                    f"[!] Для двух прогонов NIST нужно ≥ {need_b} B на вход (LSB и VN). "
+                    f"[!] Для двух прогонов NIST нужно ≥ {need_b} B (LSB) и "
+                    f"≥ {need_b_vn} B (VN). "
                     f"Сейчас: LSB={bits_lsb.stat().st_size} B, VN={bits_final.stat().st_size} B. "
-                    f"Минимум raw (uint16le) ≈ {mn} B — задайте --bytes или --auto-bytes-for-nist.",
+                    f"Минимум raw (uint16le) ≈ LSB:{mn_lsb} B, VN:{mn_vn} B — "
+                    f"задайте --bytes или --auto-bytes-for-nist.",
                     file=sys.stderr,
                 )
                 return 1
             _run_sts(bits_lsb, "nist_lsb")
-            _run_sts(bits_final, "nist_vn")
+            _run_sts(bits_final, "nist_vn", streams=vn_streams, n_bits=vn_n_bits)
             nist_for_report = rep_dir / "nist_vn" / "results.csv"
+            vn_label = "После Von Neumann"
+            if vn_streams != args.streams or vn_n_bits != args.nist_n_bits:
+                vn_label += (
+                    f" (укороченный STS: {vn_streams}×{vn_n_bits} bit)"
+                )
             nist_section_args = [
                 ["--nist-section", "LSB (extract_bits, без Von Neumann)", str(rep_dir / "nist_lsb" / "results.md")],
-                ["--nist-section", "После Von Neumann", str(rep_dir / "nist_vn" / "results.md")],
+                ["--nist-section", vn_label, str(rep_dir / "nist_vn" / "results.md")],
             ]
         elif want_nist:
             nist_input = bits_final

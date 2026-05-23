@@ -1,0 +1,1 @@
+../common/trng_protocol.h

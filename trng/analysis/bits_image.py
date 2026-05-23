@@ -13,8 +13,11 @@ von_neumann).
         --out ../data/reports/02_zener/bits_image.png \\
         --width 512 --height 512
 
-Если задать --height 0, высота вычисляется как floor(n_bits / width) (все
-доступные биты, без дополнения нулями).
+Если задать --height 0, высота вычисляется как floor(n_bits / width) (биты —
+до ограничения --max-megapixels, чтобы не упасть по памяти / OOM).
+
+Рекомендация для очень больших файлов (>несколько Мбайт упакованных битов):
+задайте фиксированные --width и --height.
 """
 from __future__ import annotations
 
@@ -23,10 +26,13 @@ import sys
 from pathlib import Path
 
 import numpy as np
-import matplotlib
 
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+try:
+    from PIL import Image
+except ImportError as e:
+    raise SystemExit(
+        "Нужен пакет Pillow (PIL): pip install pillow"
+    ) from e
 
 
 def main() -> int:
@@ -49,6 +55,16 @@ def main() -> int:
         default="zero",
         help="если битов меньше width*height: none — обрезать область; "
         "zero — дописать нулевые биты до полного прямоугольника",
+    )
+    ap.add_argument(
+        "--max-megapixels",
+        type=float,
+        default=16.0,
+        help=(
+            "макс. число пикселей изображения (ширина×высота), защита от OOM; "
+            "при большем объёме биты обрезаются; 0 = без ограничения "
+            "(рискует SIGKILL при гигантских входах)."
+        ),
     )
     args = ap.parse_args()
 
@@ -96,18 +112,30 @@ def main() -> int:
                     file=sys.stderr,
                 )
 
-    flat = bits[:need].astype(np.float32)
-    img = flat.reshape(h, w)
+    max_px = (
+        float("inf") if args.max_megapixels <= 0 else args.max_megapixels * 1_000_000.0
+    )
+    if need > max_px:
+        h = int(max_px // w)
+        if h < 1:
+            print(
+                f"[!] --width={w} слишком велик для --max-megapixels={args.max_megapixels}",
+                file=sys.stderr,
+            )
+            return 2
+        need = int(w * h)
+        bits = bits[:need]
+        print(
+            f"[!] bits_image: обрезаю до ~{max_px:.0g} px — итого {w}×{h} "
+            f"(был бы слишком большой файл, риск OOM).",
+            file=sys.stderr,
+        )
+    chunk = bits[:need]
+    gray = chunk.reshape(h, w) * np.uint8(255)
 
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-
-    fig, ax = plt.subplots(figsize=(max(w / 100, 1), max(h / 100, 1)), dpi=100)
-    ax.imshow(img, cmap="gray", vmin=0.0, vmax=1.0, interpolation="nearest")
-    ax.set_axis_off()
-    fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
-    fig.savefig(out, dpi=100, bbox_inches="tight", pad_inches=0)
-    plt.close(fig)
+    Image.fromarray(gray.astype(np.uint8), mode="L").save(out, format="PNG")
 
     print(
         f"[*] bits_image: {w}×{h} px, {need} бит из файла "
