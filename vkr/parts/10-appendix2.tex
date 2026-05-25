@@ -1,13 +1,13 @@
 
 \clearpage
 \begin{landscape}
-\begin{center}\normalsize\bfseries
-ПРИЛОЖЕНИЕ 2 -- Сравнительная таблица характеристик источников
-энтропии
+\singlespacing
+\begin{center}\small\bfseries
+ПРИЛОЖЕНИЕ 2 --- Сравнительная таблица характеристик источников энтропии
 \end{center}
-\nopagebreak\vspace{0.25\baselineskip}\nopagebreak
+\nopagebreak\vspace{0.15\baselineskip}\nopagebreak
 \centering
-{\scriptsize\setlength{\tabcolsep}{2.6pt}\renewcommand{\arraystretch}{0.92}%
+{\scriptsize\setlength{\tabcolsep}{2.6pt}\renewcommand{\arraystretch}{0.9}%
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}|%
   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep - 1pt - 9\arrayrulewidth - 6pt) * \real{0.1251}}|%
@@ -67,37 +67,24 @@ IC-TRNG, требует постобработки \\ \cline{1-1}\cline{3-8}
 pool) \\ \hline
 \end{longtable}
 }}
-\vspace{0.5\baselineskip}
+\vspace{0.3\baselineskip}
 \raggedright
-{\footnotesize\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}\setlength{\topsep}{2pt}
+{\scriptsize\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}\setlength{\topsep}{0pt}\setlength{\parskip}{0pt}
 
-Пояснение.
+\textbf{Пояснение.}
 
-Качество энтропии:
-
-\begin{itemize}
-\item
-  Низкое -- сильно коррелированные значения, шум подвержен дрейфу,
-  требуется мощная постобработка,
-\item
-  Среднее -- частично предсказуемые биты, возможен bias, возможна
-  частичная корреляция,
-\item
-  Высокое -- почти идеальная равномерность и непредсказуемость, даже до
-  постобработки.
+\textbf{Качество энтропии:}
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item Низкое --- сильно коррелированные значения, шум подвержен дрейфу, требуется мощная постобработка;
+\item Среднее --- частично предсказуемые биты, возможен bias, возможна частичная корреляция;
+\item Высокое --- почти идеальная равномерность и непредсказуемость, даже до постобработки.
 \end{itemize}
 
-Защита от атак/моделирования:
-
-\begin{itemize}
-\item
-  Низкая -- источник уязвим к подделке, легко смоделировать или
-  заглушить.
-\item
-  Средняя -- требуется физический доступ или точная настройка атаки
-\item
-  Высокая -- крайне сложно предсказать, атака невозможна без
-  вмешательства в систему
+\textbf{Защита от атак/моделирования:}
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item Низкая --- источник уязвим к подделке, легко смоделировать или заглушить;
+\item Средняя --- требуется физический доступ или точная настройка атаки;
+\item Высокая --- крайне сложно предсказать, атака невозможна без вмешательства в систему.
 \end{itemize}
 }
 \end{landscape}

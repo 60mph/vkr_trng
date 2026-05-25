@@ -1,7 +1,7 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\documentclass[12pt,a4paper]{article}
+\documentclass[14pt,a4paper]{extarticle}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
@@ -72,9 +72,14 @@
   \else\usebox{\pandoc@box}%
   \fi%
 }
-% Set default figure placement to htbp
-\def\fps@figure{htbp}
+% Set default figure placement to H (inline, no floating).
+% Все рисунки и таблицы располагаются строго по месту в тексте.
+\def\fps@figure{H}
+\def\fps@table{H}
 \makeatother
+\usepackage{float}
+\floatplacement{figure}{H}
+\floatplacement{table}{H}
 \ifLuaTeX
   \usepackage{luacolor}
   \usepackage[soul]{lua-ul}
@@ -100,6 +105,24 @@
 \usepackage[a4paper,left=30mm,right=15mm,top=20mm,bottom=20mm]{geometry}
 \usepackage{pdflscape}
 
+% Подписи таблиц/рисунков по ГОСТ: «Таблица N — Название» над таблицей справа,
+% «Рисунок N — Название» под рисунком по центру.
+\usepackage{caption}
+\DeclareCaptionLabelSeparator{emdash}{~--- }
+\captionsetup[figure]{name=Рисунок,labelsep=emdash,justification=centering,singlelinecheck=true}
+\captionsetup[table]{name=Таблица,labelsep=emdash,justification=raggedright,singlelinecheck=false,position=above}
+
+% Центрированные заголовки разделов/подразделов (по требованию: «по центру строк»).
+% Используется в виде \crshead{ГЛАВА 3. ...} / \crssubhead{3.1. ...}.
+% Дополнительно подавляет «висячие» заголовки в конце страницы (вместе с next-paragraph).
+\usepackage{needspace}
+\newcommand{\crshead}[1]{%
+  \par\needspace{6\baselineskip}\vspace{1.2ex}%
+  {\centering\bfseries #1\par}\vspace{0.6ex}\nopagebreak[4]}
+\newcommand{\crssubhead}[1]{%
+  \par\needspace{4\baselineskip}\vspace{0.8ex}%
+  {\centering\bfseries #1\par}\vspace{0.4ex}\nopagebreak[4]}
+
 \makeatletter
 \newlength{\crs@tocnumw}
 \setlength{\crs@tocnumw}{2.4em}
@@ -118,6 +141,7 @@
 \begin{document}
 
 \input{parts/01-title}
+\input{parts/01a-abstract}
 \input{parts/02-toc}
 \input{parts/03-intro}
 \input{parts/04-chapter1}
