@@ -1,24 +1,20 @@
-% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \documentclass[14pt,a4paper]{extarticle}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\setcounter{secnumdepth}{-\maxdimen}%
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
+  \usepackage{textcomp}%
+\else%
+  \usepackage{unicode-math}%
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% lmodern мешает выбору основного шрифта в XeLaTeX
-% \usepackage{lmodern}
 \ifPDFTeX\else
-  % ГОСТ: Times New Roman (если установлен в системе); иначе Liberation (~Times)
   \IfFontExistsTF{Times New Roman}{%
     \setmainfont{Times New Roman}%
     \IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{Liberation Sans}}%
@@ -32,13 +28,11 @@
   \usepackage{polyglossia}%
   \setdefaultlanguage{russian}%
 \fi
-% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
+\IfFileExists{microtype.sty}{%
   \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+  \UseMicrotypeSet[protrusion]{basicmath}%
 }{}
-% ГОСТ 7.32-2017: абзацный отступ 1,25 см, без вертикальных отступов между абзацами (вместо parskip от pandoc)
 \makeatletter
 \@ifundefined{KOMAClassName}{%
   \setlength{\parindent}{12.5mm}%
@@ -49,31 +43,27 @@
 \makeatother
 \usepackage{indentfirst}
 \usepackage{longtable,array}
-\newcounter{none} % for unnumbered tables
+\newcounter{none}%
 \usepackage{multirow}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
+\usepackage{calc}%
 \usepackage{etoolbox}
 \makeatletter
 \patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
 \makeatother
-% Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \newsavebox\pandoc@box
-\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+\newcommand*\pandocbounded[1]{%
   \sbox\pandoc@box{#1}%
   \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
   \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
-  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi%
   \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
   \else\usebox{\pandoc@box}%
   \fi%
 }
-% Set default figure placement to H (inline, no floating).
-% Все рисунки и таблицы располагаются строго по месту в тексте.
 \def\fps@figure{H}
 \def\fps@table{H}
 \makeatother
@@ -86,7 +76,6 @@
 \else
   \usepackage{soul}
 \fi
-% Переносы и «растяжка» строк (кириллица + длинные термины без дефисов)
 \setlength{\emergencystretch}{5em plus 3em minus .5em}
 \tolerance 2600
 \pretolerance 500
@@ -95,26 +84,20 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{setspace}
 \usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{}%
 \urlstyle{same}
 \hypersetup{
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-% Поля по ГОСТ 7.32-2017 (часто используется для ВКР/НИР; отдельной публичной методички матфака не найдено)
 \usepackage[a4paper,left=30mm,right=15mm,top=20mm,bottom=20mm]{geometry}
 \usepackage{pdflscape}
 
-% Подписи таблиц/рисунков по ГОСТ: «Таблица N — Название» над таблицей справа,
-% «Рисунок N — Название» под рисунком по центру.
 \usepackage{caption}
 \DeclareCaptionLabelSeparator{emdash}{~--- }
 \captionsetup[figure]{name=Рисунок,labelsep=emdash,justification=centering,singlelinecheck=true}
 \captionsetup[table]{name=Таблица,labelsep=emdash,justification=raggedright,singlelinecheck=false,position=above}
 
-% Центрированные заголовки разделов/подразделов (по требованию: «по центру строк»).
-% Используется в виде \crshead{ГЛАВА 3. ...} / \crssubhead{3.1. ...}.
-% Дополнительно подавляет «висячие» заголовки в конце страницы (вместе с next-paragraph).
 \usepackage{needspace}
 \newcommand{\crshead}[1]{%
   \par\needspace{6\baselineskip}\vspace{1.2ex}%

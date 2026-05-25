@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  25 MAY 2026 22:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  25 MAY 2026 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -230,7 +230,7 @@ Package fontspec Info: Font family 'LiberationSerif(0)' created for font
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 30.
+(Font)              scaled to size 14.4pt on input line 26.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -272,13 +272,13 @@ Package fontspec Info: Font family 'LiberationSerif(1)' created for font
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LiberationSerif(1)/m/n on input line
- 30.
+ 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LiberationSerif(1)/m/it on input li
-ne 30.
+ne 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LiberationSerif(1)/b/n on input lin
-e 30.
+e 26.
 
 Package fontspec Info: Liberation Sans scale = 0.8687608556999194.
 
@@ -360,10 +360,10 @@ Package fontspec Info: Font family 'LiberationSans(1)' created for font
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LiberationSans(1)/m/n on input line
- 30.
+ 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LiberationSans(1)/b/n on input lin
-e 30.
+e 26.
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
@@ -466,10 +466,10 @@ Package fontspec Info: Font family 'LiberationMono(1)' created for font
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(1)/m/n on input line
- 31.
+ 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/LiberationMono(1)/b/n on input line
- 31.
+ 27.
 
 Package fontspec Info: TeX Gyre Termes Math scale = 1.019963548510151.
 
@@ -495,7 +495,7 @@ allCapsFont={},Script=Math].
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(0)/m/n' will be
-(Font)              scaled to size 14.6874pt on input line 32.
+(Font)              scaled to size 14.6874pt on input line 28.
 
 Package fontspec Info: TeX Gyre Termes Math scale = 1.019963548510151.
 
@@ -536,17 +536,17 @@ allCapsFont={},Script=Math,SizeFeatures={{Size=12.528-},{Size=9.288-12.528,Font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 14.6874pt on input line 32.
+(Font)              scaled to size 14.6874pt on input line 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 32.
+(Font)              `operators' in the math version `normal' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesMath(1)/m/n on input li
-ne 32.
+ne 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 32.
+(Font)              `operators' in the math version `bold' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesMath(1)/b/n on input l
-ine 32.
+ine 28.
 
 Package fontspec Info: TeX Gyre Termes Math scale = 1.019963548510151.
 
@@ -622,15 +622,15 @@ stment={\fontdimen
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 32.
+(Font)              `symbols' in the math version `normal' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/TeXGyreTermesMath(2)/m/n on input l
-ine 32.
+ine 28.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 32.
+(Font)              `symbols' in the math version `bold' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/TeXGyreTermesMath(2)/b/n on input l
-ine 32.
+ine 28.
 
 Package fontspec Info: TeX Gyre Termes Math scale = 1.019963548510151.
 
@@ -694,17 +694,17 @@ stment={\fontdimen
 (fontspec)             =6.35963pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 3
-2.
+(Font)              `largesymbols' in the math version `normal' on input line 2
+8.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/TeXGyreTermesMath(3)/m/n on input l
-ine 32.
+ine 28.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 32.
+(Font)              `largesymbols' in the math version `bold' on input line 28.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/TeXGyreTermesMath(3)/b/n on input l
-ine 32.
+ine 28.
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
@@ -1201,31 +1201,31 @@ LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
 )
 \openout1 = `ВКР_ШестаковВД.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Info: Redefining \microtypecontext on input line 141.
-Package microtype Info: Applying patch `item' on input line 141.
-Package microtype Info: Applying patch `toc' on input line 141.
-Package microtype Info: Applying patch `eqnum' on input line 141.
-Package microtype Info: Applying patch `footnote' on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Info: Redefining \microtypecontext on input line 124.
+Package microtype Info: Applying patch `item' on input line 124.
+Package microtype Info: Applying patch `toc' on input line 124.
+Package microtype Info: Applying patch `eqnum' on input line 124.
+Package microtype Info: Applying patch `footnote' on input line 124.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1235,7 +1235,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LiberationSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 141.
+Package hyperref Info: Link coloring OFF on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1248,9 +1248,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 141.
-LaTeX Info: Redefining \pageref on input line 141.
-LaTeX Info: Redefining \nameref on input line 141.
+LaTeX Info: Redefining \ref on input line 124.
+LaTeX Info: Redefining \pageref on input line 124.
+LaTeX Info: Redefining \nameref on input line 124.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1288,12 +1288,12 @@ LaTeX Info: Redefining \nameref on input line 141.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 141.
-LaTeX Info: Redefining \sffamily on input line 141.
-LaTeX Info: Redefining \ttfamily on input line 141.
-LaTeX Info: Redefining \rmfamily on input line 141.
-LaTeX Info: Redefining \sffamily on input line 141.
-LaTeX Info: Redefining \ttfamily on input line 141.
+LaTeX Info: Redefining \rmfamily on input line 124.
+LaTeX Info: Redefining \sffamily on input line 124.
+LaTeX Info: Redefining \ttfamily on input line 124.
+LaTeX Info: Redefining \rmfamily on input line 124.
+LaTeX Info: Redefining \sffamily on input line 124.
+LaTeX Info: Redefining \ttfamily on input line 124.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -1302,43 +1302,43 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 7.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 13.
+(Font)              scaled to size 17.28pt on input line 10.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 13.
+(Font)              scaled to size 17.28pt on input line 10.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 15.
+(Font)              scaled to size 12.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 24.
+(Font)              scaled to size 20.74pt on input line 21.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 24.
+(Font)              scaled to size 20.74pt on input line 21.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 12.2395pt on input line 47.
+(Font)              scaled to size 12.2395pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 8.15967pt on input line 47.
+(Font)              scaled to size 8.15967pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 6.11975pt on input line 47.
+(Font)              scaled to size 6.11975pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 12.24078pt on input line 47.
+(Font)              scaled to size 12.24078pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 8.16052pt on input line 47.
+(Font)              scaled to size 8.16052pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 6.12039pt on input line 47.
+(Font)              scaled to size 6.12039pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 12.2384pt on input line 47.
+(Font)              scaled to size 12.2384pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 8.15894pt on input line 47.
+(Font)              scaled to size 8.15894pt on input line 43.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 6.1192pt on input line 47.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+(Font)              scaled to size 6.1192pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1348,9 +1348,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 47.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 58.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -6774,7 +6774,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Here is how much of TeX's memory you used:
  22686 strings out of 478190
  446299 string characters out of 5854827
- 899660 words of memory out of 5000000
+ 899658 words of memory out of 5000000
  42794 multiletter control sequences out of 15000+600000
  478656 words of font info for 191 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
