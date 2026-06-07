@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  28 MAY 2026 20:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  7 JUN 2026 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1855,105 +1855,57 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 116--129
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 []\TU/LiberationSerif(2)/m/n/14.4 Генератор псевдослучайных последовательностей
  (ГПСП) – это
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 116--129
+Underfull \hbox (badness 1694) in paragraph at lines 118--131
 \TU/LiberationSerif(2)/m/n/14.4 функция, которая принимает короткое случайное н
 ачальное значение и
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 116--129
+Underfull \hbox (badness 6220) in paragraph at lines 118--131
 \TU/LiberationSerif(2)/m/n/14.4 обладает свойствами стойкости к криптоанализу и
  является важным
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 116--129
+Underfull \hbox (badness 3407) in paragraph at lines 118--131
 \TU/LiberationSerif(2)/m/n/14.4 как шифрование данных, создание ключей и другие
  приложения, где
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 116--129
+Underfull \hbox (badness 2012) in paragraph at lines 118--131
 \TU/LiberationSerif(2)/m/n/14.4 префикса последовательности должно быть вычисли
 тельно невозможно
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 []\TU/LiberationSerif(2)/m/n/14.4 Кроме этого, возможно выделить гибридный тип 
 генератора
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 130--136
+Underfull \hbox (badness 1072) in paragraph at lines 132--138
 \TU/LiberationSerif(2)/m/n/14.4 случайных чисел, который совмещает в себе ГИСП,
  для формирования
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 130--136
+Underfull \hbox (badness 3482) in paragraph at lines 132--138
 \TU/LiberationSerif(2)/m/n/14.4 начального значения (seed), и ГПСП, который исп
 ользует полученное
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 130--136
+Underfull \hbox (badness 3281) in paragraph at lines 132--138
 \TU/LiberationSerif(2)/m/n/14.4 начальное значение для дальнейших генераций, чт
 о позволяет такому
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-\TU/LiberationSerif(2)/m/n/14.4 получают случайные последовательности. Их главн
-ое преимущество
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-\TU/LiberationSerif(2)/m/n/14.4 хранимых данных для достаточной безопасности сф
-ормированной
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
-[]\TU/LiberationSerif(2)/m/n/14.4 Алгоритмические генераторы. Подобные генерато
-ры используют
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
-\TU/LiberationSerif(2)/m/n/14.4 случайных чисел. Конечно, они могут генерироват
-ь исключительно
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 146--151
-\TU/LiberationSerif(2)/m/n/14.4 псевдослучайные последовательности. Их реализац
-ия при приближении
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 152--161
-[]\TU/LiberationSerif(2)/m/n/14.4 Физические генераторы. ГСП данного типа испол
-ьзуют внешние
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--161
-\TU/LiberationSerif(2)/m/n/14.4 на показания датчиков или индикаторов, фиксирую
-щих какой-либо
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 152--161
-\TU/LiberationSerif(2)/m/n/14.4 игральные кости. О других наиболее практико-при
-менимых источниках
  []
 
 
@@ -1963,75 +1915,130 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [9]
-Underfull \hbox (badness 4556) in paragraph at lines 174--182
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+\TU/LiberationSerif(2)/m/n/14.4 получают случайные последовательности. Их главн
+ое преимущество
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+\TU/LiberationSerif(2)/m/n/14.4 хранимых данных для достаточной безопасности сф
+ормированной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
+[]\TU/LiberationSerif(2)/m/n/14.4 Алгоритмические генераторы. Подобные генерато
+ры используют
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
+\TU/LiberationSerif(2)/m/n/14.4 случайных чисел. Конечно, они могут генерироват
+ь исключительно
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 148--153
+\TU/LiberationSerif(2)/m/n/14.4 псевдослучайные последовательности. Их реализац
+ия при приближении
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 154--163
+[]\TU/LiberationSerif(2)/m/n/14.4 Физические генераторы. ГСП данного типа испол
+ьзуют внешние
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+\TU/LiberationSerif(2)/m/n/14.4 на показания датчиков или индикаторов, фиксирую
+щих какой-либо
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 154--163
+\TU/LiberationSerif(2)/m/n/14.4 игральные кости. О других наиболее практико-при
+менимых источниках
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 176--184
 []\TU/LiberationSerif(2)/m/n/14.4 Графические тесты. Свойства последовательност
 ей отображаются
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 174--182
+Underfull \hbox (badness 1810) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 в виде графических зависимостей, по виду которы
 х делают выводы о
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 174--182
+Underfull \hbox (badness 1259) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 свойствах исследуемой последовательности. К дан
 ной категории можно
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--182
+Underfull \hbox (badness 10000) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 отнести следующие тесты: гистограмма распределе
 ния элементов
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--182
+Underfull \hbox (badness 10000) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 последовательности, распределение на плоскости,
  проверка на
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 174--182
+Underfull \hbox (badness 4072) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 монотонность и т.д. На рисунке 2 представлен пр
 имер графического
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--182
+Underfull \hbox (badness 10000) in paragraph at lines 176--184
 \TU/LiberationSerif(2)/m/n/14.4 теста «распределение на плоскости». Слева резул
 ьтат тестирования
  []
 
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[10]
 File: pandoc_media/media/image2.png Graphic file (type bmp)
 <pandoc_media/media/image2.png>
 
-Underfull \hbox (badness 7291) in paragraph at lines 187--195
+Underfull \hbox (badness 7291) in paragraph at lines 191--199
 []\TU/LiberationSerif(2)/m/n/14.4 Статистические тесты. Основным критерием, при
 меняемым для
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 187--195
+Underfull \hbox (badness 1292) in paragraph at lines 191--199
 \TU/LiberationSerif(2)/m/n/14.4 свойствам случайных данных. В основе тестов леж
 ит понятие нулевой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--199
 \TU/LiberationSerif(2)/m/n/14.4 гипотезы. За нулевую гипотезу принимается предп
 оложение, что
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 187--195
+Underfull \hbox (badness 5008) in paragraph at lines 191--199
 \TU/LiberationSerif(2)/m/n/14.4 последовательность является истинно случайной. 
 Следовательно, если
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--199
 \TU/LiberationSerif(2)/m/n/14.4 нулевая гипотеза верна, то наш генератор произв
 одит достаточно
  []
@@ -2042,8 +2049,8 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[10]
-Underfull \hbox (badness 1552) in paragraph at lines 211--213
+[11]
+Underfull \hbox (badness 1552) in paragraph at lines 215--217
 []\TU/LiberationSerif(2)/m/n/14.4 Наиболее популярные пакеты статистических тес
 тов случайных и
  []
@@ -2054,14 +2061,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[11]
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
- [12]
+[12]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -2069,67 +2069,74 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 302--311
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
 \TU/LiberationSerif(2)/m/n/14.4 шумового диода). Спектральный тест обнаруживает
  такие скрытые
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 302--311
+Underfull \hbox (badness 2103) in paragraph at lines 306--315
 \TU/LiberationSerif(2)/m/n/14.4 частотные компоненты, которые не видны в статис
 тических тестах на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--321
+Underfull \hbox (badness 10000) in paragraph at lines 316--325
 []\TU/LiberationSerif(2)/m/n/14.4 Тест Маурера оценивает алгоритмическую сложно
 сть
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 312--321
+Underfull \hbox (badness 2932) in paragraph at lines 316--325
 \TU/LiberationSerif(2)/m/n/14.4 данные не должны допускать оптимизации при сжат
 ии. Он особенно
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 312--321
+Underfull \hbox (badness 4205) in paragraph at lines 316--325
 \TU/LiberationSerif(2)/m/n/14.4 важен для проверки физических генераторов потом
 у, что физические
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--321
+Underfull \hbox (badness 10000) in paragraph at lines 316--325
 \TU/LiberationSerif(2)/m/n/14.4 случайные, но алгоритмически простые последоват
 ельности. Тест
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 312--321
+Underfull \hbox (badness 4205) in paragraph at lines 316--325
 \TU/LiberationSerif(2)/m/n/14.4 Маурера способен выявить такие случаи. Кроме эт
 ого, генераторы с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
 []\TU/LiberationSerif(2)/m/n/14.4 Дополнительное подтверждение необходимости те
 стирования
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 322--327
+Underfull \hbox (badness 4254) in paragraph at lines 326--331
 \TU/LiberationSerif(2)/m/n/14.4 NIST SP 800-22 рекомендует эти тесты для аппара
 тных генераторов,
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 322--327
+Underfull \hbox (badness 3118) in paragraph at lines 326--331
 \TU/LiberationSerif(2)/m/n/14.4 используемых в криптографии. Практический приме
 р: квантовые ГСП
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
 \TU/LiberationSerif(2)/m/n/14.4 обязательно проверяют спектральным тестом на пр
 едмет квантовых
  []
@@ -2141,7 +2148,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [14]
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 7--14
 []\TU/LiberationSerif(2)/m/n/14.4 При проектировании интегральных схем шум неиз
 бежен и
@@ -2199,7 +2206,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[15
+[16
 
 ]
 Missing character: There is no 𝛥 (U+1D6E5) in font Liberation Serif/OT:script=l
@@ -2226,64 +2233,65 @@ Missing character: There is no п ("43F) in font cmmi12!
 Missing character: There is no р ("440) in font cmmi12!
 Missing character: There is no и ("438) in font cmmi12!
 Missing character: There is no К ("41A) in font cmmi12!
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[17]
 Missing character: There is no 𝛥 (U+1D6E5) in font Liberation Serif/OT:script=l
 atn;language=dflt;!
 
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[16]
-Underfull \hbox (badness 5091) in paragraph at lines 97--99
+Underfull \hbox (badness 5091) in paragraph at lines 99--101
 []\TU/LiberationSerif(2)/m/n/14.4 Чтобы использовать этот шум в ГИСП, необходим
 о выполнить
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 100--103
+Underfull \hbox (badness 1810) in paragraph at lines 102--105
 []\TU/LiberationSerif(2)/m/n/14.4 1. Формирование сигнала. Электрическое напряж
 ение, наведённое
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 100--103
+Underfull \hbox (badness 1062) in paragraph at lines 102--105
 \TU/LiberationSerif(2)/m/n/14.4 тепловым шумом на резисторе, усиливается с помо
 щью малошумящего
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 108--111
+Underfull \hbox (badness 4096) in paragraph at lines 110--113
 []\TU/LiberationSerif(2)/m/n/14.4 3. Оцифровка. Полученный аналоговый сигнал ди
 скретизируется
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 108--111
+Underfull \hbox (badness 2662) in paragraph at lines 110--113
 \TU/LiberationSerif(2)/m/n/14.4 и квантуется с помощью АЦП (аналогово-цифрового
  преобразователя).
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 108--111
+Underfull \hbox (badness 6859) in paragraph at lines 110--113
 \TU/LiberationSerif(2)/m/n/14.4 Результатом является последовательность значени
 й, например 8- или
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 112--116
+Underfull \hbox (badness 4752) in paragraph at lines 114--118
 \TU/LiberationSerif(2)/m/n/14.4 вырезание младших битов, хэш-функции или экстра
 кция с помощью
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 124--126
+Underfull \hbox (badness 3907) in paragraph at lines 126--128
 []\TU/LiberationSerif(2)/m/n/14.4 Преимущества использования теплового шума в р
 оли источника
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 []\TU/LiberationSerif(2)/m/n/14.4 Отсутствие квантовых эффектов (при правильно 
 настроенном
  []
@@ -2294,8 +2302,8 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 []\TU/LiberationSerif(2)/m/n/14.4 Необходимость температурной стабилизации для 
 поддержания
  []
@@ -2303,32 +2311,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--146
 File: pandoc_media/media/image4.png Graphic file (type bmp)
 <pandoc_media/media/image4.png>
 
-Underfull \hbox (badness 5460) in paragraph at lines 159--170
+Underfull \hbox (badness 5460) in paragraph at lines 163--174
 []\TU/LiberationSerif(2)/b/n/14.4 Дробовой шум \TU/LiberationSerif(2)/m/n/14.4 
 (shot noise\TU/LiberationSerif(2)/m/it/14.4 , \TU/LiberationSerif(2)/m/n/14.4 ш
 ум Пуассона) – это электронный
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 159--170
+Underfull \hbox (badness 1783) in paragraph at lines 163--174
 \TU/LiberationSerif(2)/m/n/14.4 шум, связанный с дискретной (квантованной) прир
 одой электрического
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 159--170
+Underfull \hbox (badness 3803) in paragraph at lines 163--174
 \TU/LiberationSerif(2)/m/n/14.4 в виде отдельных частиц – электронов. Когда эле
 ктроны пересекают
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 159--170
+Underfull \hbox (badness 6708) in paragraph at lines 163--174
 \TU/LiberationSerif(2)/m/n/14.4 потенциальный барьер (например, в p-n переходе,
  вакуумном диоде,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--170
+Underfull \hbox (badness 10000) in paragraph at lines 163--174
 \TU/LiberationSerif(2)/m/n/14.4 туннельном переходе и т.д.), они делают это слу
 чайным образом,
  []
@@ -2339,26 +2347,26 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[18]
-Underfull \hbox (badness 2469) in paragraph at lines 196--198
+[19]
+Underfull \hbox (badness 2469) in paragraph at lines 200--202
 []\TU/LiberationSerif(2)/m/n/14.4 В отличие от теплового шума, который зависит 
 от температуры,
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 212--214
+Underfull \hbox (badness 6380) in paragraph at lines 216--218
 []\TU/LiberationSerif(2)/m/n/14.4 в фотодетекторах (где ток создаётся фотонами,
  а не внешним
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 216--219
+Underfull \hbox (badness 1087) in paragraph at lines 220--223
 []\TU/LiberationSerif(2)/m/n/14.4 В металлических проводниках дробовой шум обыч
 но подавлен за
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 223--226
+Underfull \hbox (badness 1292) in paragraph at lines 227--230
 []\TU/LiberationSerif(2)/m/n/14.4 1. Формирование тока. Используется p-n перехо
 д или фотодиод в
  []
@@ -2369,38 +2377,38 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 []\TU/LiberationSerif(2)/m/n/14.4 3. Усиление. Сигнал усиливается, при этом важ
 но сохранить
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 233--235
+Underfull \hbox (badness 1874) in paragraph at lines 237--239
 []\TU/LiberationSerif(2)/m/n/14.4 4. Ограничение полосы частот. Подача на полос
 овой фильтр для
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 256--259
 []\TU/LiberationSerif(2)/m/n/14.4 Относительно простая реализация при наличии ф
 отодиода и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--267
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
 []\TU/LiberationSerif(2)/m/n/14.4 Очень малые токи дают слабый уровень шума, чт
 о требует
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 []\TU/LiberationSerif(2)/m/n/14.4 Чувствительность к освещению (в случае фотоди
 одов) и к
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 271--273
+Underfull \hbox (badness 5274) in paragraph at lines 275--277
 []\TU/LiberationSerif(2)/m/n/14.4 Условная схема ГИСП на основе дробового шума 
 может быть
  []
@@ -2413,116 +2421,117 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[20]
-Underfull \hbox (badness 6332) in paragraph at lines 278--285
+[21]
+Underfull \hbox (badness 6332) in paragraph at lines 284--291
 \TU/LiberationSerif(2)/m/n/14.4 в полупроводниковых приборах с внутренним усиле
 нием, таких как
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 278--285
+Underfull \hbox (badness 1147) in paragraph at lines 284--291
 \TU/LiberationSerif(2)/m/n/14.4 характером процесса лавинной генерации носителе
 й, при котором один
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 278--285
+Underfull \hbox (badness 1533) in paragraph at lines 284--291
 \TU/LiberationSerif(2)/m/n/14.4 носитель может возбуждать несколько новых носит
 елей через ударную
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
 []\TU/LiberationSerif(2)/m/n/14.4 Когда напряжение на p–n переходе превышает оп
 ределённый
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 286--293
+Underfull \hbox (badness 2529) in paragraph at lines 292--299
 \TU/LiberationSerif(2)/m/n/14.4 порог, начинается ударная ионизация: свободные 
 электроны, ускоряясь
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
+Underfull \hbox (badness 10000) in paragraph at lines 292--299
 \TU/LiberationSerif(2)/m/n/14.4 электрическим полем, ионизируют атомы кристалли
 ческой решётки,
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 286--293
+Underfull \hbox (badness 4713) in paragraph at lines 292--299
 \TU/LiberationSerif(2)/m/n/14.4 создавая новые пары электрон - дырка. Этот проц
 есс накапливается
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 294--296
+Underfull \hbox (badness 7851) in paragraph at lines 300--302
 \TU/LiberationSerif(2)/m/n/14.4 избыточного шума F, спектральная плотность тока
  лавинного шума
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--313
+Underfull \hbox (badness 10000) in paragraph at lines 316--319
 \TU/LiberationSerif(2)/m/n/14.4 (например, \TU/LiberationSerif(2)/m/it/14.4 F \
 TU/LiberationSerif(2)/m/n/14.4 ≈ \TU/LiberationSerif(2)/m/it/14.4 M \TU/Liberat
 ionSerif(2)/m/n/14.4 при равных вероятностях ионизации
  []
 
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[22]
 Missing character: There is no ∈ (U+2208) in font Liberation Serif/OT:script=cy
 rl;language=dflt;mapping=tex-text;!
 Missing character: There is no ≪ (U+226A) in font Liberation Serif/OT:script=cy
 rl;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 3291) in paragraph at lines 320--323
+Underfull \hbox (badness 3291) in paragraph at lines 326--329
 []\TU/LiberationSerif(2)/m/n/14.4 где: \TU/LiberationSerif(2)/m/it/14.4 k \TU/L
 iberationSerif(2)/m/n/14.4 ∈ [0,1] – отношение коэффициентов ионизации дырок к
  []
 
 
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[21]
-Underfull \hbox (badness 2173) in paragraph at lines 324--330
+Underfull \hbox (badness 2173) in paragraph at lines 330--336
 \TU/LiberationSerif(2)/m/n/14.4 шума применяются лавинные фотодиоды, работающие
  в режиме ниже
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 324--330
+Underfull \hbox (badness 3503) in paragraph at lines 330--336
 \TU/LiberationSerif(2)/m/n/14.4 или около пробоя. Шум усиливается, фильтруется,
  оцифровывается и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--362
+Underfull \hbox (badness 10000) in paragraph at lines 360--368
 []\TU/LiberationSerif(2)/b/n/14.4 Мерцающий шум\TU/LiberationSerif(2)/m/n/14.4 
 , также известный как шум с обратной
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--362
+Underfull \hbox (badness 10000) in paragraph at lines 360--368
 \TU/LiberationSerif(2)/m/n/14.4 пропорциональностью к частоте (англ. flicker no
 ise или \TU/LiberationSerif(2)/m/it/14.4 1/f \TU/LiberationSerif(2)/m/n/14.4 no
 ise),
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 354--362
+Underfull \hbox (badness 5924) in paragraph at lines 360--368
 \TU/LiberationSerif(2)/m/n/14.4 представляет собой тип низкочастотного шума, ко
 торый наблюдается
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 354--362
+Underfull \hbox (badness 3895) in paragraph at lines 360--368
 \TU/LiberationSerif(2)/m/n/14.4 в широком классе электронных компонентов — в пе
 рвую очередь в
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 354--362
+Underfull \hbox (badness 2158) in paragraph at lines 360--368
 \TU/LiberationSerif(2)/m/n/14.4 характерной особенностью является спектральная 
 плотность мощности,
  []
@@ -2533,112 +2542,46 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
 []\TU/LiberationSerif(2)/m/it/14.4 K \TU/LiberationSerif(2)/m/n/14.4 — эмпириче
 ский коэффициент, зависящий от
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
 []\TU/LiberationSerif(2)/m/n/14.4 Таким образом, шум усиливается при уменьшении
  размеров
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--416
+Underfull \hbox (badness 10000) in paragraph at lines 417--422
 []\TU/LiberationSerif(2)/m/n/14.4 В сравнении с тепловым шумом, обладающем пост
 оянной
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 411--416
+Underfull \hbox (badness 1430) in paragraph at lines 417--422
 \TU/LiberationSerif(2)/m/n/14.4 спектральной плотностью ($[][][][] [] [][][][][
 ]$), 1/f шум, наоборот, убывает
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 411--416
+Underfull \hbox (badness 1783) in paragraph at lines 417--422
 \TU/LiberationSerif(2)/m/n/14.4 с увеличением частоты и доминирует на низких ча
 стотах. Существует
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 417--422
+Underfull \hbox (badness 3029) in paragraph at lines 423--428
 []\TU/LiberationSerif(2)/m/n/14.4 В генераторах случайных чисел (ГСЧ) 1/f шум м
 ожет вызывать
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 417--422
+Underfull \hbox (badness 8019) in paragraph at lines 423--428
 \TU/LiberationSerif(2)/m/n/14.4 корреляции между выходными битами, особенно при
  недостаточной
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 427--431
-\TU/LiberationSerif(2)/m/n/14.4 энтропии, при правильной архитектуре он может с
-лужить источником
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 427--431
-\TU/LiberationSerif(2)/m/n/14.4 энтропии для низкоскоростных TRNG или добавочны
-м источником к
- []
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[23]
-Underfull \hbox (badness 6493) in paragraph at lines 436--442
-\TU/LiberationSerif(2)/m/n/14.4 их фундаментальная недетерминированность. Это о
-значает, что даже
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 436--442
-\TU/LiberationSerif(2)/m/n/14.4 при точном знании начальных условий результат к
-вантового измерения
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 436--442
-\TU/LiberationSerif(2)/m/n/14.4 нельзя предсказать однозначно. Именно это делае
-т квантовые явления
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 443--450
-\TU/LiberationSerif(2)/m/n/14.4 о начальных параметрах системы, а потому при те
-оретически полной
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--455
-[]\TU/LiberationSerif(2)/m/n/14.4 Квантовые генераторы случайных чисел (КГСЧ) и
-спользуют
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 451--455
-\TU/LiberationSerif(2)/m/n/14.4 условиях. Несмотря на это, каждый эксперимент д
-аёт непредсказуемый
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 456--462
-\TU/LiberationSerif(2)/m/n/14.4 аналогами битов, которые могут находиться в дву
-х состояниях: (0) и
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--480
-\TU/LiberationSerif(2)/m/n/14.4 выхода фотона (влево или вправо), фиксируемое с
-оответствующим
  []
 
 
@@ -2648,34 +2591,99 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [24]
+Underfull \hbox (badness 2469) in paragraph at lines 433--437
+\TU/LiberationSerif(2)/m/n/14.4 энтропии, при правильной архитектуре он может с
+лужить источником
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 433--437
+\TU/LiberationSerif(2)/m/n/14.4 энтропии для низкоскоростных TRNG или добавочны
+м источником к
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 442--448
+\TU/LiberationSerif(2)/m/n/14.4 их фундаментальная недетерминированность. Это о
+значает, что даже
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 442--448
+\TU/LiberationSerif(2)/m/n/14.4 при точном знании начальных условий результат к
+вантового измерения
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 442--448
+\TU/LiberationSerif(2)/m/n/14.4 нельзя предсказать однозначно. Именно это делае
+т квантовые явления
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 449--456
+\TU/LiberationSerif(2)/m/n/14.4 о начальных параметрах системы, а потому при те
+оретически полной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--461
+[]\TU/LiberationSerif(2)/m/n/14.4 Квантовые генераторы случайных чисел (КГСЧ) и
+спользуют
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 457--461
+\TU/LiberationSerif(2)/m/n/14.4 условиях. Несмотря на это, каждый эксперимент д
+аёт непредсказуемый
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 462--468
+\TU/LiberationSerif(2)/m/n/14.4 аналогами битов, которые могут находиться в дву
+х состояниях: (0) и
+ []
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 476--486
+\TU/LiberationSerif(2)/m/n/14.4 выхода фотона (влево или вправо), фиксируемое с
+оответствующим
+ []
+
 File: pandoc_media/media/image6.png Graphic file (type bmp)
 <pandoc_media/media/image6.png>
 
-Underfull \hbox (badness 8151) in paragraph at lines 485--490
+Underfull \hbox (badness 8151) in paragraph at lines 493--498
 []\TU/LiberationSerif(2)/m/n/14.4 Физическая случайность при использовании опти
 ческих систем
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--490
+Underfull \hbox (badness 10000) in paragraph at lines 493--498
 \TU/LiberationSerif(2)/m/n/14.4 процессов, в которых фотоны участвуют. Основным
 и механизмами
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--490
+Underfull \hbox (badness 10000) in paragraph at lines 493--498
 \TU/LiberationSerif(2)/m/n/14.4 получения энтропии в оптических квантовых генер
 аторах являются
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--496
+Underfull \hbox (badness 10000) in paragraph at lines 499--504
 []\TU/LiberationSerif(2)/m/n/14.4 Существует также подход, при котором фотонные
  генераторы
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 491--496
+Underfull \hbox (badness 1152) in paragraph at lines 499--504
 \TU/LiberationSerif(2)/m/n/14.4 используют временную характеристику событий – н
 апример, измерение
  []
@@ -2686,50 +2694,50 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 497--502
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 505--510
 []\TU/LiberationSerif(2)/m/n/14.4 В ряде решений применяется метод регистрации 
 квантовых
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--502
+Underfull \hbox (badness 10000) in paragraph at lines 505--510
 \TU/LiberationSerif(2)/m/n/14.4 считывать непрерывные шумовые сигналы, содержащ
 ие истинную
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--517
 []\TU/LiberationSerif(2)/m/n/14.4 Следует отметить, что оптические схемы облада
 ют высокой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
+Underfull \hbox (badness 10000) in paragraph at lines 521--524
 \TU/LiberationSerif(2)/m/n/14.4 оптических и электронных компонентов могут изме
 няться, нарушая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--520
+Underfull \hbox (badness 10000) in paragraph at lines 525--528
 []\TU/LiberationSerif(2)/m/n/14.4 3. Корреляции между битами: вызваны, например
 , временем
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--524
+Underfull \hbox (badness 10000) in paragraph at lines 529--532
 []\TU/LiberationSerif(2)/m/n/14.4 Для устранения этих недостатков применяется к
 алибровка
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--530
+Underfull \hbox (badness 10000) in paragraph at lines 533--538
 []\TU/LiberationSerif(2)/m/n/14.4 Особое внимание уделим радиоактивному распаду
  в качестве
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 525--530
+Underfull \hbox (badness 7168) in paragraph at lines 533--538
 \TU/LiberationSerif(2)/m/n/14.4 процессом, происходящим самопроизвольно в неста
 бильных атомных
  []
@@ -2740,150 +2748,34 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[26]
-Underfull \hbox (badness 2573) in paragraph at lines 543--547
+[27]
+Underfull \hbox (badness 2573) in paragraph at lines 551--555
 \TU/LiberationSerif(2)/m/n/14.4 квантовой механики. Это означает, что даже при 
 полной информации
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 548--551
+Underfull \hbox (badness 3138) in paragraph at lines 556--559
 []\TU/LiberationSerif(2)/m/n/14.4 Таким образом, временные интервалы между посл
 едовательными
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--560
+Underfull \hbox (badness 10000) in paragraph at lines 565--568
 []\TU/LiberationSerif(2)/m/n/14.4 Радиоактивный изотоп с безопасной активностью
  (например,
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 560--563
+Underfull \hbox (badness 1348) in paragraph at lines 568--571
 []\TU/LiberationSerif(2)/m/n/14.4 Детектор ионизирующего излучения – например, 
 счётчик Гейгера-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 563--566
+Underfull \hbox (badness 2547) in paragraph at lines 571--574
 []\TU/LiberationSerif(2)/m/n/14.4 Схема счёта времени между детекциями событий 
 (высокоточный
- []
-
-Missing character: There is no е ("435) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no л ("43B) in font cmmi12!
-Missing character: There is no и ("438) in font cmmi12!
-Missing character: There is no е ("435) in font cmmi12!
-Missing character: There is no с ("441) in font cmmi12!
-Missing character: There is no л ("43B) in font cmmi12!
-Missing character: There is no и ("438) in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 590--592
-[]\TU/LiberationSerif(2)/m/n/14.4 где τ – эмпирически выбранный порог, обеспечи
-вающий
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 593--596
-[]\TU/LiberationSerif(2)/m/n/14.4 Для устранения возможной остаточной корреляци
-и и аппаратных
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 593--596
-\TU/LiberationSerif(2)/m/n/14.4 такие как: хэш-функции (SHA-2, BLAKE2), метод ф
-он Неймана (Von
- []
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[27]
-Underfull \hbox (badness 3209) in paragraph at lines 597--600
-[]\TU/LiberationSerif(2)/m/n/14.4 Несмотря на достаточно весомое количество пре
-имуществ такой
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 603--606
-[]\TU/LiberationSerif(2)/m/n/14.4 Ограниченная скорость генерации (≤10$[]$ собы
-тий в секунду для
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 606--609
-[]\TU/LiberationSerif(2)/m/n/14.4 Аппаратная сложность и стоимость, включая защ
-иту от
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 609--612
-[]\TU/LiberationSerif(2)/m/n/14.4 Юридические и нормативные ограничения на испо
-льзование
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 612--614
-[]\TU/LiberationSerif(2)/m/n/14.4 Необходимость калибровки и тестирования детек
-торов, учитывая
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--614
-\TU/LiberationSerif(2)/m/n/14.4 старение, температурную нестабильность и возмож
-ные ложные
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 618--625
-[]\TU/LiberationSerif(2)/m/n/14.4 Помимо квантовых и оптических методов генерац
-ии случайных
- []
-
-
-Underfull \hbox (badness 6625) in paragraph at lines 618--625
-\TU/LiberationSerif(2)/m/n/14.4 чисел, в ряде практических приложений использую
-тся механические
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--625
-\TU/LiberationSerif(2)/m/n/14.4 и акустические источники энтропии. Эти методы о
-пираются на
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 618--625
-\TU/LiberationSerif(2)/m/n/14.4 макроскопические процессы, которые, несмотря на
- свою классическую
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--625
-\TU/LiberationSerif(2)/m/n/14.4 и внешним возмущениям, что делает их полезными 
-в качестве
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 626--632
-[]\TU/LiberationSerif(2)/b/n/14.4 Механические \TU/LiberationSerif(2)/m/n/14.4 
-системы используются в генераторах случайных
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 626--632
-\TU/LiberationSerif(2)/m/n/14.4 чисел уже десятилетия. Одним из простейших исто
-рических примеров
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--632
-\TU/LiberationSerif(2)/m/n/14.4 электронных системах механические элементы могу
-т использоваться
  []
 
 
@@ -2893,105 +2785,96 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [28]
-Underfull \hbox (badness 1661) in paragraph at lines 633--639
-[]\TU/LiberationSerif(2)/m/n/14.4 Случайность в таких системах формируется за с
-чёт хаотического
+Missing character: There is no е ("435) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no л ("43B) in font cmmi12!
+Missing character: There is no и ("438) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+Missing character: There is no с ("441) in font cmmi12!
+Missing character: There is no л ("43B) in font cmmi12!
+Missing character: There is no и ("438) in font cmmi12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--600
+[]\TU/LiberationSerif(2)/m/n/14.4 где τ – эмпирически выбранный порог, обеспечи
+вающий
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--639
-\TU/LiberationSerif(2)/m/n/14.4 характера движения, вызванного микроскопическим
-и флуктуациями,
+Underfull \hbox (badness 2310) in paragraph at lines 601--604
+[]\TU/LiberationSerif(2)/m/n/14.4 Для устранения возможной остаточной корреляци
+и и аппаратных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--639
-\TU/LiberationSerif(2)/m/n/14.4 вибрациями, трением, турбулентными потоками воз
-духа и другими
+Underfull \hbox (badness 3039) in paragraph at lines 601--604
+\TU/LiberationSerif(2)/m/n/14.4 такие как: хэш-функции (SHA-2, BLAKE2), метод ф
+он Неймана (Von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--639
-\TU/LiberationSerif(2)/m/n/14.4 стохастическими процессами. В случае MEMS-устро
-йств генерация
+Underfull \hbox (badness 3209) in paragraph at lines 605--608
+[]\TU/LiberationSerif(2)/m/n/14.4 Несмотря на достаточно весомое количество пре
+имуществ такой
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 633--639
-\TU/LiberationSerif(2)/m/n/14.4 энтропии может происходить, например, при считы
-вании отклонений
+Underfull \hbox (badness 3635) in paragraph at lines 611--614
+[]\TU/LiberationSerif(2)/m/n/14.4 Ограниченная скорость генерации (≤10$[]$ собы
+тий в секунду для
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--644
-\TU/LiberationSerif(2)/m/n/14.4 износу, старению, температурным деформациям, а 
-также могут
+Underfull \hbox (badness 10000) in paragraph at lines 614--617
+[]\TU/LiberationSerif(2)/m/n/14.4 Аппаратная сложность и стоимость, включая защ
+иту от
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--644
-\TU/LiberationSerif(2)/m/n/14.4 дополнительной обработки данных и контроля каче
-ства выходной
+Underfull \hbox (badness 10000) in paragraph at lines 617--620
+[]\TU/LiberationSerif(2)/m/n/14.4 Юридические и нормативные ограничения на испо
+льзование
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--658
-[]\TU/LiberationSerif(2)/m/n/14.4 Шумы окружающей среды, звуковые помехи в поме
-щениях,
+Underfull \hbox (badness 3428) in paragraph at lines 620--622
+[]\TU/LiberationSerif(2)/m/n/14.4 Необходимость калибровки и тестирования детек
+торов, учитывая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--658
-\TU/LiberationSerif(2)/m/n/14.4 тепловые флуктуации в материалах – всё это созд
-аёт уникальные
+Underfull \hbox (badness 10000) in paragraph at lines 620--622
+\TU/LiberationSerif(2)/m/n/14.4 старение, температурную нестабильность и возмож
+ные ложные
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--658
-\TU/LiberationSerif(2)/m/n/14.4 и сложно моделируемые сигналы, которые при долж
-ной обработке
+Underfull \hbox (badness 4673) in paragraph at lines 626--633
+[]\TU/LiberationSerif(2)/m/n/14.4 Помимо квантовых и оптических методов генерац
+ии случайных
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 651--658
-\TU/LiberationSerif(2)/m/n/14.4 могут использоваться для генерации случайных би
-тов. Часто в таких
+Underfull \hbox (badness 6625) in paragraph at lines 626--633
+\TU/LiberationSerif(2)/m/n/14.4 чисел, в ряде практических приложений использую
+тся механические
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 651--658
-\TU/LiberationSerif(2)/m/n/14.4 его последующей оцифровкой и выделением энтропи
-и путём анализа
+Underfull \hbox (badness 10000) in paragraph at lines 626--633
+\TU/LiberationSerif(2)/m/n/14.4 и акустические источники энтропии. Эти методы о
+пираются на
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 659--664
-[]\TU/LiberationSerif(2)/m/n/14.4 Основная особенность механических и акустичес
-ких источников
+Underfull \hbox (badness 1990) in paragraph at lines 626--633
+\TU/LiberationSerif(2)/m/n/14.4 макроскопические процессы, которые, несмотря на
+ свою классическую
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 659--664
-\TU/LiberationSerif(2)/m/n/14.4 где случайность возникает не из-за фундаменталь
-ной неопределённости
- []
-
-
-Underfull \hbox (badness 3138) in paragraph at lines 665--669
-\TU/LiberationSerif(2)/m/n/14.4 оценки качества случайности, применения криптог
-рафических методов
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 670--675
-[]\TU/LiberationSerif(2)/m/n/14.4 Тем не менее, механические и акустические ист
-очники обладают
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 670--675
-\TU/LiberationSerif(2)/m/n/14.4 весомыми преимуществами: низкая стоимость, прос
-тота реализации,
+Underfull \hbox (badness 10000) in paragraph at lines 626--633
+\TU/LiberationSerif(2)/m/n/14.4 и внешним возмущениям, что делает их полезными 
+в качестве
  []
 
 
@@ -3001,93 +2884,105 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 678--688
-[]\TU/LiberationSerif(2)/m/n/14.4 1. Гироскопические датчики и акселерометры (M
-EMS-ГИСП).
+Underfull \hbox (badness 7133) in paragraph at lines 634--640
+[]\TU/LiberationSerif(2)/b/n/14.4 Механические \TU/LiberationSerif(2)/m/n/14.4 
+системы используются в генераторах случайных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 Во многих современных смартфонах и устройствах 
-«умного дома»
+Underfull \hbox (badness 1708) in paragraph at lines 634--640
+\TU/LiberationSerif(2)/m/n/14.4 чисел уже десятилетия. Одним из простейших исто
+рических примеров
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 установлены микроэлектромеханические датчики дв
-ижения – гироскопы
+Underfull \hbox (badness 10000) in paragraph at lines 634--640
+\TU/LiberationSerif(2)/m/n/14.4 электронных системах механические элементы могу
+т использоваться
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 и акселерометры. При включении эти датчики фикс
-ируют мельчайшие
+Underfull \hbox (badness 1661) in paragraph at lines 641--647
+[]\TU/LiberationSerif(2)/m/n/14.4 Случайность в таких системах формируется за с
+чёт хаотического
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 колебания, вызванные неустранимыми шумами, меха
-ническими
+Underfull \hbox (badness 10000) in paragraph at lines 641--647
+\TU/LiberationSerif(2)/m/n/14.4 характера движения, вызванного микроскопическим
+и флуктуациями,
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 прочими эффектами. Эти сигналы после усиления и
- оцифровки могут
+Underfull \hbox (badness 10000) in paragraph at lines 641--647
+\TU/LiberationSerif(2)/m/n/14.4 вибрациями, трением, турбулентными потоками воз
+духа и другими
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 678--688
-\TU/LiberationSerif(2)/m/n/14.4 резервные источники энтропии при инициализации 
-криптографических
+Underfull \hbox (badness 10000) in paragraph at lines 641--647
+\TU/LiberationSerif(2)/m/n/14.4 стохастическими процессами. В случае MEMS-устро
+йств генерация
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--698
-\TU/LiberationSerif(2)/m/n/14.4 Использование акустического фона помещения – од
-ин из наиболее
+Underfull \hbox (badness 5133) in paragraph at lines 641--647
+\TU/LiberationSerif(2)/m/n/14.4 энтропии может происходить, например, при считы
+вании отклонений
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 689--698
-\TU/LiberationSerif(2)/m/n/14.4 простых и в то же время нестандартизируемых спо
-собов получения
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
+\TU/LiberationSerif(2)/m/n/14.4 износу, старению, температурным деформациям, а 
+также могут
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 689--698
-\TU/LiberationSerif(2)/m/n/14.4 акустическую картину. Возможно использование си
-стемы, где обычный
+Underfull \hbox (badness 10000) in paragraph at lines 648--652
+\TU/LiberationSerif(2)/m/n/14.4 дополнительной обработки данных и контроля каче
+ства выходной
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 699--707
-\TU/LiberationSerif(2)/m/n/14.4 балансировочного диска с многими секторами. Пол
-ожение остановки
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+[]\TU/LiberationSerif(2)/m/n/14.4 Шумы окружающей среды, звуковые помехи в поме
+щениях,
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 699--707
-\TU/LiberationSerif(2)/m/n/14.4 или путь движения зависит от огромного количест
-ва микрофакторов –
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+\TU/LiberationSerif(2)/m/n/14.4 тепловые флуктуации в материалах – всё это созд
+аёт уникальные
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 708--714
-[]\TU/LiberationSerif(2)/m/n/14.4 4. Сейсмические датчики и вибрационные шумы. 
-В некоторых
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+\TU/LiberationSerif(2)/m/n/14.4 и сложно моделируемые сигналы, которые при долж
+ной обработке
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--714
-\TU/LiberationSerif(2)/m/n/14.4 защищённых аппаратных платформах встраиваются с
-ейсмодатчики,
+Underfull \hbox (badness 2961) in paragraph at lines 659--666
+\TU/LiberationSerif(2)/m/n/14.4 могут использоваться для генерации случайных би
+тов. Часто в таких
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 708--714
-\TU/LiberationSerif(2)/m/n/14.4 Хотя это требует высокой чувствительности, резу
-льтат – поток данных,
+Underfull \hbox (badness 3375) in paragraph at lines 659--666
+\TU/LiberationSerif(2)/m/n/14.4 его последующей оцифровкой и выделением энтропи
+и путём анализа
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 667--672
+[]\TU/LiberationSerif(2)/m/n/14.4 Основная особенность механических и акустичес
+ких источников
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 667--672
+\TU/LiberationSerif(2)/m/n/14.4 где случайность возникает не из-за фундаменталь
+ной неопределённости
  []
 
 
@@ -3097,81 +2992,93 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [30]
-Underfull \hbox (badness 4582) in paragraph at lines 715--723
-\TU/LiberationSerif(2)/m/n/14.4 сбора энтропии из движений человеком мыши по эк
-рану. Движение
+Underfull \hbox (badness 3138) in paragraph at lines 673--677
+\TU/LiberationSerif(2)/m/n/14.4 оценки качества случайности, применения криптог
+рафических методов
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 715--723
-\TU/LiberationSerif(2)/m/n/14.4 мыши – это результат взаимодействия множества ф
-акторов: моторика
+Underfull \hbox (badness 1789) in paragraph at lines 678--683
+[]\TU/LiberationSerif(2)/m/n/14.4 Тем не менее, механические и акустические ист
+очники обладают
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 715--723
-\TU/LiberationSerif(2)/m/n/14.4 энтропию, особенно в начальные моменты, когда п
-ользователь двигает
+Underfull \hbox (badness 10000) in paragraph at lines 678--683
+\TU/LiberationSerif(2)/m/n/14.4 весомыми преимуществами: низкая стоимость, прос
+тота реализации,
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 725--729
-\TU/LiberationSerif(2)/m/n/14.4 веб-страница с JavaScript) регистрирует перемещ
-ения мыши.
+Underfull \hbox (badness 10000) in paragraph at lines 686--696
+[]\TU/LiberationSerif(2)/m/n/14.4 1. Гироскопические датчики и акселерометры (M
+EMS-ГИСП).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--729
-\TU/LiberationSerif(2)/m/n/14.4 фиксируются в реальном времени при каждом событ
-ии
+Underfull \hbox (badness 10000) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 Во многих современных смартфонах и устройствах 
+«умного дома»
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 730--735
-\TU/LiberationSerif(2)/m/n/14.4 формирования числовой последовательности. Часто
- берутся
+Underfull \hbox (badness 1019) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 установлены микроэлектромеханические датчики дв
+ижения – гироскопы
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 730--735
-\TU/LiberationSerif(2)/m/n/14.4 временной разницы), т.к. именно они содержат на
-ибольшую
+Underfull \hbox (badness 1983) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 и акселерометры. При включении эти датчики фикс
+ируют мельчайшие
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--740
-[]\TU/LiberationSerif(2)/m/n/14.4 3. Накопление энтропии. Пока не набрана доста
-точное
+Underfull \hbox (badness 10000) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 колебания, вызванные неустранимыми шумами, меха
+ническими
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 736--740
-\TU/LiberationSerif(2)/m/n/14.4 количество битов энтропии, генератор не начинае
-т выдачу
+Underfull \hbox (badness 1831) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 прочими эффектами. Эти сигналы после усиления и
+ оцифровки могут
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 736--740
-\TU/LiberationSerif(2)/m/n/14.4 случайных чисел. Как правило, ведётся оценка ко
-личества
+Underfull \hbox (badness 2435) in paragraph at lines 686--696
+\TU/LiberationSerif(2)/m/n/14.4 резервные источники энтропии при инициализации 
+криптографических
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 736--740
-\TU/LiberationSerif(2)/m/n/14.4 энтропии, накопленной от каждого движения (напр
-имер, 0.5
+Underfull \hbox (badness 10000) in paragraph at lines 697--706
+\TU/LiberationSerif(2)/m/n/14.4 Использование акустического фона помещения – од
+ин из наиболее
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 743--746
-[]\TU/LiberationSerif(2)/m/n/14.4 применяется хэш-функция (SHA-256, Keccak и др
-.), чтобы
+Underfull \hbox (badness 4505) in paragraph at lines 697--706
+\TU/LiberationSerif(2)/m/n/14.4 простых и в то же время нестандартизируемых спо
+собов получения
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--746
-\TU/LiberationSerif(2)/m/n/14.4 статистические зависимости и делает вывод наибо
-лее
+Underfull \hbox (badness 1460) in paragraph at lines 697--706
+\TU/LiberationSerif(2)/m/n/14.4 акустическую картину. Возможно использование си
+стемы, где обычный
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 707--715
+\TU/LiberationSerif(2)/m/n/14.4 балансировочного диска с многими секторами. Пол
+ожение остановки
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 707--715
+\TU/LiberationSerif(2)/m/n/14.4 или путь движения зависит от огромного количест
+ва микрофакторов –
  []
 
 
@@ -3181,75 +3088,177 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [31]
-Underfull \hbox (badness 3713) in paragraph at lines 750--760
+Underfull \hbox (badness 5490) in paragraph at lines 716--722
+[]\TU/LiberationSerif(2)/m/n/14.4 4. Сейсмические датчики и вибрационные шумы. 
+В некоторых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--722
+\TU/LiberationSerif(2)/m/n/14.4 защищённых аппаратных платформах встраиваются с
+ейсмодатчики,
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 716--722
+\TU/LiberationSerif(2)/m/n/14.4 Хотя это требует высокой чувствительности, резу
+льтат – поток данных,
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 723--731
+\TU/LiberationSerif(2)/m/n/14.4 сбора энтропии из движений человеком мыши по эк
+рану. Движение
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 723--731
+\TU/LiberationSerif(2)/m/n/14.4 мыши – это результат взаимодействия множества ф
+акторов: моторика
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 723--731
+\TU/LiberationSerif(2)/m/n/14.4 энтропию, особенно в начальные моменты, когда п
+ользователь двигает
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 733--737
+\TU/LiberationSerif(2)/m/n/14.4 веб-страница с JavaScript) регистрирует перемещ
+ения мыши.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--737
+\TU/LiberationSerif(2)/m/n/14.4 фиксируются в реальном времени при каждом событ
+ии
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 738--743
+\TU/LiberationSerif(2)/m/n/14.4 формирования числовой последовательности. Часто
+ берутся
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 738--743
+\TU/LiberationSerif(2)/m/n/14.4 временной разницы), т.к. именно они содержат на
+ибольшую
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--748
+[]\TU/LiberationSerif(2)/m/n/14.4 3. Накопление энтропии. Пока не набрана доста
+точное
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 744--748
+\TU/LiberationSerif(2)/m/n/14.4 количество битов энтропии, генератор не начинае
+т выдачу
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 744--748
+\TU/LiberationSerif(2)/m/n/14.4 случайных чисел. Как правило, ведётся оценка ко
+личества
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 744--748
+\TU/LiberationSerif(2)/m/n/14.4 энтропии, накопленной от каждого движения (напр
+имер, 0.5
+ []
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[32]
+Underfull \hbox (badness 4013) in paragraph at lines 751--754
+[]\TU/LiberationSerif(2)/m/n/14.4 применяется хэш-функция (SHA-256, Keccak и др
+.), чтобы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--754
+\TU/LiberationSerif(2)/m/n/14.4 статистические зависимости и делает вывод наибо
+лее
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 758--768
 []\TU/LiberationSerif(2)/m/n/14.4 Получение последовательностей случайных битов
  из физических
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 750--760
+Underfull \hbox (badness 1946) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 источников энтропии, включая квантовые, тепловы
 е, лавинные и иные
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 750--760
+Underfull \hbox (badness 2635) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 генераторы, даёт на выходе так называемые сырые
  данные (raw bits).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--760
+Underfull \hbox (badness 10000) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 Такие последовательности не гарантируют идеальн
 ого равномерного
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 750--760
+Underfull \hbox (badness 2980) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 распределения и могут содержать сдвиги, корреля
 ции, предвзятость и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--760
+Underfull \hbox (badness 10000) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 среды и вариациями технологических параметров (
 PVT — process,
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 750--760
+Underfull \hbox (badness 2689) in paragraph at lines 758--768
 \TU/LiberationSerif(2)/m/n/14.4 voltage, temperature). Поэтому требуется этап п
 остобработки, основной
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 761--767
+Underfull \hbox (badness 1132) in paragraph at lines 769--775
 \TU/LiberationSerif(2)/m/n/14.4 — удалить нежелательные закономерности, минимиз
 ировать корреляции,
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 761--767
+Underfull \hbox (badness 1184) in paragraph at lines 769--775
 \TU/LiberationSerif(2)/m/n/14.4 устранить смещения в вероятности нуля и единицы
 , а также повысить
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--782
 []\TU/LiberationSerif(2)/m/n/14.4 где \TU/LiberationSerif(2)/m/it/14.4 n \TU/Li
 berationSerif(2)/m/n/14.4 — длина исходной «сырой» последовательности, \TU/Libe
 rationSerif(2)/m/it/14.4 m \TU/LiberationSerif(2)/m/n/14.4 —
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 770--774
+Underfull \hbox (badness 1424) in paragraph at lines 778--782
 \TU/LiberationSerif(2)/m/n/14.4 длина полученного выходного потока после фильтр
 ации, \TU/LiberationSerif(2)/m/it/14.4 f \TU/LiberationSerif(2)/m/n/14.4 — функ
 ция
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--774
+Underfull \hbox (badness 10000) in paragraph at lines 778--782
 \TU/LiberationSerif(2)/m/n/14.4 постобработки, сохраняющая энтропийную массу и 
 стремящаяся к
  []
@@ -3260,27 +3269,27 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[32]
-Underfull \hbox (badness 1748) in paragraph at lines 790--793
+[33]
+Underfull \hbox (badness 1748) in paragraph at lines 798--801
 []\TU/LiberationSerif(2)/m/n/14.4 где \TU/LiberationSerif(2)/m/it/14.4 k \TU/Li
 berationSerif(2)/m/n/14.4 > 1 – число независимых потоков. Метод эффективен при
 
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 796--799
+Underfull \hbox (badness 7576) in paragraph at lines 804--807
 \TU/LiberationSerif(2)/m/n/14.4 с обратной связью. Они инициализируются сырыми 
 битами и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--816
+Underfull \hbox (badness 10000) in paragraph at lines 819--824
 []\TU/LiberationSerif(2)/m/n/14.4 предназначен для устранения смещения в послед
 овательностях
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 811--816
+Underfull \hbox (badness 1112) in paragraph at lines 819--824
 \TU/LiberationSerif(2)/m/n/14.4 случайных битов, полученных из физических источ
 ников энтропии. Он
  []
@@ -3289,201 +3298,99 @@ Missing character: There is no г ("433) in font cmmi12!
 Missing character: There is no д ("434) in font cmmi12!
 Missing character: There is no е ("435) in font cmmi12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
-[]\TU/LiberationSerif(2)/m/n/14.4 Поэтому для каждой пары $[]$применяется следу
-ющее
- []
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[33]
-Underfull \hbox (badness 7256) in paragraph at lines 848--850
-[]\TU/LiberationSerif(2)/m/n/14.4 Таким образом появления 0 и 1 в выходном бито
-вом потоке
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 851--862
-[]\TU/LiberationSerif(2)/m/n/14.4 2. «Отбеливание» (whitening) последовательнос
-тей с помощью
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 криптографических хэш-функций. Одной из самых и
-звестных техник
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 постобработки является «отбеливание» выходных д
-анных генератора
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 истинно случайных чисел с помощью криптографиче
-ской хэш-функции.
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 Наиболее известными являются такие хэш-функции,
- как MD5, SHA-1,
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 SHA-2, SHA-256, SHA-512. Считается, что если им
-еющие недостатки
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 выходные последовательности генератора случайны
-х чисел пропустить
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 через хэш-функцию, то их качество значительно у
-лучшится. На самом
- []
-
-
-Underfull \hbox (badness 2393) in paragraph at lines 851--862
-\TU/LiberationSerif(2)/m/n/14.4 случайность до уровня, достаточного для прохожд
-ения статистических
- []
-
-
-Underfull \hbox (badness 2626) in paragraph at lines 863--872
-[]\TU/LiberationSerif(2)/m/n/14.4 3. Экстрактор случайности – это алгоритм, кот
-орый преобразует
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 863--872
-\TU/LiberationSerif(2)/m/n/14.4 длинную слабо случайную последовательность в бо
-лее короткую
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 863--872
-\TU/LiberationSerif(2)/m/n/14.4 последовательность, обладающую почти идеальной 
-случайностью.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 863--872
-\TU/LiberationSerif(2)/m/n/14.4 Экстракторы реализуют теоретико-информационные 
-трансформации,
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 873--880
-[]\TU/LiberationSerif(2)/m/n/14.4 4. Упругие функции. Еще один подход к усилени
-ю случайности
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 873--880
-\TU/LiberationSerif(2)/m/n/14.4 путем фильтрации через некоторый детерминирован
-ный процесс –
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 873--880
-\TU/LiberationSerif(2)/m/n/14.4 это использование упругих функций, которые были
- введены Сунаром,
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 873--880
-\TU/LiberationSerif(2)/m/n/14.4 Мартином и Стинсоном в качестве шага постобрабо
-тки для ГСП на
- []
-
-
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [34]
-Underfull \hbox (badness 7308) in paragraph at lines 887--889
-[]\TU/LiberationSerif(2)/m/n/14.4 Программно (off-chip): для хэшей, криптографи
-ческих функций,
+Underfull \hbox (badness 10000) in paragraph at lines 843--845
+[]\TU/LiberationSerif(2)/m/n/14.4 Поэтому для каждой пары $[]$применяется следу
+ющее
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--900
-[]\TU/LiberationSerif(2)/m/n/14.4 Постобработка является неотъемлемым этапом в 
-архитектуре
+Underfull \hbox (badness 7256) in paragraph at lines 856--858
+[]\TU/LiberationSerif(2)/m/n/14.4 Таким образом появления 0 и 1 в выходном бито
+вом потоке
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 891--900
-\TU/LiberationSerif(2)/m/n/14.4 не только статистическая полнота выходной после
-довательности, но и
+Underfull \hbox (badness 10000) in paragraph at lines 859--870
+[]\TU/LiberationSerif(2)/m/n/14.4 2. «Отбеливание» (whitening) последовательнос
+тей с помощью
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 891--900
-\TU/LiberationSerif(2)/m/n/14.4 её пригодность для криптографических и стохасти
-ческих приложений.
+Underfull \hbox (badness 5345) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 криптографических хэш-функций. Одной из самых и
+звестных техник
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 912--919
-[]\TU/LiberationSerif(2)/m/n/14.4 Оценка устойчивости генераторов истинной случ
-айности является
+Underfull \hbox (badness 10000) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 постобработки является «отбеливание» выходных д
+анных генератора
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 912--919
-\TU/LiberationSerif(2)/m/n/14.4 неотъемлемой частью обеспечения криптографическ
-ой безопасности. В
+Underfull \hbox (badness 1158) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 истинно случайных чисел с помощью криптографиче
+ской хэш-функции.
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 912--919
-\TU/LiberationSerif(2)/m/n/14.4 прикладной криптографии принято анализировать у
-язвимости каждого
+Underfull \hbox (badness 2573) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 Наиболее известными являются такие хэш-функции,
+ как MD5, SHA-1,
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 920--928
-\TU/LiberationSerif(2)/m/n/14.4 и активные. Пассивные атаки направлены на получ
-ение информации
+Underfull \hbox (badness 2980) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 SHA-2, SHA-256, SHA-512. Считается, что если им
+еющие недостатки
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 920--928
-\TU/LiberationSerif(2)/m/n/14.4 о внутреннем состоянии генератора без физическо
-го вмешательства в
+Underfull \hbox (badness 2941) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 выходные последовательности генератора случайны
+х чисел пропустить
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 920--928
-\TU/LiberationSerif(2)/m/n/14.4 с ненулевой вероятностью. Активные атаки, напро
-тив, предполагают
+Underfull \hbox (badness 1558) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 через хэш-функцию, то их качество значительно у
+лучшится. На самом
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 920--928
-\TU/LiberationSerif(2)/m/n/14.4 вмешательство в функционирование ГИСП с целью к
-онтролировать его
+Underfull \hbox (badness 2393) in paragraph at lines 859--870
+\TU/LiberationSerif(2)/m/n/14.4 случайность до уровня, достаточного для прохожд
+ения статистических
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 920--928
-\TU/LiberationSerif(2)/m/n/14.4 поведение или исказить выходные данные. Возвращ
-аясь к модульному
+Underfull \hbox (badness 2626) in paragraph at lines 871--880
+[]\TU/LiberationSerif(2)/m/n/14.4 3. Экстрактор случайности – это алгоритм, кот
+орый преобразует
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--880
+\TU/LiberationSerif(2)/m/n/14.4 длинную слабо случайную последовательность в бо
+лее короткую
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--880
+\TU/LiberationSerif(2)/m/n/14.4 последовательность, обладающую почти идеальной 
+случайностью.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--880
+\TU/LiberationSerif(2)/m/n/14.4 Экстракторы реализуют теоретико-информационные 
+трансформации,
  []
 
 
@@ -3493,54 +3400,69 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [35]
-File: pandoc_media/media/image7.png Graphic file (type bmp)
-<pandoc_media/media/image7.png>
-
-Underfull \hbox (badness 1127) in paragraph at lines 933--935
-[]\TU/LiberationSerif(2)/m/n/14.4 Возможными направлениями для пассивных атак б
-удут: 1, 5. Для
+Underfull \hbox (badness 2409) in paragraph at lines 881--888
+[]\TU/LiberationSerif(2)/m/n/14.4 4. Упругие функции. Еще один подход к усилени
+ю случайности
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 побочные каналы (SCA, side-channel attacks). Эт
-и методы используют
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+\TU/LiberationSerif(2)/m/n/14.4 путем фильтрации через некоторый детерминирован
+ный процесс –
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 измерения физических параметров устройства, так
-их как потребляемая
+Underfull \hbox (badness 2951) in paragraph at lines 881--888
+\TU/LiberationSerif(2)/m/n/14.4 это использование упругих функций, которые были
+ введены Сунаром,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 мощность, электромагнитное излучение, временные
- задержки или
+Underfull \hbox (badness 3579) in paragraph at lines 881--888
+\TU/LiberationSerif(2)/m/n/14.4 Мартином и Стинсоном в качестве шага постобрабо
+тки для ГСП на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 осцилляторов (RO) было показано, что они уязвим
-ы к активным
+Underfull \hbox (badness 7308) in paragraph at lines 895--897
+[]\TU/LiberationSerif(2)/m/n/14.4 Программно (off-chip): для хэшей, криптографи
+ческих функций,
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 электромагнитным атакам. При помощи дифференциа
-льного частотного
+Underfull \hbox (badness 10000) in paragraph at lines 899--908
+[]\TU/LiberationSerif(2)/m/n/14.4 Постобработка является неотъемлемым этапом в 
+архитектуре
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 анализа исследователям удалось извлечь информац
-ию о частотах и
+Underfull \hbox (badness 2435) in paragraph at lines 899--908
+\TU/LiberationSerif(2)/m/n/14.4 не только статистическая полнота выходной после
+довательности, но и
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 936--946
-\TU/LiberationSerif(2)/m/n/14.4 расположении осцилляторов. Это, в свою очередь,
- позволило провести
+Underfull \hbox (badness 3492) in paragraph at lines 899--908
+\TU/LiberationSerif(2)/m/n/14.4 её пригодность для криптографических и стохасти
+ческих приложений.
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 920--927
+[]\TU/LiberationSerif(2)/m/n/14.4 Оценка устойчивости генераторов истинной случ
+айности является
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 920--927
+\TU/LiberationSerif(2)/m/n/14.4 неотъемлемой частью обеспечения криптографическ
+ой безопасности. В
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 920--927
+\TU/LiberationSerif(2)/m/n/14.4 прикладной криптографии принято анализировать у
+язвимости каждого
  []
 
 
@@ -3550,29 +3472,41 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 947--955
-\TU/LiberationSerif(2)/m/n/14.4 преднамеренное внесение сбоев в работу схемы. Д
-ля этого могут
+Underfull \hbox (badness 4505) in paragraph at lines 928--936
+\TU/LiberationSerif(2)/m/n/14.4 и активные. Пассивные атаки направлены на получ
+ение информации
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 947--955
-\TU/LiberationSerif(2)/m/n/14.4 низкие температуры, мощные электромагнитные пол
-я или интенсивное
+Underfull \hbox (badness 3302) in paragraph at lines 928--936
+\TU/LiberationSerif(2)/m/n/14.4 о внутреннем состоянии генератора без физическо
+го вмешательства в
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 947--955
-\TU/LiberationSerif(2)/m/n/14.4 освещение. Особенно уязвимы ГИСП на базе свобод
-но работающих
+Underfull \hbox (badness 6641) in paragraph at lines 928--936
+\TU/LiberationSerif(2)/m/n/14.4 с ненулевой вероятностью. Активные атаки, напро
+тив, предполагают
  []
 
-File: pandoc_media/media/image8.png Graphic file (type bmp)
-<pandoc_media/media/image8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--976
-\TU/LiberationSerif(2)/m/n/14.4 продемонстрировало, что, модифицируя битстрим F
-PGA-реализации
+Underfull \hbox (badness 1057) in paragraph at lines 928--936
+\TU/LiberationSerif(2)/m/n/14.4 вмешательство в функционирование ГИСП с целью к
+онтролировать его
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 928--936
+\TU/LiberationSerif(2)/m/n/14.4 поведение или исказить выходные данные. Возвращ
+аясь к модульному
+ []
+
+File: pandoc_media/media/image7.png Graphic file (type bmp)
+<pandoc_media/media/image7.png>
+
+Underfull \hbox (badness 1127) in paragraph at lines 943--945
+[]\TU/LiberationSerif(2)/m/n/14.4 Возможными направлениями для пассивных атак б
+удут: 1, 5. Для
  []
 
 
@@ -3582,43 +3516,123 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 977--984
+Underfull \hbox (badness 3547) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 побочные каналы (SCA, side-channel attacks). Эт
+и методы используют
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 измерения физических параметров устройства, так
+их как потребляемая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 мощность, электромагнитное излучение, временные
+ задержки или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 осцилляторов (RO) было показано, что они уязвим
+ы к активным
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 электромагнитным атакам. При помощи дифференциа
+льного частотного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 анализа исследователям удалось извлечь информац
+ию о частотах и
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 946--956
+\TU/LiberationSerif(2)/m/n/14.4 расположении осцилляторов. Это, в свою очередь,
+ позволило провести
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--965
+\TU/LiberationSerif(2)/m/n/14.4 преднамеренное внесение сбоев в работу схемы. Д
+ля этого могут
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 957--965
+\TU/LiberationSerif(2)/m/n/14.4 низкие температуры, мощные электромагнитные пол
+я или интенсивное
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 957--965
+\TU/LiberationSerif(2)/m/n/14.4 освещение. Особенно уязвимы ГИСП на базе свобод
+но работающих
+ []
+
+File: pandoc_media/media/image8.png Graphic file (type bmp)
+<pandoc_media/media/image8.png>
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 980--988
+\TU/LiberationSerif(2)/m/n/14.4 продемонстрировало, что, модифицируя битстрим F
+PGA-реализации
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 989--996
 []\TU/LiberationSerif(2)/m/n/14.4 Для защиты от подобных угроз предлагается нес
 колько мер.
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 977--984
+Underfull \hbox (badness 3439) in paragraph at lines 989--996
 \TU/LiberationSerif(2)/m/n/14.4 Во-первых, важно физически изолировать чувствит
 ельные компоненты
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--984
+Underfull \hbox (badness 10000) in paragraph at lines 989--996
 \TU/LiberationSerif(2)/m/n/14.4 ГИСП, например, размещать развязывающие конденс
 аторы рядом с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--984
+Underfull \hbox (badness 10000) in paragraph at lines 989--996
 \TU/LiberationSerif(2)/m/n/14.4 критически важно внедрение онлайн-механизмов са
 мотестирования,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--989
+Underfull \hbox (badness 10000) in paragraph at lines 997--1001
 \TU/LiberationSerif(2)/m/n/14.4 системного подхода к проектированию и постоянно
 го контроля за
  []
 
-) (./parts/06-chapter3.tex
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [38]
+[39]) (./parts/06-chapter3.tex
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+ [40]
 Underfull \hbox (badness 10000) in paragraph at lines 15--32
 []\TU/LiberationSerif(2)/m/n/14.4 Физические источники энтропии, такие как тепл
 овой шум,
@@ -3738,7 +3752,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[39
+[41
 
 ]
 Underfull \hbox (badness 2119) in paragraph at lines 48--62
@@ -3830,7 +3844,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[40]
+[42]
 Underfull \hbox (badness 6808) in paragraph at lines 84--96
 \TU/LiberationSerif(2)/m/n/14.4 отсчётов аналого-цифрового преобразователя (АЦП
 ), сохранение этих
@@ -3914,7 +3928,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[41]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 106--113
 []\TU/LiberationSerif(2)/m/n/14.4 Реализованный набор каналов охватывает: тепло
 вой шум
@@ -4022,7 +4036,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[42]
+[44]
 Underfull \hbox (badness 4060) in paragraph at lines 150--160
 []\TU/LiberationSerif(2)/m/n/14.4 После сброса микроконтроллер передаёт по USB-
 CDC короткий
@@ -4109,7 +4123,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[43]
+[45]
 LaTeX Font Info:    Font shape `TU/LiberationMono(0)/m/n' will be
 (Font)              scaled to size 12.51012pt on input line 175.
 
@@ -4290,7 +4304,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[44]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 202--207
 []\TU/LiberationSerif(2)/m/n/14.4 Опционально к битовому файлу применяется пост
 обработка
@@ -4344,7 +4358,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[45]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 215--218
 []\TU/LiberationSerif(2)/m/n/14.4 Отсутствие параметров, ключей и начального со
 стояния —
@@ -4473,7 +4487,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[46]
+[48]
 Underfull \hbox (badness 5817) in paragraph at lines 257--265
 \TU/LiberationSerif(2)/m/n/14.4 (тепловой шум резистора, лавинно-дробовой шум о
 братносмещённого
@@ -4498,76 +4512,68 @@ Underfull \hbox (badness 6608) in paragraph at lines 257--265
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 268--274
+Underfull \hbox (badness 2368) in paragraph at lines 268--275
 []\TU/LiberationSerif(2)/m/n/14.4 Эксперименты проводились с двумя ОУ — LM358N 
 и TL072CP.
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 268--274
-\TU/LiberationSerif(2)/m/n/14.4 Их выбор обусловлен типовой доступностью в люби
-тельских условиях,
+Underfull \hbox (badness 1014) in paragraph at lines 268--275
+[][][]$ \TU/LiberationSerif(2)/m/n/14.4 В; напряжение $[][]$ В Arduino использо
+валось \TU/LiberationSerif(2)/m/it/14.4 только \TU/LiberationSerif(2)/m/n/14.4 
+для делителя
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 268--274
-\TU/LiberationSerif(2)/m/n/14.4 (LM358) или биполярного питания (TL072). Основн
-ые характеристики,
- []
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--274
-\TU/LiberationSerif(2)/m/n/14.4 существенные для задачи усиления широкополосног
-о шума малой
- []
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
+[49]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 277.
+(Font)              scaled to size 10.0pt on input line 289.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 278.
+(Font)              scaled to size 10.0pt on input line 290.
 
 Package fontspec Info: Liberation Serif scale = 0.9999966755429671.
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 10.19958pt on input line 280.
+(Font)              scaled to size 10.19958pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 7.13971pt on input line 280.
+(Font)              scaled to size 7.13971pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(1)/m/n' will be
-(Font)              scaled to size 5.0998pt on input line 280.
+(Font)              scaled to size 5.0998pt on input line 292.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 280.
+(Font)              scaled to size 10.0pt on input line 292.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 280.
+(Font)              scaled to size 7.0pt on input line 292.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 280.
+(Font)              scaled to size 5.0pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 10.20065pt on input line 280.
+(Font)              scaled to size 10.20065pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 7.14046pt on input line 280.
+(Font)              scaled to size 7.14046pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
-(Font)              scaled to size 5.10033pt on input line 280.
+(Font)              scaled to size 5.10033pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 10.19867pt on input line 280.
+(Font)              scaled to size 10.19867pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 7.13907pt on input line 280.
+(Font)              scaled to size 7.13907pt on input line 292.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
-(Font)              scaled to size 5.09933pt on input line 280.
+(Font)              scaled to size 5.09933pt on input line 292.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []|\TU/LiberationSerif(2)/m/n/10 Произведение усиление-полоса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\TU/LiberationSerif(2)/m/n/10 Максимальное напряжение
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-[]|\TU/LiberationSerif(2)/m/n/10 ограниченная $[][][]$, требует
+Underfull \hbox (badness 1383) in paragraph at lines 311--318
+\TU/LiberationSerif(2)/m/n/14.4 включении при однополярном питании $[][][]$ В э
+то даёт выходное окно
  []
 
 
@@ -4576,44 +4582,32 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[47]
-Underfull \hbox (badness 1902) in paragraph at lines 299--306
-\TU/LiberationSerif(2)/m/n/14.4 в том, что выход этого ОУ способен подходить вп
-лотную к нижнему
+[50]
+Underfull \hbox (badness 1152) in paragraph at lines 319--335
+\TU/LiberationSerif(2)/m/n/14.4 составляет $[][][][] [] []$ В, и всё, что попыт
+ается опуститься ниже, просто
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--314
-\TU/LiberationSerif(2)/m/n/14.4 только от $[][]$ В реальные выходы оказываются 
-заметно суженным
+Underfull \hbox (badness 10000) in paragraph at lines 319--335
+\TU/LiberationSerif(2)/m/n/14.4 опорное напряжение делителя $[][]$ приходилось 
+поднимать выше
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 307--314
-\TU/LiberationSerif(2)/m/n/14.4 симметричным окном вокруг середины. В наших опы
-тах с тепловым
+Underfull \hbox (badness 1270) in paragraph at lines 319--335
+\TU/LiberationSerif(2)/m/n/14.4 тише на высокоомных источниках), что и определи
+ло роли двух ОУ в
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 307--314
-\TU/LiberationSerif(2)/m/n/14.4 шумом резистора (раздел 3.4) переход с LM358 на
- TL072 при тех же
- []
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 317--324
+Underfull \hbox (badness 10000) in paragraph at lines 338--345
 []\TU/LiberationSerif(2)/m/n/14.4 Простейшая топология (рисунок []9[]) представ
 ляет собой
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 317--324
+Underfull \hbox (badness 4341) in paragraph at lines 338--345
 \TU/LiberationSerif(2)/m/n/14.4 отнесённым к опорному напряжению $[][]$ от внеш
 него резистивного
  []
@@ -4622,11 +4616,18 @@ Underfull \hbox (badness 4341) in paragraph at lines 317--324
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 327--335
+Underfull \hbox (badness 4441) in paragraph at lines 348--356
 \TU/LiberationSerif(2)/m/n/14.4 младшими разрядами 10-битного АЦП Arduino. Конк
 ретные значения
  []
 
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[51]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -4642,45 +4643,45 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[49]
+ [52]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [50]
-Underfull \hbox (badness 2970) in paragraph at lines 351--363
+ [53]
+Underfull \hbox (badness 2970) in paragraph at lines 372--384
 \TU/LiberationSerif(2)/m/n/14.4 каскаде его реализовать затруднительно: на боль
 ших $[][]$ растут вклад
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--363
+Underfull \hbox (badness 10000) in paragraph at lines 372--384
 \TU/LiberationSerif(2)/m/n/14.4 собственных шумов резистора обратной связи, ток
 ов смещения ОУ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--363
+Underfull \hbox (badness 10000) in paragraph at lines 372--384
 \TU/LiberationSerif(2)/m/n/14.4 и риск самовозбуждения тракта. Решение — каскад
 ирование двух
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 351--363
+Underfull \hbox (badness 1629) in paragraph at lines 372--384
 [][]$ \TU/LiberationSerif(2)/m/n/14.4 через последовательный резистор $[][]$ (н
 а схеме $[][] [] [][]$ кОм;
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 351--363
+Underfull \hbox (badness 2469) in paragraph at lines 372--384
 \TU/LiberationSerif(2)/m/n/14.4 на практике $[][] [] [][][]$ кОм) подаётся на и
 нвертирующий вход второго
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
+Underfull \hbox (badness 10000) in paragraph at lines 385--387
 []\TU/LiberationSerif(2)/m/n/14.4 Результирующий коэффициент усиления равен про
 изведению
  []
@@ -4703,16 +4704,16 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[51
+[54
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 413--427
+Underfull \hbox (badness 10000) in paragraph at lines 434--448
 []\TU/LiberationSerif(2)/m/n/14.4 Опорное напряжение $[][]$ (его также называют
  «виртуальной
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 413--427
+Underfull \hbox (badness 1024) in paragraph at lines 434--448
 \TU/LiberationSerif(2)/m/n/14.4 серединой» в литературе по проектированию одноп
 олярных аналоговых
  []
@@ -4723,56 +4724,56 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[52]
-Underfull \hbox (badness 3229) in paragraph at lines 428--432
+[55]
+Underfull \hbox (badness 3229) in paragraph at lines 449--453
 []\TU/LiberationSerif(2)/m/n/14.4 Дополнительно у выводов питания корпуса ОУ ус
 танавливаются
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 435--448
+Underfull \hbox (badness 1509) in paragraph at lines 456--469
 \TU/LiberationSerif(2)/m/n/14.4 нижний предел выхода поднимается до значения по
 рядка $[][][][] [] [][][]$ В
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 435--448
+Underfull \hbox (badness 2941) in paragraph at lines 456--469
 \TU/LiberationSerif(2)/m/n/14.4 (TL072 в принципе не способен достичь отрицател
 ьного рельса даже
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 435--448
+Underfull \hbox (badness 1038) in paragraph at lines 456--469
 \TU/LiberationSerif(2)/m/n/14.4 «невидимый зазор» сверху и снизу оказывается за
 метным). Именно это
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 449--465
+Underfull \hbox (badness 3492) in paragraph at lines 470--486
 \TU/LiberationSerif(2)/m/n/14.4 встроенными защитными диодами и оцифровывается 
 как насыщенное
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 449--465
+Underfull \hbox (badness 1616) in paragraph at lines 470--486
 \TU/LiberationSerif(2)/m/n/14.4 собственному шуму прибавляется небольшая постоя
 нная составляющая,
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 449--465
+Underfull \hbox (badness 4168) in paragraph at lines 470--486
 \TU/LiberationSerif(2)/m/n/14.4 унаследованная от DC-связанной резистивной связ
 и между каскадами
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--465
+Underfull \hbox (badness 10000) in paragraph at lines 470--486
 \TU/LiberationSerif(2)/m/n/14.4 недостаточно: при сильных лавинных импульсах си
 стематически
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 449--465
+Underfull \hbox (badness 1648) in paragraph at lines 470--486
 \TU/LiberationSerif(2)/m/n/14.4 появляются насыщенные значения $[][][][]$ на ги
 стограмме (этот артефакт
  []
@@ -4783,68 +4784,68 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 466--477
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 487--498
 []\TU/LiberationSerif(2)/m/n/14.4 Решение, использованное в данной работе для ф
 инальной
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 466--477
+Underfull \hbox (badness 1163) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 конфигурации усилителя лавинного шума BJT (разд
 ел 3.5.4), состоит в
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 466--477
+Underfull \hbox (badness 3657) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 при котором смещённая вверх рабочая точка выход
 а второго каскада
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 466--477
+Underfull \hbox (badness 1540) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 возвращается в окрестность середины диапазона А
 ЦП. Технически это
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 466--477
+Underfull \hbox (badness 1348) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 реализуется одним из двух способов: либо замено
 й нижнего резистора
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 466--477
+Underfull \hbox (badness 1009) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 делителя $[][]$ на меньший номинал (например, $
 [][]$ кОм $[]$ $[]$ кОм), либо
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 466--477
+Underfull \hbox (badness 2426) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 добавлением второго резистора параллельно $[][]
 $ — последний вариант
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 466--477
+Underfull \hbox (badness 1931) in paragraph at lines 487--498
 \TU/LiberationSerif(2)/m/n/14.4 плате стенда без перепайки исходных элементов. 
 Подробный расчёт и
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 480--486
+Underfull \hbox (badness 4518) in paragraph at lines 501--507
 []\TU/LiberationSerif(2)/m/n/14.4 Тепловой шум прецизионного резистора — наибол
 ее известный
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 480--486
+Underfull \hbox (badness 1688) in paragraph at lines 501--507
 \TU/LiberationSerif(2)/m/n/14.4 и теоретически наилучшим образом изученный из «
 тихих» источников
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 480--486
+Underfull \hbox (badness 1540) in paragraph at lines 501--507
 \TU/LiberationSerif(2)/m/n/14.4 энтропии (раздел 2.1). Главный довод в пользу е
 го экспериментальной
  []
@@ -4855,20 +4856,20 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 489--503
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 510--524
 []\TU/LiberationSerif(2)/m/n/14.4 В качестве источника шума использован прецизи
 онный
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 489--503
+Underfull \hbox (badness 4505) in paragraph at lines 510--524
 \TU/LiberationSerif(2)/m/n/14.4 металлоплёночный резистор $[][] [] [][]$ МОм, в
 ключённый между
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 489--503
+Underfull \hbox (badness 4205) in paragraph at lines 510--524
 \TU/LiberationSerif(2)/m/n/14.4 с лавинным шумом BJT); такой выбор обусловлен з
 аметно меньшей
  []
@@ -4877,7 +4878,7 @@ Underfull \hbox (badness 4205) in paragraph at lines 489--503
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 507--517
+Underfull \hbox (badness 1057) in paragraph at lines 528--538
 \TU/LiberationSerif(2)/m/n/14.4 малая, поэтому собственные шумы входного каскад
 а ОУ для теплового
  []
@@ -4888,14 +4889,14 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[55]
-Underfull \hbox (badness 1127) in paragraph at lines 520--525
+[58]
+Underfull \hbox (badness 1127) in paragraph at lines 541--546
 []\TU/LiberationSerif(2)/m/n/14.4 В таблице []3[] приведены сводные показатели 
 сырого сигнала АЦП
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 520--525
+Underfull \hbox (badness 2020) in paragraph at lines 541--546
 \TU/LiberationSerif(2)/m/n/14.4 распределения отсчётов и нормированная автокорр
 еляционная функция;
  []
@@ -4933,74 +4934,74 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[56]
-Underfull \hbox (badness 2990) in paragraph at lines 581--586
+[59]
+Underfull \hbox (badness 2990) in paragraph at lines 602--607
 []\TU/LiberationSerif(2)/m/n/14.4 Распределение отсчётов узкое (стандартное отк
 лонение менее $[][]$
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 581--586
+Underfull \hbox (badness 3849) in paragraph at lines 602--607
 \TU/LiberationSerif(2)/m/n/14.4 единиц шкалы при размахе $[] [] [][][][]$) и за
 метно смещено к верхней
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 587--598
+Underfull \hbox (badness 1019) in paragraph at lines 608--619
 \TU/LiberationSerif(2)/m/n/14.4 в смещённую вверх постоянную составляющую на вх
 оде АЦП. Иными
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 587--598
+Underfull \hbox (badness 1769) in paragraph at lines 608--619
 \TU/LiberationSerif(2)/m/n/14.4 АЦП. Этот эффект — неизбежная плата за выбор бо
 лее «тихого» ОУ,
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 587--598
+Underfull \hbox (badness 1867) in paragraph at lines 608--619
 \TU/LiberationSerif(2)/m/n/14.4 и в данном опыте не компенсировался смещением $
 [][]$ вниз (как это
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 587--598
+Underfull \hbox (badness 2065) in paragraph at lines 608--619
 \TU/LiberationSerif(2)/m/n/14.4 важнее сохранить естественное отношение сигнал/
 шум, чем выровнять
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 599--615
+Underfull \hbox (badness 1147) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/n/14.4 шума на входе усилителя составляет лишь $[][][]
 []$ мкВ — крайне малая
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 599--615
+Underfull \hbox (badness 2376) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/n/14.4 величина, того же порядка, что и расчётный тепл
 овой шум $[][]$ МОм-
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 599--615
+Underfull \hbox (badness 3849) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/n/14.4 каскада TL072 при работе с большим источниковым
  сопротивлением.
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 599--615
+Underfull \hbox (badness 1817) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/n/14.4 В этом и состоит главное практическое ограничен
 ие теплового канала
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 599--615
+Underfull \hbox (badness 8189) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/n/14.4 на резисторе: \TU/LiberationSerif(2)/m/it/14.4 
 достигнутая в данной постановке амплитуда близка
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--615
+Underfull \hbox (badness 10000) in paragraph at lines 620--636
 \TU/LiberationSerif(2)/m/it/14.4 к максимуму\TU/LiberationSerif(2)/m/n/14.4 , д
 оступному без принципиальной модификации схемы.
  []
@@ -5011,14 +5012,14 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[57]
-Underfull \hbox (badness 2478) in paragraph at lines 616--620
+[60]
+Underfull \hbox (badness 2478) in paragraph at lines 637--641
 []\TU/LiberationSerif(2)/m/n/14.4 Автокорреляционная функция отсчётов содержит 
 несколько узких
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--626
+Underfull \hbox (badness 10000) in paragraph at lines 644--647
 \TU/LiberationSerif(2)/m/n/14.4 разряда каждого отсчёта и постобработкой по схе
 ме фон Неймана.
  []
@@ -5035,7 +5036,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[58]
+[61]
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
@@ -5043,43 +5044,43 @@ Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 672--683
+Underfull \hbox (badness 2005) in paragraph at lines 693--704
 []\TU/LiberationSerif(2)/m/n/14.4 Несмотря на узость гистограммы, после фон Ней
 мана из десяти
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 672--683
+Underfull \hbox (badness 2564) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 содержательных групп тестов (без учёта RandomEx
 cursions, которые в
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--683
+Underfull \hbox (badness 10000) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 остаточной памятью процесса на коротких масштаб
 ах, наследуемой
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 672--683
+Underfull \hbox (badness 4608) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 от ограниченной полосы усилителя; провал \TU/Li
 berationMono(2)/m/n/14.4 NonOverlappingTemplate
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 672--683
+Underfull \hbox (badness 4872) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 характерен для тонкого смещения вероятностей по
 явления отдельных
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 672--683
+Underfull \hbox (badness 1189) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 коротких шаблонов и в большинстве источников эт
 ой работы устранён
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 672--683
+Underfull \hbox (badness 1275) in paragraph at lines 693--704
 \TU/LiberationSerif(2)/m/n/14.4 честной постановке демонстрирует работоспособну
 ю энтропийную базу
  []
@@ -5090,80 +5091,80 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 686--693
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 707--714
 []\TU/LiberationSerif(2)/m/n/14.4 Лавинный пробой BE-перехода NPN-транзистора п
 ри обратном
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 686--693
+Underfull \hbox (badness 7030) in paragraph at lines 707--714
 \TU/LiberationSerif(2)/m/n/14.4 свойств: высокая амплитуда импульсов (что упрощ
 ает требования к
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--693
+Underfull \hbox (badness 10000) in paragraph at lines 707--714
 \TU/LiberationSerif(2)/m/n/14.4 усилителю и АЦП), широкополосный спектр, нечувс
 твительность к
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 686--693
+Underfull \hbox (badness 5787) in paragraph at lines 707--714
 \TU/LiberationSerif(2)/m/n/14.4 температурным колебаниям окружающей среды на ма
 сштабах сеанса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--709
+Underfull \hbox (badness 10000) in paragraph at lines 715--730
 []\TU/LiberationSerif(2)/m/n/14.4 Именно этот источник стал основным предметом 
 натурных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--709
+Underfull \hbox (badness 10000) in paragraph at lines 715--730
 \TU/LiberationSerif(2)/m/n/14.4 следующая итерация фиксирует и устраняет конкре
 тный артефакт,
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 694--709
+Underfull \hbox (badness 2617) in paragraph at lines 715--730
 \TU/LiberationSerif(2)/m/n/14.4 прибора во всех экспериментах использовался NPN
 -транзистор BC337,
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 694--709
+Underfull \hbox (badness 7832) in paragraph at lines 715--730
 \TU/LiberationSerif(2)/m/n/14.4 включённый в \TU/LiberationSerif(2)/m/it/14.4 и
 нвертированном \TU/LiberationSerif(2)/m/n/14.4 режиме с обратно смещённым BE-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 694--709
+Underfull \hbox (badness 1087) in paragraph at lines 715--730
 [][]$ \TU/LiberationSerif(2)/m/n/14.4 со стороны эмиттера. Полезный сигнал сним
 ается с эмиттера через
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 710--724
+Underfull \hbox (badness 5147) in paragraph at lines 731--745
 \TU/LiberationSerif(2)/m/n/14.4 популярный 2N3904, у которого по справочным дан
 ным напряжение
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 710--724
+Underfull \hbox (badness 3219) in paragraph at lines 731--745
 \TU/LiberationSerif(2)/m/n/14.4 импульсов лавинного пробоя. После переключения 
 на BC337 картина
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 710--724
+Underfull \hbox (badness 1400) in paragraph at lines 731--745
 \TU/LiberationSerif(2)/m/n/14.4 относится к параметрам кристалла в самом неблаг
 оприятном случае, а
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 710--724
+Underfull \hbox (badness 4001) in paragraph at lines 731--745
 \TU/LiberationSerif(2)/m/n/14.4 результатов раздела рекомендуется именно BC337 
 (или ручной отбор
  []
@@ -5174,32 +5175,32 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[60]
-Underfull \hbox (badness 2837) in paragraph at lines 727--738
+[63]
+Underfull \hbox (badness 2837) in paragraph at lines 748--759
 \TU/LiberationSerif(2)/m/n/14.4 выбивает из кристаллической решётки новую пару 
 электрон–дырка, и
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 727--738
+Underfull \hbox (badness 2486) in paragraph at lines 748--759
 \TU/LiberationSerif(2)/m/n/14.4 процесс «размножается». Поскольку число новых н
 осителей в каждой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 727--738
+Underfull \hbox (badness 10000) in paragraph at lines 748--759
 \TU/LiberationSerif(2)/m/n/14.4 лавине случайно, через переход течёт случайно ф
 луктуирующий
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 727--738
+Underfull \hbox (badness 2762) in paragraph at lines 748--759
 \TU/LiberationSerif(2)/m/n/14.4 ток в диапазоне $[][][] [] [][]$ мкА (грубая оц
 енка $[][][] [] [][][][][][]$ при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 727--738
+Underfull \hbox (badness 10000) in paragraph at lines 748--759
 \TU/LiberationSerif(2)/m/n/14.4 дробового типа с увеличением множителем избыточ
 ного шума $[]$
  []
@@ -5218,26 +5219,26 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[61]
-Underfull \hbox (badness 8000) in paragraph at lines 751--757
+[64]
+Underfull \hbox (badness 8000) in paragraph at lines 772--778
 []\TU/LiberationSerif(2)/m/n/14.4 Источник шума оформлен как самостоятельный мо
 дуль, выход
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 751--757
+Underfull \hbox (badness 4132) in paragraph at lines 772--778
 \TU/LiberationSerif(2)/m/n/14.4 (точка «Noise» на схеме рисунка []10[]). Питани
 е $[][][]$ В одновременно
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 751--757
+Underfull \hbox (badness 2401) in paragraph at lines 772--778
 \TU/LiberationSerif(2)/m/n/14.4 обеспечивает обратное смещение BE-перехода (для
  пробоя) и питание
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 760--766
+Underfull \hbox (badness 1558) in paragraph at lines 781--787
 \TU/LiberationSerif(2)/m/n/14.4 Гипотеза: даже относительно скромного усиления 
 окажется достаточно,
  []
@@ -5254,7 +5255,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[62]
+[65]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -5267,13 +5268,13 @@ File: pandoc_media/media/exp_bjt_1stage/psd_raw.png Graphic file (type bmp)
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 804--820
+Underfull \hbox (badness 3907) in paragraph at lines 825--841
 []\TU/LiberationSerif(2)/m/n/14.4 Основная масса полезного сигнала сосредоточен
 а в окрестности
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 804--820
+Underfull \hbox (badness 1748) in paragraph at lines 825--841
 \TU/LiberationSerif(2)/m/n/14.4 коэффициент усиления $[] [] [][]$ субоптимален:
  большая часть шкалы
  []
@@ -5284,7 +5285,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[63]
+[66]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -5304,32 +5305,62 @@ File: pandoc_media/media/exp_bjt_2stage/scope_time_125ms.png Graphic file (type
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+Underfull \hbox (badness 2221) in paragraph at lines 892--907
+\TU/LiberationSerif(2)/m/n/14.4 момент. Однако на гистограмме отчётливо проявля
+ется \TU/LiberationSerif(2)/m/it/14.4 нежелательная
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 892--907
+\TU/LiberationSerif(2)/m/n/14.4 при однополярном питании $[][][]$ В способен ра
+скачивать выход в окне
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 892--907
+[][] [] [][][][]$ \TU/LiberationSerif(2)/m/n/14.4 В, тогда как АЦП Arduino прин
+имает только $[] [] []$ В и всё,
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 892--907
+\TU/LiberationSerif(2)/m/n/14.4 что выходит за верхний предел, ограничивается з
+ащитными цепями и
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 892--907
+\TU/LiberationSerif(2)/m/n/14.4 шкалы запас всего $[] [][][]$ В; при возросшем 
+коэффициенте усиления
+ []
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [64]
-Underfull \hbox (badness 10000) in paragraph at lines 884--889
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 908--913
 []\TU/LiberationSerif(2)/m/n/14.4 Этот класс артефакта особенно неприятен для п
 оследующей
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 884--889
+Underfull \hbox (badness 1436) in paragraph at lines 908--913
 \TU/LiberationSerif(2)/m/n/14.4 постобработки: насыщение — \TU/LiberationSerif(
 2)/m/it/14.4 детерминированный \TU/LiberationSerif(2)/m/n/14.4 процесс, и младш
 ие
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 884--889
+Underfull \hbox (badness 4036) in paragraph at lines 908--913
 \TU/LiberationSerif(2)/m/n/14.4 Поэтому несмотря на формально лучший результат 
 NIST STS, такая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--898
+Underfull \hbox (badness 10000) in paragraph at lines 916--922
 []\TU/LiberationSerif(2)/m/n/14.4 Логика следующей итерации проста: чтобы досту
 пное окно
  []
@@ -5338,13 +5369,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 892--898
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 911--917
+Underfull \hbox (badness 1163) in paragraph at lines 935--941
 \TU/LiberationSerif(2)/m/n/14.4 даёт оптимальное по симметрии гистограммы смеще
 ние рабочей точки.
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 911--917
+Underfull \hbox (badness 1142) in paragraph at lines 935--941
 \TU/LiberationSerif(2)/m/n/14.4 вариант с добавлением параллельного резистора б
 ыл выбран как более
  []
@@ -5355,8 +5386,8 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[65]
-Underfull \hbox (badness 4266) in paragraph at lines 918--920
+[68]
+Underfull \hbox (badness 4266) in paragraph at lines 942--944
 []\TU/LiberationSerif(2)/m/n/14.4 Результаты сеанса после внесения этой коррекц
 ии приведены в
  []
@@ -5380,55 +5411,55 @@ ype bmp)
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 959--965
+Underfull \hbox (badness 5862) in paragraph at lines 983--989
 []\TU/LiberationSerif(2)/m/n/14.4 Гистограмма приобрела квазигауссовский вид с 
 симметричными
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 968--984
+Underfull \hbox (badness 5345) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 запитаны и операционные усилители, и цепь обрат
 ного пробоя BJT.
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 968--984
+Underfull \hbox (badness 4279) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 Добавлены два конденсатора, включённых параллел
 ьно между шиной
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 968--984
+Underfull \hbox (badness 1688) in paragraph at lines 992--1008
 [][][]$ \TU/LiberationSerif(2)/m/n/14.4 В и общим проводом вблизи микросхемы ОУ
 : электролитический
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 968--984
+Underfull \hbox (badness 1038) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 рисунка []10[]). Такая пара — классическое реше
 ние: крупный электролит
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 968--984
+Underfull \hbox (badness 1990) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 при импульсном характере лавинного тока, а мала
 я керамика, обладая
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 968--984
+Underfull \hbox (badness 1728) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 непосредственно у выводов питания, где электрол
 ит из-за собственной
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 968--984
+Underfull \hbox (badness 3590) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 индуктивности уже неэффективен. Кроме того, на 
 этом этапе вместо
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 968--984
+Underfull \hbox (badness 2486) in paragraph at lines 992--1008
 \TU/LiberationSerif(2)/m/n/14.4 шине. Цель доработки — убрать модуляцию рабочей
  точки пробоя и
  []
@@ -5439,86 +5470,86 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[66]
+[69]
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--1002
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1026
 []\TU/LiberationSerif(2)/m/n/14.4 Качество разных источников питания оценивалос
 ь тем же
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 985--1002
+Underfull \hbox (badness 2744) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 времени, а ко входу усилителя вместо источника 
 шума подключалась
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 985--1002
+Underfull \hbox (badness 2707) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 исследуемая шина $[][][]$ В через разделительны
 й конденсатор $[][][]$ мкФ
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 985--1002
+Underfull \hbox (badness 1895) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 на неинвертирующий вход (пин 3, помимо штатной 
 подтяжки к $[][]$).
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 985--1002
+Underfull \hbox (badness 4341) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 Конденсатор отсекает постоянную составляющую $[
 ][][]$ В (иначе вход
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 985--1002
+Underfull \hbox (badness 2343) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 немедленно вышел бы за пределы диапазона), проп
 уская на усиление
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 985--1002
+Underfull \hbox (badness 2111) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 только \TU/LiberationSerif(2)/m/it/14.4 перемен
 ную \TU/LiberationSerif(2)/m/n/14.4 часть — пульсации блока питания. В сочетани
 и с
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 985--1002
+Underfull \hbox (badness 2426) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 единиц-десятков герц, поэтому в полосу попадают
  как низкочастотная
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 985--1002
+Underfull \hbox (badness 5578) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 пульсация выпрямителя ($[][][][][][]$ Гц), так 
 и высокочастотные помехи
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 985--1002
+Underfull \hbox (badness 1831) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 пульсации наблюдались на экране в реальном врем
 ени, что позволило
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 985--1002
+Underfull \hbox (badness 2698) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 и обоснованно выбрать наиболее «тихий». Эта кон
 фигурация принята
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 985--1002
+Underfull \hbox (badness 2126) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 как \TU/LiberationSerif(2)/m/it/14.4 итоговая \
 TU/LiberationSerif(2)/m/n/14.4 для канала; именно её данные используются в каче
 стве
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 985--1002
+Underfull \hbox (badness 4765) in paragraph at lines 1009--1026
 \TU/LiberationSerif(2)/m/n/14.4 референса для всех дальнейших экспериментов и д
 ля сравнительной
  []
@@ -5527,21 +5558,21 @@ Underfull \hbox (badness 4765) in paragraph at lines 985--1002
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+[70]
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
 Package fontspec Info: Liberation Serif scale = 0.9999966755429671.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1025.
+(Font)              scaled to size 10.0pt on input line 1049.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 7.0pt on input line 1025.
+(Font)              scaled to size 7.0pt on input line 1049.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 5.0pt on input line 1025.
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[67]
+(Font)              scaled to size 5.0pt on input line 1049.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -5563,11 +5594,18 @@ File: pandoc_media/media/exp_bjt_vcc_stab/bits_image.png Graphic file (type bmp
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1052.
+(Font)              scaled to size 14.4pt on input line 1076.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 10.656pt on input line 1052.
+(Font)              scaled to size 10.656pt on input line 1076.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 7.92pt on input line 1052.
+(Font)              scaled to size 7.92pt on input line 1076.
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+
+Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
+
+ [71]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -5580,96 +5618,90 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [68]
+ [72]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1111.
+(Font)              scaled to size 8.0pt on input line 1135.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1113.
+(Font)              scaled to size 8.0pt on input line 1137.
 
 Package fontspec Info: Liberation Serif scale = 0.9999958444321626.
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1115.
+(Font)              scaled to size 8.0pt on input line 1139.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1115.
+(Font)              scaled to size 6.0pt on input line 1139.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1115.
+(Font)              scaled to size 8.0pt on input line 1139.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(1)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 1115.
+(Font)              scaled to size 6.0pt on input line 1139.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1141
 []|\TU/LiberationSerif(2)/m/n/8 Насы-
  []
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 1121.
+(Font)              scaled to size 8.0pt on input line 1145.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
 []|\TU/LiberationSerif(2)/m/it/8 да
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 []|\TU/LiberationSerif(2)/m/n/8 проявился потолок LM358;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 \TU/LiberationSerif(2)/m/n/8 формальный STS улучшился,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 \TU/LiberationSerif(2)/m/n/8 но за счёт детерминированных
  []
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1125.
+(Font)              scaled to size 8.0pt on input line 1149.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
 []|\TU/LiberationSerif(2)/m/n/8 итоговая конфигурация: лучший
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
 \TU/LiberationSerif(2)/m/n/8 результат при честной форме
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 1130--1139
+Underfull \hbox (badness 1389) in paragraph at lines 1154--1163
 \TU/LiberationSerif(2)/m/n/14.4 сигнала. На этапе 2 пакет STS выдал лучший резу
 льтат, чем на этапе
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1130--1139
+Underfull \hbox (badness 1210) in paragraph at lines 1154--1163
 \TU/LiberationSerif(2)/m/n/14.4 1, — но именно благодаря неустранимому системат
 ическому артефакту
  []
 
 
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-
-Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
-
-[69]
-Underfull \hbox (badness 5592) in paragraph at lines 1140--1147
+Underfull \hbox (badness 5592) in paragraph at lines 1164--1171
 []\TU/LiberationSerif(2)/m/n/14.4 Финальная конфигурация была собрана навесным 
 монтажом на
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1140--1147
+Underfull \hbox (badness 5245) in paragraph at lines 1164--1171
 [][][][]$ \TU/LiberationSerif(2)/m/n/14.4 мм) с точечной пайкой и проволочными 
 перемычками; именно
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 1140--1147
+Underfull \hbox (badness 2980) in paragraph at lines 1164--1171
 \TU/LiberationSerif(2)/m/n/14.4 в разделе 3.5.4, выполнена непосредственно пове
 рх готовой платы —
  []
@@ -5689,8 +5721,8 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[70]
-Underfull \hbox (badness 4108) in paragraph at lines 1164--1169
+[73]
+Underfull \hbox (badness 4108) in paragraph at lines 1188--1193
 \TU/LiberationSerif(2)/m/n/14.4 потока МЗР — каждый из методов применялся напря
 мую к выходу
  []
@@ -5702,12 +5734,12 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999958444321626.
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(0)/m/n' will be
-(Font)              scaled to size 6.95007pt on input line 1183.
+(Font)              scaled to size 6.95007pt on input line 1207.
 
 Package fontspec Info: Liberation Mono scale = 0.8687584162776678.
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(2)/m/n' will be
-(Font)              scaled to size 6.95007pt on input line 1183.
+(Font)              scaled to size 6.95007pt on input line 1207.
 
 Package fontspec Info: Liberation Mono scale = 0.8687584162776678.
 
@@ -5726,62 +5758,62 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[71]
-Underfull \hbox (badness 1400) in paragraph at lines 1196--1203
+[74]
+Underfull \hbox (badness 1400) in paragraph at lines 1220--1227
 \TU/LiberationSerif(2)/m/n/14.4 ни криптографическому хэшу SHA-256, ни XOR-деци
 мации с окном 8.
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 1196--1203
+Underfull \hbox (badness 1895) in paragraph at lines 1220--1227
 \TU/LiberationSerif(2)/m/n/14.4 Однако ни один из перечисленных способов в один
 очку не позволяет
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1203
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1227
 \TU/LiberationSerif(2)/m/n/14.4 RandomExcursions и RandomExcursionsVariant, отр
 ажающие тонкую
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 1196--1203
+Underfull \hbox (badness 1983) in paragraph at lines 1220--1227
 \TU/LiberationSerif(2)/m/n/14.4 остаточную структуру битового потока. Эти резул
 ьтаты подвели нас к
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 1196--1203
+Underfull \hbox (badness 7869) in paragraph at lines 1220--1227
 \TU/LiberationSerif(2)/m/n/14.4 следующему естественному шагу — каскадированию 
 двух процедур
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 1206--1215
+Underfull \hbox (badness 3354) in paragraph at lines 1230--1239
 []\TU/LiberationSerif(2)/m/n/14.4 Логика следующего эксперимента такова. Постоб
 работка по фон
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1206--1215
+Underfull \hbox (badness 1406) in paragraph at lines 1230--1239
 [][][][] [] [][][][]$ \TU/LiberationSerif(2)/m/n/14.4 на уровне отдельных битов
 , но не борется с локальной
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 1206--1215
+Underfull \hbox (badness 4181) in paragraph at lines 1230--1239
 \TU/LiberationSerif(2)/m/n/14.4 один проход децимирующего отбеливания (XOR или 
 эквивалентного),
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 1206--1215
+Underfull \hbox (badness 5504) in paragraph at lines 1230--1239
 \TU/LiberationSerif(2)/m/n/14.4 второй проход должен «съесть» уже именно остато
 чные корреляции,
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 1206--1215
+Underfull \hbox (badness 5203) in paragraph at lines 1230--1239
 \TU/LiberationSerif(2)/m/n/14.4 доступные после первой коррекции. Каждый из чет
 ырёх алгоритмов
  []
@@ -5813,30 +5845,30 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[72]
+[75]
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 1242--1250
+Underfull \hbox (badness 1314) in paragraph at lines 1266--1274
 []\TU/LiberationSerif(2)/m/n/14.4 Прогон по методу \TU/LiberationMono(2)/m/n/14
 .4 sha256_2048 \TU/LiberationSerif(2)/m/n/14.4 прервался на длине входа: после
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 1242--1250
+Underfull \hbox (badness 1348) in paragraph at lines 1266--1274
 \TU/LiberationSerif(2)/m/n/14.4 двойной постобработки (VN дал $[] [][][]$ МБ, а
  1:64-я компрессия SHA
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1242--1250
+Underfull \hbox (badness 1163) in paragraph at lines 1266--1274
 \TU/LiberationSerif(2)/m/n/14.4 сократила это до $[][][][]$ МБ) выход оказался 
 короче минимума $[][][][]$ МБ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1250
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1274
 \TU/LiberationSerif(2)/m/n/14.4 подчёркивает практическую цену каскадной постоб
 работки: каждое
  []
@@ -5863,37 +5895,37 @@ Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 1260--1273
+Underfull \hbox (badness 4072) in paragraph at lines 1284--1297
 []\TU/LiberationSerif(2)/m/n/14.4 Главный результат раздела: два из четырёх исп
 ытанных вторых
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1260--1273
+Underfull \hbox (badness 3386) in paragraph at lines 1284--1297
 \TU/LiberationSerif(2)/m/n/14.4 последовательности; в том числе проходят тесты 
 RandomExcursions и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1260--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1297
 \TU/LiberationSerif(2)/m/n/14.4 RandomExcursionsVariant, которые во всех предыд
 ущих постановках
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1260--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1297
 \TU/LiberationSerif(2)/m/n/14.4 раздела давали отрицательный вердикт (по технич
 еским причинам,
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 1260--1273
+Underfull \hbox (badness 2213) in paragraph at lines 1284--1297
 \TU/LiberationSerif(2)/m/n/14.4 данных). Иначе говоря, именно двухступенчатая о
 бработка превращает
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 1260--1273
+Underfull \hbox (badness 6542) in paragraph at lines 1284--1297
 \TU/LiberationSerif(2)/m/it/14.4 прошедший формальную проверку \TU/LiberationSe
 rif(2)/m/n/14.4 битовый поток без задействования
  []
@@ -5904,107 +5936,107 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[73]
-Underfull \hbox (badness 1303) in paragraph at lines 1274--1282
+[76]
+Underfull \hbox (badness 1303) in paragraph at lines 1298--1306
 []$ \TU/LiberationSerif(2)/m/n/14.4 и $[]$ и ослабляет крупномасштабные смещени
 я; второй проход (XOR-
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 1274--1282
+Underfull \hbox (badness 5022) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 децимация с окном 8) дополнительно разрушает то
 нкую остаточную
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 1274--1282
+Underfull \hbox (badness 2277) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 корреляцию между соседними битами выхода VN, ун
 аследованную от
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 1274--1282
+Underfull \hbox (badness 6927) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 ограниченной полосы аналогового тракта. Каждая 
 из двух ступеней
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1282
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 по отдельности недостаточна, но в комбинации он
 и эквивалентны
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1282
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 причём требуют существенно меньше вычислительны
 х ресурсов
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 1274--1282
+Underfull \hbox (badness 4108) in paragraph at lines 1298--1306
 \TU/LiberationSerif(2)/m/n/14.4 микроконтроллера и могут быть полностью реализо
 ваны в прошивке
  []
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(0)/m/it' will be
-(Font)              scaled to size 12.51012pt on input line 1285.
+(Font)              scaled to size 12.51012pt on input line 1309.
 LaTeX Font Info:    Font shape `TU/LiberationSerif(0)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 1285.
+(Font)              scaled to size 14.4pt on input line 1309.
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(2)/m/it' will be
-(Font)              scaled to size 12.51012pt on input line 1285.
+(Font)              scaled to size 12.51012pt on input line 1309.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1291
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1315
 []\TU/LiberationSerif(2)/m/n/14.4 С точки зрения практической инженерной рекоме
 ндации: для
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 1283--1291
+Underfull \hbox (badness 7221) in paragraph at lines 1307--1315
 \TU/LiberationSerif(2)/m/n/14.4 при необходимости одну из ступеней можно перене
 сти на сторону
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1291
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1315
 \TU/LiberationSerif(2)/m/n/14.4 хост-компьютера, разделив нагрузку. Полученный 
 итоговый поток
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 1283--1291
+Underfull \hbox (badness 1742) in paragraph at lines 1307--1315
 \TU/LiberationSerif(2)/m/n/14.4 криптографических ГПСЧ, начальная инициализация
  состояния сеансов
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 1294--1306
+Underfull \hbox (badness 4765) in paragraph at lines 1318--1330
 \TU/LiberationSerif(2)/m/n/14.4 (раздел 2.3) исследовался шум электретного капс
 юля модуля KY-037,
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 1294--1306
+Underfull \hbox (badness 5771) in paragraph at lines 1318--1330
 \TU/LiberationSerif(2)/m/n/14.4 подключённого аналоговым выходом непосредственн
 о ко входу АЦП
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 1294--1306
+Underfull \hbox (badness 1184) in paragraph at lines 1318--1330
 \TU/LiberationSerif(2)/m/n/14.4 Arduino. Модуль содержит собственный малошумящи
 й предусилитель с
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 1294--1306
+Underfull \hbox (badness 4595) in paragraph at lines 1318--1330
 \TU/LiberationSerif(2)/m/n/14.4 регулируемой чувствительностью; внешняя обвязка
  не использовалась.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1294--1306
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1330
 \TU/LiberationSerif(2)/m/n/14.4 Запись велась в обычной жилой комнате при типич
 ном бытовом
  []
@@ -6015,7 +6047,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[74]
+[77]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -6034,19 +6066,19 @@ File: pandoc_media/media/exp_microphone/psd_raw.png Graphic file (type bmp)
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1359
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1383
 []\TU/LiberationSerif(2)/m/n/14.4 Распределение отсчётов чрезвычайно узкое — ст
 андартное
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1350--1359
+Underfull \hbox (badness 1163) in paragraph at lines 1374--1383
 \TU/LiberationSerif(2)/m/n/14.4 Причины очевидны: модуль KY-037 рассчитан на гр
 омкие однократные
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 1350--1359
+Underfull \hbox (badness 4096) in paragraph at lines 1374--1383
 \TU/LiberationSerif(2)/m/n/14.4 звуки в роли триггера для цифрового выхода, а н
 е на регистрацию
  []
@@ -6057,92 +6089,92 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1367
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1391
 []\TU/LiberationSerif(2)/m/n/14.4 Оценка спектральной плотности (рисунок []21[]
 ) обнаруживает
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 1360--1367
+Underfull \hbox (badness 7451) in paragraph at lines 1384--1391
 \TU/LiberationSerif(2)/m/n/14.4 выраженный пик на частоте $[][][][]$ Гц — это н
 е «белый шум», а
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1367
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1391
 \TU/LiberationSerif(2)/m/n/14.4 квазипериодическая компонента, унаследованная о
 т внутренней
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 1360--1367
+Underfull \hbox (badness 3019) in paragraph at lines 1384--1391
 \TU/LiberationSerif(2)/m/n/14.4 коэффициенты при значительных задержках, что по
 дтверждает память
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 1368--1378
+Underfull \hbox (badness 3815) in paragraph at lines 1392--1402
 []\TU/LiberationSerif(2)/m/n/14.4 NIST STS реагирует на эти структурные дефекты
  предсказуемо.
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 1368--1378
+Underfull \hbox (badness 2828) in paragraph at lines 1392--1402
 \TU/LiberationSerif(2)/m/n/14.4 Поток МЗР без постобработки проваливает все гру
 ппы тестов, кроме
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 1368--1378
+Underfull \hbox (badness 3780) in paragraph at lines 1392--1402
 \TU/LiberationSerif(2)/m/n/14.4 постобработки фон Неймана картина улучшается ли
 шь незначительно
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 1368--1378
+Underfull \hbox (badness 2452) in paragraph at lines 1392--1402
 \TU/LiberationSerif(2)/m/n/14.4 NonOverlappingTemplate, Universal и Approximate
 Entropy — весь набор
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 бытовом фоне непригоден в качестве самостоятель
 ного источника
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 энтропии. Для повышения качества канала потребо
 валось бы либо
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 принципиально другое аппаратное решение (профес
 сиональный
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 1379--1391
+Underfull \hbox (badness 2662) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 микрофонный предусилитель с управляемым коэффиц
 иентом усиления,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 узкополосная режекция сетевых наводок), либо см
 ена сценария —
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1379--1391
+Underfull \hbox (badness 1490) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 шума». В рамках данной работы канал сохраняется
  как показательный
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 1379--1391
+Underfull \hbox (badness 2781) in paragraph at lines 1403--1415
 \TU/LiberationSerif(2)/m/n/14.4 пример того, что «наличие шума на осциллографе»
  само по себе не
  []
@@ -6153,7 +6185,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[76]
+[79]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -6178,7 +6210,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [77]
+ [80]
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
@@ -6189,66 +6221,66 @@ Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1448--1461
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1485
 \TU/LiberationSerif(2)/m/n/14.4 — а далее «случайные» байты получаются вызовами
  \TU/LiberationMono(2)/m/n/14.4 random(256)\TU/LiberationSerif(2)/m/n/14.4 ,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 1448--1461
+Underfull \hbox (badness 4660) in paragraph at lines 1472--1485
 \TU/LiberationSerif(2)/m/n/14.4 формально проходит большинство тестов NIST STS.
  Это происходит
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1448--1461
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1485
 \TU/LiberationSerif(2)/m/n/14.4 зная алгоритм, всю последующую «случайную» посл
 едовательность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1448--1461
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1485
 \TU/LiberationSerif(2)/m/n/14.4 для криптографических задач этот шаблон опасен 
 и должен быть
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 1448--1461
+Underfull \hbox (badness 3078) in paragraph at lines 1472--1485
 \TU/LiberationSerif(2)/m/n/14.4 отдельно оговорён в любых рекомендациях по пост
 роению ГИСП на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1473
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1497
 []\TU/LiberationSerif(2)/m/n/14.4 В качестве примера механического (точнее —
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1473
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1497
 \TU/LiberationSerif(2)/m/n/14.4 микроэлектромеханического) источника энтропии и
 сследовался шум
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1473
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1497
 \TU/LiberationSerif(2)/m/n/14.4 в её показаниях присутствует тепловой шум полуп
 роводниковых
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 1464--1473
+Underfull \hbox (badness 5091) in paragraph at lines 1488--1497
 \TU/LiberationSerif(2)/m/n/14.4 преобразователей и собственно механический шум 
 подвижной массы.
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 1464--1473
+Underfull \hbox (badness 2726) in paragraph at lines 1488--1497
 \TU/LiberationSerif(2)/m/n/14.4 Для извлечения энтропии использовались младшие 
 разряды показаний
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 1464--1473
+Underfull \hbox (badness 1275) in paragraph at lines 1488--1497
 \TU/LiberationSerif(2)/m/n/14.4 MPU-6050 и два дополнительных бита от соседних 
 отсчётов АЦП для
  []
@@ -6275,81 +6307,81 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[78]
-Underfull \hbox (badness 3803) in paragraph at lines 1513--1522
+[81]
+Underfull \hbox (badness 3803) in paragraph at lines 1537--1546
 \TU/LiberationSerif(2)/m/n/14.4 ограничений. Во-первых, скорость генерации край
 не низкая: реальная
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1513--1522
+Underfull \hbox (badness 1038) in paragraph at lines 1537--1546
 \TU/LiberationSerif(2)/m/n/14.4 пропускная способность шины I$[]$C при $[][][]$
  кГц и накладных расходах
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 1513--1522
+Underfull \hbox (badness 2626) in paragraph at lines 1537--1546
 \TU/LiberationSerif(2)/m/n/14.4 протокола ограничивает поток считываний значени
 ем $[][][][]$ выборок в
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1513--1522
+Underfull \hbox (badness 1960) in paragraph at lines 1537--1546
 \TU/LiberationSerif(2)/m/n/14.4 минимальная энтропия на бит ($[][][][]$) сущест
 венно ниже шенноновской
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 1513--1522
+Underfull \hbox (badness 1596) in paragraph at lines 1537--1546
 []$ \TU/LiberationSerif(2)/m/n/14.4 PASS из $[][]$ — этого недостаточно даже дл
 я роли вспомогательного
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 1523--1529
+Underfull \hbox (badness 3815) in paragraph at lines 1547--1553
 \TU/LiberationSerif(2)/m/n/14.4 включения устройства: даже несколько десятков б
 айт с минимальной
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 1532--1540
+Underfull \hbox (badness 2486) in paragraph at lines 1556--1564
 []\TU/LiberationSerif(2)/m/n/14.4 В качестве чисто цифрового источника энтропии
  без аналоговой
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1532--1540
+Underfull \hbox (badness 1603) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 обвязки исследовался относительный дрейф двух т
 актовых генераторов
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 1532--1540
+Underfull \hbox (badness 6477) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 и внутреннего RC-осциллятора сторожевого таймер
 а (\TU/LiberationSerif(2)/m/it/14.4 watchdog timer\TU/LiberationSerif(2)/m/n/14
 .4 ,
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1532--1540
+Underfull \hbox (badness 1337) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 WDT, $[][][][]$ кГц). В прошивке периодически з
 апускался короткий цикл
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 1532--1540
+Underfull \hbox (badness 1831) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 WDT, и фиксировалось число тактов кварца, проше
 дшее между двумя
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 1532--1540
+Underfull \hbox (badness 5878) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 срабатываниями таймера. Младшие разряды этой ра
 зности отражают
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 1532--1540
+Underfull \hbox (badness 4416) in paragraph at lines 1556--1564
 \TU/LiberationSerif(2)/m/n/14.4 относительную нестабильность RC-генератора отно
 сительно кварца —
  []
@@ -6366,7 +6398,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[79]
+[82]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -6380,13 +6412,13 @@ mp)
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 1580--1587
+Underfull \hbox (badness 2753) in paragraph at lines 1604--1611
 \TU/LiberationSerif(2)/m/n/14.4 фазового шума мало, и шумовая составляющая в сч
 ётчике «тонет» в
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1588--1591
+Underfull \hbox (badness 1406) in paragraph at lines 1612--1615
 []\TU/LiberationSerif(2)/m/n/14.4 Тем не менее, канал clock jitter полезен в ка
 честве «нулевого по
  []
@@ -6398,71 +6430,71 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999966755429671.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1608
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
 []|\TU/LiberationSerif(2)/m/n/10 Сложность
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 1608--1608
+Underfull \hbox (badness 4084) in paragraph at lines 1632--1632
 []|\TU/LiberationSerif(2)/m/n/10 NIST PASS /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1608
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1632
 []|\TU/LiberationSerif(2)/m/n/10 min-H
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1608--1609
+Underfull \hbox (badness 1675) in paragraph at lines 1632--1633
 []|\TU/LiberationSerif(2)/m/n/10 Скорость VN,
  []
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(0)/m/n' will be
-(Font)              scaled to size 8.68759pt on input line 1610.
+(Font)              scaled to size 8.68759pt on input line 1634.
 
 Package fontspec Info: Liberation Mono scale = 0.8687590435563669.
 
 LaTeX Font Info:    Font shape `TU/LiberationMono(2)/m/n' will be
-(Font)              scaled to size 8.68759pt on input line 1610.
+(Font)              scaled to size 8.68759pt on input line 1634.
 
-Underfull \hbox (badness 3128) in paragraph at lines 1610--1610
+Underfull \hbox (badness 3128) in paragraph at lines 1634--1634
 []|\TU/LiberationSerif(2)/m/n/10 BJT (этап 4) + VN +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1610--1610
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1634
 []|\TU/LiberationSerif(2)/m/n/10 низкая (1 ОУ,
  []
 
 LaTeX Font Info:    Font shape `TU/LiberationSerif(2)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1610.
+(Font)              scaled to size 10.0pt on input line 1634.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+Underfull \hbox (badness 10000) in paragraph at lines 1636--1636
 []|\TU/LiberationSerif(2)/m/n/10 BJT (этап 4) + VN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+Underfull \hbox (badness 10000) in paragraph at lines 1636--1636
 []|\TU/LiberationSerif(2)/m/n/10 низкая (1 ОУ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1616--1616
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
 []|\TU/LiberationSerif(2)/m/n/10 низкая (готовый
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1618--1618
+Underfull \hbox (badness 10000) in paragraph at lines 1642--1642
 []|\TU/LiberationSerif(2)/m/n/10 средняя (модуль
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1620--1620
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1644
 []|\TU/LiberationSerif(2)/m/n/10 минимальная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1622--1622
+Underfull \hbox (badness 10000) in paragraph at lines 1646--1646
 []|\TU/LiberationSerif(2)/m/n/10 минимальная
  []
 
@@ -6472,73 +6504,73 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[80]
+[83]
 
 Package fontspec Info: Liberation Mono scale = 0.8687608556999194.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1627--1644
+Underfull \hbox (badness 10000) in paragraph at lines 1651--1668
 []\TU/LiberationSerif(2)/m/n/14.4 Среди натурно проверенных каналов наилучший р
 езультат как
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1627--1644
+Underfull \hbox (badness 7203) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/m/n/14.4 по формальному профилю NIST STS, так и по физич
 еской форме
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 1627--1644
+Underfull \hbox (badness 1308) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/b/n/14.4 BJT \TU/LiberationSerif(2)/m/n/14.4 в итоговой 
 конфигурации (этап 4 раздела 3.5) с \TU/LiberationSerif(2)/m/it/14.4 двухступен
 чатой
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 1627--1644
+Underfull \hbox (badness 4739) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/m/n/14.4 что построенный из дешёвых компонентов и без кр
 иптографических
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 1627--1644
+Underfull \hbox (badness 5147) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/m/n/14.4 библиотек источник по статистике совпадает с эт
 алонной случайной
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 1627--1644
+Underfull \hbox (badness 3579) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/m/n/14.4 дальнейшего развития (раздел 3.11): интеграция 
 второго аналогичного
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 1627--1644
+Underfull \hbox (badness 3826) in paragraph at lines 1651--1668
 \TU/LiberationSerif(2)/m/n/14.4 канала на втором канале сдвоенного ОУ с XOR-сме
 шением, переход
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 1645--1660
+Underfull \hbox (badness 1917) in paragraph at lines 1669--1684
 \TU/LiberationSerif(2)/m/n/14.4 к точности усилителя и развязке по питанию. Аку
 стический канал на
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1645--1660
+Underfull \hbox (badness 1960) in paragraph at lines 1669--1684
 \TU/LiberationSerif(2)/m/n/14.4 готовом микрофонном модуле KY-037 в типичной бы
 товой обстановке
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 1645--1660
+Underfull \hbox (badness 3954) in paragraph at lines 1669--1684
 \TU/LiberationSerif(2)/m/n/14.4 для использования в роли самостоятельных источн
 иков и приводятся
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 1645--1660
+Underfull \hbox (badness 2126) in paragraph at lines 1669--1684
 \TU/LiberationSerif(2)/m/n/14.4 в работе скорее как иллюстрация типичных заблуж
 дений начинающих
  []
@@ -6549,92 +6581,92 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[81]
-Underfull \hbox (badness 1867) in paragraph at lines 1661--1670
+[84]
+Underfull \hbox (badness 1867) in paragraph at lines 1685--1694
 []\TU/LiberationSerif(2)/m/n/14.4 Главный методический вывод раздела состоит в 
 следующем: при
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 1661--1670
+Underfull \hbox (badness 2753) in paragraph at lines 1685--1694
 \TU/LiberationSerif(2)/m/n/14.4 разработке аппаратного ГИСП оценка качества ист
 очника не сводится
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1670
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1694
 \TU/LiberationSerif(2)/m/n/14.4 обследование физической формы сигнала (гистогра
 мма, насыщение,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1670
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1694
 \TU/LiberationSerif(2)/m/n/14.4 внешним условиям (питание, нагрев) и, наконец, 
 использование
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1704
 \TU/LiberationSerif(2)/m/n/14.4 а также рост применения криптографических и ста
 тистических
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1704
 \TU/LiberationSerif(2)/m/n/14.4 методов в различных областях обуславливают необ
 ходимость
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1704
 \TU/LiberationSerif(2)/m/n/14.4 дальнейшего совершенствования физических генера
 торов случайных
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 1673--1680
+Underfull \hbox (badness 3954) in paragraph at lines 1697--1704
 \TU/LiberationSerif(2)/m/n/14.4 последовательностей (ФГСП). Развитие данных сис
 тем направлено на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1704
 \TU/LiberationSerif(2)/m/n/14.4 повышение их надёжности, устойчивости к внешним
  воздействиям,
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 1681--1688
+Underfull \hbox (badness 2119) in paragraph at lines 1705--1712
 []\TU/LiberationSerif(2)/m/n/14.4 Миниатюризация и интеграция в чипы. Современн
 ые технологии
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1688
+Underfull \hbox (badness 10000) in paragraph at lines 1705--1712
 \TU/LiberationSerif(2)/m/n/14.4 производства микросхем позволяют встраивать эле
 менты ФГСП
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1688
+Underfull \hbox (badness 10000) in paragraph at lines 1705--1712
 \TU/LiberationSerif(2)/m/n/14.4 непосредственно в процессоры, контроллеры и кри
 птографические
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 1681--1688
+Underfull \hbox (badness 2582) in paragraph at lines 1705--1712
 \TU/LiberationSerif(2)/m/n/14.4 случайных битов и упрощает защиту от атак на ур
 овне интерфейсов.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1688
+Underfull \hbox (badness 10000) in paragraph at lines 1705--1712
 \TU/LiberationSerif(2)/m/n/14.4 Развитие технологии CMOS, FinFET и перспективны
 х материалов
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1688
+Underfull \hbox (badness 10000) in paragraph at lines 1705--1712
 \TU/LiberationSerif(2)/m/n/14.4 способствует созданию компактных, энергоэффекти
 вных и массовых
  []
@@ -6645,92 +6677,92 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[82]
-Underfull \hbox (badness 5175) in paragraph at lines 1689--1697
+[85]
+Underfull \hbox (badness 5175) in paragraph at lines 1713--1721
 []\TU/LiberationSerif(2)/m/n/14.4 Перспективным направлением является использов
 ание квантовых
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1689--1697
+Underfull \hbox (badness 6808) in paragraph at lines 1713--1721
 \TU/LiberationSerif(2)/m/n/14.4 источников энтропии — в частности, спонтанного 
 распада фотонов,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1689--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1713--1721
 \TU/LiberationSerif(2)/m/n/14.4 обладают высокой степенью истинной случайности,
  подтверждаемой
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 1689--1697
+Underfull \hbox (badness 6364) in paragraph at lines 1713--1721
 \TU/LiberationSerif(2)/m/n/14.4 теорией квантовой неопределённости, и демонстри
 руют устойчивость
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 1689--1697
+Underfull \hbox (badness 5802) in paragraph at lines 1713--1721
 \TU/LiberationSerif(2)/m/n/14.4 к предсказуемости со стороны атакующего. Разраб
 отка доступных и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1689--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1713--1721
 \TU/LiberationSerif(2)/m/n/14.4 стабильно работающих квантовых ФГСП, увеличение
  скорости их
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 1698--1705
+Underfull \hbox (badness 6428) in paragraph at lines 1722--1729
 \TU/LiberationSerif(2)/m/n/14.4 модернизации. Оптические ФГСП, основанные на фо
 тоэлектрическом
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 1698--1705
+Underfull \hbox (badness 6526) in paragraph at lines 1722--1729
 \TU/LiberationSerif(2)/m/n/14.4 шуме, колебаниях интенсивности лазерного излуче
 ния и спонтанном
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 1698--1705
+Underfull \hbox (badness 4001) in paragraph at lines 1722--1729
 \TU/LiberationSerif(2)/m/n/14.4 рассеянии света, демонстрируют высокую пропускн
 ую способность и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1705
+Underfull \hbox (badness 10000) in paragraph at lines 1722--1729
 \TU/LiberationSerif(2)/m/n/14.4 низкую коррелированность выходных битов. Развит
 ие интегральной
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1705
+Underfull \hbox (badness 10000) in paragraph at lines 1722--1729
 \TU/LiberationSerif(2)/m/n/14.4 и масштабируемые оптические генераторы с высоко
 й скоростью и
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 1706--1714
+Underfull \hbox (badness 1931) in paragraph at lines 1730--1738
 \TU/LiberationSerif(2)/m/n/14.4 нескольких физических источников энтропии в гиб
 ридной архитектуре.
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1706--1714
+Underfull \hbox (badness 1430) in paragraph at lines 1730--1738
 \TU/LiberationSerif(2)/m/n/14.4 и квантовых источников позволяет компенсировать
  слабости отдельных
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1706--1714
+Underfull \hbox (badness 3029) in paragraph at lines 1730--1738
 \TU/LiberationSerif(2)/m/n/14.4 компонентов, а также реализовать адаптивные схе
 мы оценки качества
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1706--1714
+Underfull \hbox (badness 10000) in paragraph at lines 1730--1738
 \TU/LiberationSerif(2)/m/n/14.4 образом, перспективным направлением развития яв
 ляется изучение
  []
@@ -6741,44 +6773,44 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 1715--1723
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 1739--1747
 \TU/LiberationSerif(2)/m/n/14.4 ФГСП. Для повышения энтропийной насыщенности и 
 устранения
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 1724--1731
+Underfull \hbox (badness 1997) in paragraph at lines 1748--1755
 \TU/LiberationSerif(2)/m/n/14.4 предусматривают встраивание модулей контроля, с
 пособных выполнять
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1731
+Underfull \hbox (badness 10000) in paragraph at lines 1748--1755
 \TU/LiberationSerif(2)/m/n/14.4 непрерывное статистическое тестирование и выявл
 ение деградации
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1731
+Underfull \hbox (badness 10000) in paragraph at lines 1748--1755
 \TU/LiberationSerif(2)/m/n/14.4 С появлением новых способов атаки на ФГСП также
  появляется
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1736
+Underfull \hbox (badness 10000) in paragraph at lines 1756--1760
 []\TU/LiberationSerif(2)/m/n/14.4 В рамках международных инициатив (например, N
 IST, ISO)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1736
+Underfull \hbox (badness 10000) in paragraph at lines 1756--1760
 \TU/LiberationSerif(2)/m/n/14.4 разрабатываются единые подходы к оценке качеств
 а ФГСП. Это
  []
 
 ) (./parts/07-conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1737--1
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1
 \TU/LiberationSerif(2)/m/n/14.4 случайности для современных и перспективных инф
 ормационно-
  []
@@ -6789,7 +6821,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[84]
+[87]
 Underfull \hbox (badness 1189) in paragraph at lines 4--13
 []\TU/LiberationSerif(2)/m/n/14.4 В рамках данной дипломной работы была проведе
 на комплексная
@@ -6903,7 +6935,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[85
+[88
 
 ]
 Underfull \hbox (badness 6842) in paragraph at lines 43--50
@@ -7002,7 +7034,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [86]
+ [89]
 Underfull \hbox (badness 7832) in paragraph at lines 83--87
 []\TU/LiberationSerif(2)/m/n/14.4 случайных и псевдослучайных чисел с использов
 анием набора
@@ -7020,7 +7052,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[87
+[90
 
 ]
 Underfull \hbox (badness 6047) in paragraph at lines 117--119
@@ -7035,14 +7067,14 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [88]
+ [91]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [89
+ [92
 
 ]
 
@@ -7051,14 +7083,14 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [90]
+ [93]
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
- [91]) (./parts/10-appendix2.tex
+ [94]) (./parts/10-appendix2.tex
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
@@ -7066,7 +7098,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 
-[92]
+[95]
 Overfull \vbox (1.90016pt too high) detected at line 54
  []
 
@@ -7084,7 +7116,7 @@ Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
 Package fontspec Info: Liberation Serif scale = 0.9999976913469375.
 
-[93
+[96
 
 
 ])
@@ -7139,4 +7171,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  86i,13n,126p,1011b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ВКР_ШестаковВД.pdf (93 pages).
+Output written on ВКР_ШестаковВД.pdf (96 pages).
