@@ -19,7 +19,15 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{tikz}
 \graphicspath{{../pandoc_media/media/}}
+
+% Логотип ЯрГУ в левом верхнем углу каждого слайда
+\addtobeamertemplate{background canvas}{}{%
+  \begin{tikzpicture}[overlay,remember picture]
+    \node[anchor=north west,inner sep=0.25cm] at (current page.north west)
+         {\includegraphics[height=0.95cm,keepaspectratio]{demid_logo/Logo_demidovskiy_universitet.png}};
+  \end{tikzpicture}}
 
 \definecolor{accent}{HTML}{1F3A5F}
 \setbeamercolor{frametitle}{fg=accent}
@@ -30,7 +38,7 @@
 \setbeamercolor{date}{fg=black}
 \setbeamerfont{frametitle}{size=\large,series=\bfseries}
 \setbeamertemplate{frametitle}{%
-  \vspace{0.6ex}\insertframetitle\par%
+  \vspace{0.6ex}\hspace{1.2cm}\insertframetitle\par%
   \vspace{-0.4ex}{\color{accent}\rule{\linewidth}{0.4pt}}\vspace{0.2ex}}
 \setbeamertemplate{footline}{%
   \hfill{\color{gray}\scriptsize\insertframenumber\,/\,\inserttotalframenumber}\hspace{2ex}\vspace{1ex}}
@@ -48,40 +56,43 @@
 \begin{frame}[plain]
   \centering
   \vspace{0.5em}
-  {\small Министерство науки и высшего образования РФ\par
+  {\footnotesize Министерство науки и высшего образования РФ\par
    ЯрГУ им.\,П.\,Г.\,Демидова, математический факультет\par
    Кафедра математического моделирования\par}
   \vfill
-  {\color{accent}\rule{0.9\linewidth}{0.6pt}}\par\vspace{0.6em}
-  {\Large\bfseries\color{accent} Выпускная квалификационная работа\par}
-  \vspace{0.7em}
-  {\large\bfseries Разработка концепции физического\\генератора случайных чисел\par}
+  {\color{accent}\rule{0.9\linewidth}{0.6pt}}\par\vspace{0.5em}
+  {\large\bfseries\color{accent} Выпускная квалификационная работа\par}
   \vspace{0.5em}
+  {\normalsize\bfseries Разработка концепции физического\\генератора случайных чисел\par}
+  \vspace{0.4em}
   {\color{accent}\rule{0.9\linewidth}{0.6pt}}\par
   \vfill
-  \begin{minipage}{0.55\linewidth}\raggedright
+  {\footnotesize
+  \begin{minipage}[t]{0.48\linewidth}\raggedright
     \textbf{Выполнил:}\\
-    студент группы ПМИ-41\\
+    студент группы ПМИ-41БО\\
     Шестаков В.\,Д.
   \end{minipage}\hfill
-  \begin{minipage}{0.40\linewidth}\raggedright
+  \begin{minipage}[t]{0.40\linewidth}\raggedright
     \textbf{Научный руководитель:}\\
-    ст. преп.\\
+    старший преподаватель\\
     Савинов Д.\,А.
-  \end{minipage}
+  \end{minipage}\par}
   \vfill
-  {\small Ярославль, 2026}
+  {\footnotesize Ярославль, 2026}
 \end{frame}
 
 % ============================================================
 \begin{frame}{Актуальность}
+  \footnotesize
   \begin{itemize}
-    \setlength{\itemsep}{0.6em}
-    \item Случайные числа --- основа криптографии: ключи, seed, TLS.
-    \item \textbf{2012, Android:} дефект ГСЧ $\Rightarrow$ предсказано ${\approx}\,86\%$ Bitcoin-ключей.
-    \item \textbf{ROCA (Infineon TPM):} миллионы сертифицированных модулей с уязвимостью.
-    \item Программные ГПСЧ принципиально предсказуемы $\Rightarrow$ нужен физический источник энтропии.
+    \setlength{\itemsep}{0.4em}
+    \item Криптография --- повседневная: TLS, мессенджеры, банкинг, IoT, аппаратные кошельки $\Rightarrow$ миллиарды ключей в год.
+    \item Массовые микроконтроллеры (Arduino, ESP32, AVR, STM32 базовых серий) не имеют аппаратного TRNG.
+    \item Современные стандарты (NIST SP 800-90B, ГОСТ Р 34.10) требуют физического источника энтропии для ключевого материала.
+    \item Цена ошибки: \textbf{Android 2012} --- ${\approx}\,86\%$ Bitcoin-ключей предсказуемы; \textbf{ROCA} --- уязвимы миллионы сертифицированных TPM.
   \end{itemize}
+  \vspace{0.4em}
 \end{frame}
 
 % ============================================================
@@ -91,20 +102,20 @@
   \textbf{Задачи:}
   \begin{itemize}
     \item теоретический анализ восьми классов источников;
-    \item стенд на доступной элементной базе (Arduino + ОУ);
-    \item натурная проверка $6$ каналов;
+    \item сборка стенда на доступной элементной базе;
+    \item практическая проверка шести источников;
     \item оценка по NIST STS, скорости, стоимости.
   \end{itemize}
 \end{frame}
 
 % ============================================================
-\begin{frame}{Классификация ГСЧ}
+\begin{frame}{Классификация ГСП}
   \begin{columns}[T]
     \begin{column}{0.48\linewidth}
-      \centering\textbf{\color{accent} ПСЧ}\par
+      \centering\textbf{\color{accent} ГПСП}\par
       \vspace{0.5em}
       программный алгоритм\\[0.4em]
-      выход $=$ функция от семени\\[0.4em]
+      выход $=$ функция от начального значения\\[0.4em]
       \textbf{детерминирован}\\[0.4em]
       \emph{зная seed --- предсказуем}
     \end{column}
@@ -127,7 +138,7 @@
       \begin{itemize}\setlength{\itemsep}{0.1em}
         \item тепловой (Johnson--Nyquist)
         \item дробовой
-        \item лавинный (BE-переход BJT)
+        \item лавинный
         \item мерцающий $1/f$
       \end{itemize}
     \end{column}
@@ -150,14 +161,14 @@
   \centering
   \begin{minipage}{0.92\linewidth}\centering\small
     \fbox{\parbox{0.18\linewidth}{\centering Источник\\шума}}\,$\to$\,%
-    \fbox{\parbox{0.18\linewidth}{\centering Усилитель\\LM358 ($\times 528$)}}\,$\to$\,%
+    \fbox{\parbox{0.18\linewidth}{\centering Усилитель\\LM358}}\,$\to$\,%
     \fbox{\parbox{0.16\linewidth}{\centering АЦП\\Arduino}}\,$\to$\,%
     \fbox{\parbox{0.14\linewidth}{\centering USB\\1\,Мбод}}\,$\to$\,%
     \fbox{\parbox{0.16\linewidth}{\centering ПК\\конвейер}}
   \end{minipage}
   \vspace{0.8em}
   \begin{itemize}\setlength{\itemsep}{0.2em}
-    \item Каждый канал --- изолированная прошивка, единый бинарный протокол.
+    \item Различные прошивки для получения энтропии с разных источников, но единый бинарный протокол.
     \item На ПК: извлечение МЗР $\to$ постобработка $\to$ статистика $\to$ NIST STS.
   \end{itemize}
 \end{frame}
@@ -172,7 +183,7 @@
 \end{frame}
 
 % ============================================================
-\begin{frame}{Канал BJT --- лавинный пробой BE-перехода}
+\begin{frame}{Лавинный пробой BE-перехода}
   \begin{columns}[c]
     \begin{column}{0.48\linewidth}
       \centering
@@ -187,33 +198,32 @@
         \item $U_{BR}\sim 7\ldots 9$\,В.
       \end{itemize}
       \vspace{0.3em}
-      Снятие сигнала: через $C_1{=}0{,}1$\,мкФ на вход усилителя.
+      Получение сигнала: через $C_1{=}0{,}1$\,мкФ на вход усилителя.
     \end{column}
   \end{columns}
 \end{frame}
 
 % ============================================================
-\begin{frame}{Эволюция канала BJT}
+\begin{frame}{Развитие ГИСП на основе BJT}
   \begin{columns}[c]
-    \begin{column}{0.55\linewidth}
-      \footnotesize
-      \begin{tabular}{|c|p{0.50\linewidth}|c|c|}
+    \begin{column}{0.58\linewidth}
+      \scriptsize
+      \begin{tabular}{|c|p{0.56\linewidth}|c|c|}
         \hline
         \textbf{Эт.} & \textbf{Конфигурация} & $\sigma_\mathrm{adc}$ & \textbf{NIST} \\
         \hline
         1 & 1 каскад, $G\!\approx\!48$ & $28$ & 12/3 \\
         \hline
-        2 & 2 каскада, $G\!\approx\!528$ & $145$ & 13/2$^\ast$ \\
+        2 & 2 каскада, $G\!\approx\!528$ & $145$ & 13/2 \\
         \hline
-        3 & коррекция $V_\mathrm{mid}\!\downarrow$ & $122$ & 12/3 \\
+        3 & $V_\mathrm{mid}\!\downarrow$ $+$ $G\!\downarrow$ до ${\approx}467$ & $122$ & 12/3 \\
         \hline
-        \textbf{4} & \textbf{развязка питания} & $\mathbf{146}$ & \textbf{13/2} \\
+        \textbf{4} & \textbf{возврат} $G\!\approx\!528$ \textbf{, стабилизация питания} & $\mathbf{146}$ & \textbf{13/2} \\
         \hline
       \end{tabular}
       \par\vspace{0.3em}
-      \tiny$^\ast$за счёт насыщения АЦП.
     \end{column}
-    \begin{column}{0.42\linewidth}
+    \begin{column}{0.40\linewidth}
       \centering
       \includegraphics[width=0.88\linewidth,keepaspectratio]{photo_trng_bjt_module/board.jpg}
     \end{column}
@@ -222,25 +232,15 @@
 
 % ============================================================
 \begin{frame}{Постобработка битового потока}
-  \begin{columns}[T]
-    \begin{column}{0.48\linewidth}
-      \textbf{Фон Нейман} (база)
-      \par\vspace{0.4em}
-      $(0,1)\!\to\! 0,\quad (1,0)\!\to\! 1$\\
-      $(0,0),(1,1)\!\to\!$ отброс
-      \par\vspace{0.4em}
-      \small некриптографический,\\ диагностичный экстрактор
-    \end{column}
-    \begin{column}{0.48\linewidth}
-      \textbf{Каскад} (этап\,4)
-      \par\vspace{0.4em}
-      VN $\to$ \texttt{decim\_xor8win}
-      \par\vspace{0.4em}
-      \small 8 подряд бит выхода VN\\$\to$ XOR $\to$ 1 бит
-    \end{column}
-  \end{columns}
-  \vspace{0.6em}
-  \centering\small\emph{SHA-256 не используется: маскирует дефекты источника.}
+  \footnotesize
+  \begin{itemize}\setlength{\itemsep}{0.35em}
+    \item \textbf{Фон Нейман} (основа) \\
+      \emph{Прозрачный, диагностичный экстрактор: даёт несмещённый выход без параметров.}
+    \item \textbf{XOR с задержкой N}
+    \item \textbf{XOR нескольких младших разрядов отсчёта}
+    \item \textbf{XOR-децимация с окном N}
+    \item \textbf{Побайтовая XOR-свёртка} 
+  \end{itemize}
 \end{frame}
 
 % ============================================================
@@ -252,14 +252,13 @@
         \fcolorbox{accent}{white}{\parbox{0.94\linewidth}{\centering\Large
         \vspace{0.4em}\textbf{\color{accent} NIST STS}\par
         \vspace{0.3em}{\Huge\bfseries 15 / 15}\par
-        \vspace{0.1em}{\normalsize PASS / FAIL\,=\,0\,/\,N/A\,=\,0}\par\vspace{0.4em}}}
+        \vspace{0.1em}{\normalsize FAIL\,=\,0\, N/A\,=\,0}\par\vspace{0.4em}}}
       \end{minipage}
       \par\vspace{0.6em}
       \footnotesize
-      Канал BJT, этап 4 $+$ каскад VN\,$\to$\,\texttt{decim\_xor8win}\\
+      Источник - Лавинный пробой транзистора\\ Каскадная постобработка:\\фон Нейман\,$\to$\,XOR-децимация с окном 8\\
       min-H\,=\,0{,}9999 бит/бит;
-      $\sim 1{,}6$\,кбит/с;\\
-      элементная база $<$\,50\,руб.
+      \\$\sim 1{,}6$\,кбит/с;
     \end{column}
     \begin{column}{0.43\linewidth}
       \centering
@@ -272,26 +271,29 @@
 % ============================================================
 \begin{frame}{Сравнение источников}
   \centering
-  \scriptsize
-  \setlength{\tabcolsep}{3pt}
-  \renewcommand{\arraystretch}{1.1}
-  \begin{tabular}{|p{0.30\linewidth}|c|c|c|c|}
+  \footnotesize
+  \setlength{\tabcolsep}{6pt}
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{|p{0.36\linewidth}|c|c|c|c|}
     \hline
     \textbf{Канал} & $\sigma_\mathrm{adc}$ & \textbf{NIST} & \textbf{min-H} & \textbf{бит/с} \\
     \hline
-    \textbf{BJT + VN + XOR-каскад} & $147$ & \textbf{15 / 0} & $0{,}9999$ & ${\sim}\,1{,}6{\cdot}10^3$ \\
+    \textbf{BJT + каскад} & $147$ & \textbf{15 / 0} & $0{,}9999$ & ${\sim}\,1{,}6{\cdot}10^3$ \\
     \hline
-    BJT + VN (базовый) & $147$ & 13 / 2 & $0{,}9999$ & ${\sim}\,1{,}3{\cdot}10^4$ \\
+    BJT & $147$ & 13 / 2 & $0{,}9999$ & ${\sim}\,1{,}3{\cdot}10^4$ \\
     \hline
     Тепловой шум $10$\,МОм & $15$ & 10 / 5 & $0{,}9984$ & ${\sim}\,1{,}5{\cdot}10^4$ \\
     \hline
     Микрофон KY-037 & $1$ & 4 / 11 & $0{,}9994$ & ${\sim}\,7{,}5{\cdot}10^3$ \\
     \hline
-    MPU-6050 (MEMS) & --- & 2 / 11 & $0{,}584$ & ${\sim}\,5{,}6{\cdot}10^3$ \\
+    MPU-6050 & --- & 2 / 11 & $0{,}584$ & ${\sim}\,5{,}6{\cdot}10^3$ \\
     \hline
-    Плавающий АЦП / clock jitter & --- & 0 / 15 & --- & ${\sim}\,10^2$ \\
+    Плавающий АЦП & $5$ & 0 / 15 & $0{,}9994$ & ${\sim}\,2{\cdot}10^2$ \\
+    \hline
+    Clock jitter & --- & 0 / 15 & $0{,}9997$ & ${\sim}\,30$ \\
     \hline
   \end{tabular}
+  \par\vspace{0.3em}
 \end{frame}
 
 % ============================================================
@@ -301,7 +303,7 @@
     \item Сконструирован стенд, проверены $6$ независимых источников энтропии.
     \item Лучший результат --- \textbf{BJT $+$ каскадная постобработка: 15/15 NIST STS}.
     \item Двухступенчатая некриптографическая постобработка \emph{эквивалентна} криптографическому отбеливанию по эффекту на NIST.
-    \item Стоимость элементной базы канала $<$\,$50$\,руб.
+    \item Стоимость элементной базы источника $<$\,$50$\,руб.
   \end{itemize}
 \end{frame}
 
@@ -309,20 +311,10 @@
 \begin{frame}{Перспективы}
   \begin{itemize}
     \setlength{\itemsep}{0.7em}
-    \item Второй идентичный канал на втором ОУ корпуса $+$ XOR-смешение.
-    \item Печатная плата с экранированием и низкошумящим LDO для ОУ.
+    \item Второй независимый канал, XOR-смешение битовых потоков нескольких источников.
+    \item Печатная плата с экранированием и низкошумящим ОУ.
     \item Упаковка в законченный модуль с собственным микроконтроллером.
   \end{itemize}
-\end{frame}
-
-% ============================================================
-\begin{frame}[plain]
-  \centering
-  \vfill
-  {\Huge\bfseries\color{accent} Спасибо за внимание!\par}
-  \vspace{1em}
-  {\large Готов ответить на вопросы.}
-  \vfill
 \end{frame}
 
 \end{document}
