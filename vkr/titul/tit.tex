@@ -1,0 +1,105 @@
+\documentclass[14pt,a4paper]{extarticle}
+
+\usepackage{fontspec}
+% Проверка наличия шрифтов и установка fallback-вариантов
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{DejaVu Serif}[Scale=0.92]}
+\IfFontExistsTF{DejaVu Sans Mono}{\setmonofont{DejaVu Sans Mono}}{}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\usepackage{geometry}
+\geometry{left=30mm,right=10mm,top=20mm,bottom=20mm}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup[figure]{justification=centering,labelsep=endash,name=Рисунок}
+\captionsetup[table]{justification=raggedleft,singlelinecheck=false,labelsep=endash,name=Таблица}
+
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\usepackage{fvextra}
+\usepackage{enumitem}
+\usepackage{microtype}
+
+\hypersetup{hidelinks}
+\sloppy
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\titleformat{\section}{\normalfont\bfseries\centering}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries\centering}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\centering}{\thesubsubsection}{1em}{}
+\titlespacing*{\section}{0pt}{18pt}{12pt}
+\titlespacing*{\subsection}{0pt}{14pt}{10pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{8pt}
+
+\renewcommand{\cfttoctitlefont}{\hfill\normalfont\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\contentsname}{СОДЕРЖАНИЕ}
+\renewcommand{\refname}{СПИСОК ИСПОЛЬЗУЕМОЙ ЛИТЕРАТУРЫ}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\DefineVerbatimEnvironment{Code}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\scriptsize,frame=single}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+МИНОБРНАУКИ РОССИИ\\
+Федеральное государственное бюджетное образовательное учреждение высшего образования\\
+«Ярославский государственный университет им. П.Г. Демидова»\\
+Кафедра математического моделирования
+\end{center}
+
+\vspace{0.8cm}
+\begin{flushright}
+Сдано на кафедру\\
+«\underline{\hspace{1cm}}» \underline{\hspace{3cm}} 2026 г.\\
+Заведующий кафедрой\\
+к. ф.-м. н., доцент\\
+\underline{\hspace{4cm}} И. С. Кащенко
+\end{flushright}
+
+\vspace{1.2cm}
+\begin{center}
+{Выпускная квалификационная работа}\\[0.5cm]
+{\bfseries Разработка концепции физического генератора случайных чисел}\\[0.5cm]
+специальность 01.03.02 Прикладная математика и информатика
+\end{center}
+
+\vspace{1cm}
+\begin{flushright}
+Научный руководитель\\
+старший преподаватель\\
+\underline{\hspace{3cm}} / Д. А. Савинов\\
+«\underline{\hspace{1cm}}» \underline{\hspace{3cm}} 2026 г.\\[0.7cm]
+Студент группы ПМИ-41БО\\
+\underline{\hspace{3cm}} / В. Д. Шестаков\\
+«\underline{\hspace{1cm}}» \underline{\hspace{3cm}} 2026 г.
+\end{flushright}
+
+\vfill
+\begin{center}
+Ярославль 2026 г.
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\end{document}
