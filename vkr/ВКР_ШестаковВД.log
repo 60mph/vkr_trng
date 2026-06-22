@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  16 JUN 2026 18:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  16 JUN 2026 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2592,8 +2592,6 @@ Underfull \hbox (badness 1552) in paragraph at lines 215--217
 в случайных и
  []
 
-Missing character: There is no ⁶ (U+2076) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
 
 ! Package polyglossia Error: The current latin font TeXGyreTermesMath(3) does n
 ot contain the "Cyrillic" script!
@@ -2604,7 +2602,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 \end{longtable}
+l.296 \end{longtable}
                      
 (That was another \errmessage.)
 
@@ -2618,7 +2616,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 \end{longtable}
+l.296 \end{longtable}
                      
 (That was another \errmessage.)
 
@@ -2633,7 +2631,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 \end{longtable}
+l.296 \end{longtable}
                      
 (That was another \errmessage.)
 
@@ -2647,101 +2645,100 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 \end{longtable}
+l.296 \end{longtable}
                      
 (That was another \errmessage.)
 
 [13]
-
-! Package polyglossia Error: The current latin font TeXGyreTermesMath(3) does n
-ot contain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.305 
-      
-(That was another \errmessage.)
-
-
-! Package polyglossia Error: The current latin font TeXGyreTermesMath(3) does n
-ot contain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.305 
-      
-(That was another \errmessage.)
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 306--315
+Underfull \hbox (badness 10000) in paragraph at lines 308--317
 \TU/TimesNewRoman(0)/m/n/14.4 шумового диода). Спектральный тест обнаруживает т
 акие скрытые
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 306--315
+Underfull \hbox (badness 2103) in paragraph at lines 308--317
 \TU/TimesNewRoman(0)/m/n/14.4 частотные компоненты, которые не видны в статисти
 ческих тестах на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--325
+! Package polyglossia Error: The current latin font TeXGyreTermesMath(3) does n
+ot contain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 
+      
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TeXGyreTermesMath(3) does n
+ot contain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 
+      
+(That was another \errmessage.)
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 318--327
 []\TU/TimesNewRoman(0)/m/n/14.4 Тест Маурера оценивает алгоритмическую сложност
 ь
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 316--325
+Underfull \hbox (badness 2932) in paragraph at lines 318--327
 \TU/TimesNewRoman(0)/m/n/14.4 данные не должны допускать оптимизации при сжатии
 . Он особенно
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 316--325
+Underfull \hbox (badness 4205) in paragraph at lines 318--327
 \TU/TimesNewRoman(0)/m/n/14.4 важен для проверки физических генераторов потому,
  что физические
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--325
+Underfull \hbox (badness 10000) in paragraph at lines 318--327
 \TU/TimesNewRoman(0)/m/n/14.4 случайные, но алгоритмически простые последовател
 ьности. Тест
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 316--325
+Underfull \hbox (badness 4205) in paragraph at lines 318--327
 \TU/TimesNewRoman(0)/m/n/14.4 Маурера способен выявить такие случаи. Кроме этог
 о, генераторы с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--331
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 []\TU/TimesNewRoman(0)/m/n/14.4 Дополнительное подтверждение необходимости тест
 ирования
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 326--331
+Underfull \hbox (badness 4254) in paragraph at lines 328--333
 \TU/TimesNewRoman(0)/m/n/14.4 NIST SP 800-22 рекомендует эти тесты для аппаратн
 ых генераторов,
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 326--331
+Underfull \hbox (badness 3118) in paragraph at lines 328--333
 \TU/TimesNewRoman(0)/m/n/14.4 используемых в криптографии. Практический пример:
  квантовые ГСП
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--331
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 \TU/TimesNewRoman(0)/m/n/14.4 обязательно проверяют спектральным тестом на пред
 мет квантовых
  []
@@ -10500,22 +10497,9 @@ l.2 \clearpage
 (That was another \errmessage.)
 
 [95]
-Missing character: There is no ⁴ (U+2074) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-Missing character: There is no ⁶ (U+2076) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-Missing character: There is no ⁶ (U+2076) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-Missing character: There is no ⁸ (U+2078) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-
 Overfull \vbox (1.90016pt too high) detected at line 54
  []
 
-Missing character: There is no ⁶ (U+2076) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
-Missing character: There is no ⁹ (U+2079) in font Times New Roman/OT:language=d
-flt;mapping=tex-text;!
 
 Overfull \vbox (11.40016pt too high) detected at line 62
  []
@@ -10613,7 +10597,7 @@ l.20 \selectlanguage *{russian}
 Here is how much of TeX's memory you used:
  22599 strings out of 478190
  440688 string characters out of 5854827
- 898083 words of memory out of 5000000
+ 899083 words of memory out of 5000000
  42743 multiletter control sequences out of 15000+600000
  478392 words of font info for 158 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
