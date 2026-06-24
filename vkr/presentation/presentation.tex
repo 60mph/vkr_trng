@@ -20,6 +20,8 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \graphicspath{{../pandoc_media/media/}}
 
 % Логотип ЯрГУ в левом верхнем углу каждого слайда
@@ -46,7 +48,7 @@
 \setbeamertemplate{itemize subitem}{\color{accent}\textendash}
 
 \title{Разработка концепции физического\\генератора случайных чисел}
-\author{Шестаков Влад Дмитриевич\\Группа ПМИ-41}
+\author{Шестаков Влад Дмитриевич\\Группа ПМИ-41БО}
 \institute{ЯрГУ им.\,П.\,Г.\,Демидова\\Математический факультет\\Кафедра математического моделирования}
 \date{Ярославль, 2026}
 
@@ -87,160 +89,233 @@
   \footnotesize
   \begin{itemize}
     \setlength{\itemsep}{0.4em}
-    \item Криптография --- повседневная: TLS, мессенджеры, банкинг, IoT, аппаратные кошельки $\Rightarrow$ миллиарды ключей в год.
+    \item Криптография --- повседневная: TLS, мессенджеры, банкинг, IoT, аппаратные кошельки.
     \item Массовые микроконтроллеры (Arduino, ESP32, AVR, STM32 базовых серий) не имеют аппаратного TRNG.
-    \item Современные стандарты (NIST SP 800-90B, ГОСТ Р 34.10) требуют физического источника энтропии для ключевого материала.
-    \item Цена ошибки: \textbf{Android 2012} --- ${\approx}\,86\%$ Bitcoin-ключей предсказуемы; \textbf{ROCA} --- уязвимы миллионы сертифицированных TPM.
+    \item Современные стандарты (NIST SP 800-90B, ГОСТ Р 34.10) предполагают использование физического источника энтропии для ключевого материала.
   \end{itemize}
-  \vspace{0.4em}
 \end{frame}
 
 % ============================================================
 \begin{frame}{Цель и задачи}
-  \textbf{Цель.} Сравнить физические источники энтропии и спроектировать компактный аппаратный TRNG.
-  \vspace{0.6em}
-  \textbf{Задачи:}
-  \begin{itemize}
-    \item теоретический анализ восьми классов источников;
-    \item сборка стенда на доступной элементной базе;
-    \item практическая проверка шести источников;
-    \item оценка по NIST STS, скорости, стоимости.
-  \end{itemize}
+  \scriptsize
+  \textbf{Цель.} Сравнить доступные источники энтропии (аудио-, радио-, электронные и механические шумы) для проектирования компактного ФГСЧ с учётом:
+  \vspace{0.2em}
+  \begin{enumerate}
+    \setlength{\itemsep}{0.15em}
+    \item Критериев NIST STS (тесты на частоту, последовательности, энтропию);
+    \item Стоимости и простоты реализации;
+    \item Устойчивости к внешним воздействиям.
+  \end{enumerate}
+  \vspace{0.4em}
+  \textbf{Задачи.}
+  \vspace{0.2em}
+  \begin{enumerate}
+    \setlength{\itemsep}{0.15em}
+    \item Провести теоретический анализ физических источников энтропии и выбрать наиболее подходящий для компактной реализации.
+    \item Собрать экспериментальный стенд на доступной элементной базе (Arduino $+$ ОУ общего назначения) с единым интерфейсом захвата сырого потока.
+    \item Реализовать прозрачный конвейер постобработки (без криптопримитивов) и расчёта статистических характеристик.
+    \item Достичь прохождения тестов NIST STS при достаточной скорости генерации для практических задач.
+    \item Обеспечить пригодность выходного потока для криптографических применений: seed ГПСЧ, генерация ключей.
+  \end{enumerate}
 \end{frame}
 
 % ============================================================
-\begin{frame}{Классификация ГСП}
-  \begin{columns}[T]
-    \begin{column}{0.48\linewidth}
-      \centering\textbf{\color{accent} ГПСП}\par
-      \vspace{0.5em}
-      программный алгоритм\\[0.4em]
-      выход $=$ функция от начального значения\\[0.4em]
-      \textbf{детерминирован}\\[0.4em]
-      \emph{зная seed --- предсказуем}
-    \end{column}
-    \begin{column}{0.48\linewidth}
-      \centering\textbf{\color{accent} ГИСП}\par
-      \vspace{0.5em}
-      физический процесс\\[0.4em]
-      шум, лавина, фотоны\\[0.4em]
-      \textbf{недетерминирован}\\[0.4em]
-      \emph{предмет данной работы}
-    \end{column}
-  \end{columns}
+\begin{frame}{NIST STS: методология проверки}
+  \footnotesize
+  \textbf{Нулевая гипотеза} $H_0$: «последовательность порождена идеальным источником --- независимые биты с $\mathbb{P}(b_i{=}1)=1/2$».
+  \par\vspace{0.4em}
+  Тест вычисляет статистику $T$ и её \textbf{$p$-значение} --- вероятность получить значение статистики не менее экстремальное, чем наблюдаемое, при условии $H_0$. Решающее правило:
+  \[
+    p\text{-value}<\alpha\ \Rightarrow\ \text{отвергнуть } H_0,\qquad \alpha=0{,}01.
+  \]
+  \textbf{Пакет NIST STS} (SP 800-22): $15$ групп, $188$ под-тестов.
+  \par\vspace{0.4em}
+  \textbf{Множественные сравнения.} При большом числе проверок возможны единичные ложные провалы отдельных p-value даже для идеального источника.
+  \par\vspace{0.4em}
 \end{frame}
 
 % ============================================================
-\begin{frame}{Физические источники энтропии}
-  \begin{columns}[T]
-    \begin{column}{0.50\linewidth}
-      \textbf{Электронные}
-      \begin{itemize}\setlength{\itemsep}{0.1em}
-        \item тепловой (Johnson--Nyquist)
-        \item дробовой
-        \item лавинный
-        \item мерцающий $1/f$
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.50\linewidth}
-      \textbf{Прочие}
-      \begin{itemize}\setlength{\itemsep}{0.1em}
-        \item оптические / квантовые
-        \item радиоактивный распад
-        \item акустические
-        \item MEMS-инерциальные
-      \end{itemize}
-    \end{column}
-  \end{columns}
-  \vspace{0.5em}
-  \centering\small\emph{Подробное сопоставление --- в главе 2 и приложении 2.}
+\begin{frame}{NIST STS: классы проверяемых дефектов}
+  \scriptsize
+  \setlength{\tabcolsep}{4pt}
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{|p{0.25\linewidth}|p{0.28\linewidth}|p{0.38\linewidth}|}
+    \hline
+    \textbf{Класс} & \textbf{Тесты} & \textbf{Что ловит} \\ \hline
+    Частотные &
+      Frequency, BlockFrequency, CumulativeSums &
+      смещение $\hat p_1 \ne 1/2$ на всём потоке и в блоках; дрейф частичных сумм \\ \hline
+    Структура серий &
+      Runs, LongestRun &
+      аномальное число «пробегов»; слишком длинные серии одинаковых битов \\ \hline
+    Матричная и спектральная &
+      Rank, FFT &
+      линейная зависимость между блоками; периодические пики в спектре \\ \hline
+    Шаблонные &
+      NonOverlapping / Overlapping Template, Universal (Maurer) &
+      частота заданных битовых паттернов; сжимаемость потока \\ \hline
+    Сложностные &
+      Linear Complexity, Approximate Entropy, Serial &
+      длина минимального LFSR (Берлекэмп--Месси); условная энтропия $m$-грамм \\ \hline
+    Случайные блуждания &
+      RandomExcursions, $\ldots$Variant &
+      аномальная длительность/число визитов частичной суммы в состояния $\pm k$ \\ \hline
+  \end{tabular}
+  \par\vspace{0.4em}
+  Шесть классов покрывают \emph{разные} типы зависимостей (линейные, нелинейные, спектральные, структурные). Характер провалов позволяет локализовать возможный тип дефекта источника (смещение, корреляция, периодичность, линейная зависимость и т.д.).
 \end{frame}
 
 % ============================================================
 \begin{frame}{Архитектура стенда}
   \centering
-  \begin{minipage}{0.92\linewidth}\centering\small
-    \fbox{\parbox{0.18\linewidth}{\centering Источник\\шума}}\,$\to$\,%
-    \fbox{\parbox{0.18\linewidth}{\centering Усилитель\\LM358}}\,$\to$\,%
-    \fbox{\parbox{0.16\linewidth}{\centering АЦП\\Arduino}}\,$\to$\,%
-    \fbox{\parbox{0.14\linewidth}{\centering USB\\1\,Мбод}}\,$\to$\,%
-    \fbox{\parbox{0.16\linewidth}{\centering ПК\\конвейер}}
+  \begin{minipage}{0.95\linewidth}\centering\footnotesize
+    \fbox{\parbox{0.18\linewidth}{\centering Источник\\энтропии}}\,$\to$\,%
+    \fbox{\parbox{0.18\linewidth}{\centering Усилитель\\$+$ АЦП}}\,$\to$\,%
+    \fbox{\parbox{0.14\linewidth}{\centering Сырой\\$u_{16}$-поток}}\,$\to$\,%
+    \fbox{\parbox{0.20\linewidth}{\centering Извлечение МЗР\\$+$ постобработка}}\,$\to$\,%
+    \fbox{\parbox{0.16\linewidth}{\centering NIST STS\\$+$ метрики}}
   \end{minipage}
-  \vspace{0.8em}
-  \begin{itemize}\setlength{\itemsep}{0.2em}
-    \item Различные прошивки для получения энтропии с разных источников, но единый бинарный протокол.
-    \item На ПК: извлечение МЗР $\to$ постобработка $\to$ статистика $\to$ NIST STS.
+  \vspace{0.6em}
+  \footnotesize
+  \begin{itemize}\setlength{\itemsep}{0.15em}
+    \item \textbf{Аппаратная часть} (источник энтропии $+$ усилитель $+$ АЦП Arduino): единственный требуемый интерфейс наружу --- 16-битные отсчёты через последовательный канал.
+    \item \textbf{ПК-конвейер} (Python): захват потока $\to$ извлечение младших разрядов $\to$ постобработка $\to$ анализ (гистограммы, спектральная плотность, автокорреляция, энтропия) $\to$ запуск NIST STS.
+    \item Единый бинарный протокол для всех источников $\Rightarrow$ изоморфные эксперименты.
   \end{itemize}
+\end{frame}
+
+% ============================================================
+\begin{frame}{Источник энтропии}
+  \begin{columns}[c]
+    \begin{column}{0.52\linewidth}
+      \centering
+      \includegraphics[width=\linewidth,keepaspectratio]{bjt_noise_source/schema.png}
+    \end{column}
+    \begin{column}{0.46\linewidth}
+      \footnotesize
+      Лавинный пробой обратносмещённого BE-перехода биполярного транзистора BC337 при $U_{BR}\!\sim\! 9$\,В.
+      \par\vspace{0.5em}
+      Случайный характер ударной ионизации даёт интенсивный широкополосный шум; сигнал снимается с эмиттера через разделительный конденсатор и подаётся на вход усилителя.
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % ============================================================
 \begin{frame}{Аналоговый усилительный тракт}
   \centering
   \includegraphics[width=0.78\linewidth,keepaspectratio]{amplifier_schemas/amp_2stage.png}
-  \par\vspace{0.4em}
-  \small Двухкаскадный неинвертирующий ($G\approx 528$), $+12$\,В однополярно;
-  $V_\mathrm{mid}$ --- от шины $+5$\,В Arduino через делитель.
+  \par\vspace{0.3em}
+  \footnotesize Двухкаскадный неинвертирующий ($G\approx 528$), $+12$\,В однополярно; оцифровка $10$-битным АЦП Arduino.
 \end{frame}
 
 % ============================================================
-\begin{frame}{Лавинный пробой BE-перехода}
+\begin{frame}{Распределение сырого сигнала}
   \begin{columns}[c]
-    \begin{column}{0.48\linewidth}
+    \begin{column}{0.55\linewidth}
       \centering
-      \includegraphics[width=\linewidth,keepaspectratio]{bjt_noise_source/schema.png}
+      \includegraphics[width=\linewidth,keepaspectratio]{exp_bjt_vcc_stab/histogram_raw.png}
+    \end{column}
+    \begin{column}{0.43\linewidth}
+      \footnotesize
+      Гистограмма отсчётов $Y_i\in\{0,\ldots,1023\}$. Огибающая \emph{близка} к нормальной по ЦПТ ($\hat\mu\approx 505$, $\hat\sigma\approx 147$), но видна выраженная <<гребёнка>>: Критерий Пирсона отвергает гипотезу об идеальной нормальности ( $p\!\approx\!0$ ).
+      \par\vspace{0.3em}
+      Битовый поток: $b_i=\mathrm{lsb}(Y_i)$. Огибающая и распределение $b_i$ --- характеристики разных масштабов; равномерность МЗР проверяется отдельно.
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ============================================================
+\begin{frame}{Анализ сырого битового потока}
+  \begin{columns}[c]
+    \begin{column}{0.50\linewidth}
+      \centering
+      \includegraphics[width=\linewidth,keepaspectratio]{exp_bjt_vcc_stab/autocorr_bits.png}
+      \par{\tiny АКФ битового потока: $4{,}9\%$ точек вне $95\%$ ДИ ($\approx$ ожидаемым $5\%$ при $H_0$).}
     \end{column}
     \begin{column}{0.48\linewidth}
       \footnotesize
-      Q1 = BC337 включён инвертированно:
-      \begin{itemize}\setlength{\itemsep}{0.2em}
-        \item C, B --- на землю;
-        \item E через $R_b{=}100$\,кОм $\to$ $+12$\,В;
-        \item $U_{BR}\sim 7\ldots 9$\,В.
+      \textbf{Дефекты} сырого МЗР канала BJT:
+      \begin{itemize}\setlength{\itemsep}{0.15em}
+        \item \emph{доминирующий} --- смещение: $\hat{p}=\mathbb{P}(b_i{=}1)\approx \tfrac12 + \varepsilon$, $\varepsilon\sim 10^{-3}$;
+        \item остаточная корреляция: $|\hat\rho(1)|\sim 10^{-3}$ --- бит-уровень близок к белому шуму, но след тракта присутствует.
       \end{itemize}
       \vspace{0.3em}
-      Получение сигнала: через $C_1{=}0{,}1$\,мкФ на вход усилителя.
-    \end{column}
-  \end{columns}
-\end{frame}
-
-% ============================================================
-\begin{frame}{Развитие ГИСП на основе BJT}
-  \begin{columns}[c]
-    \begin{column}{0.58\linewidth}
-      \scriptsize
-      \begin{tabular}{|c|p{0.56\linewidth}|c|c|}
-        \hline
-        \textbf{Эт.} & \textbf{Конфигурация} & $\sigma_\mathrm{adc}$ & \textbf{NIST} \\
-        \hline
-        1 & 1 каскад, $G\!\approx\!48$ & $28$ & 12/3 \\
-        \hline
-        2 & 2 каскада, $G\!\approx\!528$ & $145$ & 13/2 \\
-        \hline
-        3 & $V_\mathrm{mid}\!\downarrow$ $+$ $G\!\downarrow$ до ${\approx}467$ & $122$ & 12/3 \\
-        \hline
-        \textbf{4} & \textbf{возврат} $G\!\approx\!528$ \textbf{, стабилизация питания} & $\mathbf{146}$ & \textbf{13/2} \\
-        \hline
-      \end{tabular}
+      Задача постобработки --- найти
+      $f:\{0,1\}^{n}\to\{0,1\}^{m}$, $m\le n$, такую что $\hat{p}\to 1/2$ и $\rho\to 0$.
       \par\vspace{0.3em}
-    \end{column}
-    \begin{column}{0.40\linewidth}
-      \centering
-      \includegraphics[width=0.88\linewidth,keepaspectratio]{photo_trng_bjt_module/board.jpg}
+      Основная --- \textbf{фон Нейман}; итоговая каскадная --- \textbf{фон Нейман $\to$ XOR-децимация}.
     \end{column}
   \end{columns}
 \end{frame}
 
 % ============================================================
-\begin{frame}{Постобработка битового потока}
+\begin{frame}{Постобработка I: корректор фон Неймана}
   \footnotesize
-  \begin{itemize}\setlength{\itemsep}{0.35em}
-    \item \textbf{Фон Нейман} (основа) \\
-      \emph{Прозрачный, диагностичный экстрактор: даёт несмещённый выход без параметров.}
-    \item \textbf{XOR с задержкой N}
-    \item \textbf{XOR нескольких младших разрядов отсчёта}
-    \item \textbf{XOR-децимация с окном N}
-    \item \textbf{Побайтовая XOR-свёртка} 
-  \end{itemize}
+  \textbf{Идея.} Биты разбиваются на пары $(b_{2i},b_{2i+1})$, к каждой паре применяется правило:
+  \[
+    (b_{2i},b_{2i+1})\;\to\;
+    \begin{cases}
+      0, & (0,1) \\ 1, & (1,0) \\ \text{отброс}, & (0,0),(1,1).
+    \end{cases}
+  \]
+  \textbf{Утверждение.} \emph{Если $b_i$ независимы и $\mathbb{P}(b_i{=}1)=p$, выход строго несмещён.}
+  \par\vspace{0.2em}
+  \emph{Доказательство.} $\mathbb{P}(01)=\mathbb{P}(10)=p(1-p)$ $\Rightarrow$ $\mathbb{P}(b'{=}0)=\mathbb{P}(b'{=}1)=1/2$ при любом $p\in(0,1)$. $\blacksquare$
+  \par\vspace{0.4em}
+  \textbf{Коэффициент полезного действия:} $\eta=2p(1-p)\le 1/2$; при $p=1/2$ ровно $1/4$ входных бит образуют выход.
+  \par\vspace{0.3em}
+  \textbf{Результат:} 13 PASS из 15 групп NIST STS. \emph{Проваливаются только тесты случайных блужданий (RandomExcursions и RandomExcursionsVariant).}
+\end{frame}
+
+% ============================================================
+\begin{frame}{Тесты <<случайных блужданий>>}
+  \footnotesize
+  Рассмотрим частичную сумму:
+  \[
+    S_n=\sum_{i=1}^{n}(2b_i-1),\qquad S_n\in\mathbb{Z}.
+  \]
+  Это симметричное случайное блуждание $\{S_n\}$ на $\mathbb{Z}$ с шагом $\pm 1$.
+  \par\vspace{0.3em}
+  Тесты \textbf{RandomExcursions} и \textbf{RandomExcursionsVariant} проверяют распределение числа посещений состояний $k\in\{-9,\ldots,-1,1,\ldots,9\}$ на одном «цикле» --- участке между двумя нулями $S_n$.
+  \par\vspace{0.4em}
+  \textbf{Почему фон Нейман не помогает.} Корректор устраняет смещение $p\!\neq\!1/2$, но \emph{не гарантирует устранение корреляций}: входные пары порождаются АЦП с ограниченной полосой и не полностью независимы. Эта остаточная корреляция искажает длины циклов $\Rightarrow$ распределение посещений отличается от теоретического $\Rightarrow$ $p$-value $<\alpha$.
+\end{frame}
+
+% ============================================================
+\begin{frame}{Постобработка II: XOR-децимация}
+  \footnotesize
+  Выход:
+  \[
+    b'_j = \bigoplus_{k=0}^{n-1} b_{nj+k},
+    \qquad n=8.
+  \]
+
+  \textbf{Утверждение об умножении смещений.}
+  Если $b_k$ независимы и
+  \[
+    \mathbb{P}(b_k=1)=\tfrac12+\varepsilon_k,
+  \]
+  то
+  \[
+    \mathbb{P}\!\Big(\bigoplus_{k=1}^{n} b_k = 1\Big)
+    =
+    \tfrac12 + 2^{\,n-1}\prod_{k=1}^{n}\varepsilon_k.
+  \]
+
+  При $|\varepsilon_k|<\tfrac12$ остаточное смещение
+  убывает экспоненциально с ростом $n$.
+
+  \par\vspace{0.4em}
+
+  Дополнительный эффект --- частичная декорреляция:
+  при наличии короткодействующих зависимостей ($L<n$)
+  XOR на окне длины $n$ существенно ослабляет корреляции.
+
+  \par\vspace{0.4em}
+
+  \textbf{Итого каскад: фон Нейман $\to$ XOR-децимация (окно 8).} VN устраняет смещение, XOR подавляет остаточные корреляции.
+  В результате последовательности
+  проходят все 15 групп статистических тестов.
 \end{frame}
 
 % ============================================================
@@ -252,13 +327,14 @@
         \fcolorbox{accent}{white}{\parbox{0.94\linewidth}{\centering\Large
         \vspace{0.4em}\textbf{\color{accent} NIST STS}\par
         \vspace{0.3em}{\Huge\bfseries 15 / 15}\par
-        \vspace{0.1em}{\normalsize FAIL\,=\,0\, N/A\,=\,0}\par\vspace{0.4em}}}
+        \vspace{0.1em}{\normalsize FAIL\,=\,0,\ N/A\,=\,0}\par\vspace{0.4em}}}
       \end{minipage}
       \par\vspace{0.6em}
       \footnotesize
-      Источник - Лавинный пробой транзистора\\ Каскадная постобработка:\\фон Нейман\,$\to$\,XOR-децимация с окном 8\\
-      min-H\,=\,0{,}9999 бит/бит;
-      \\$\sim 1{,}6$\,кбит/с;
+      Каскад: фон Нейман $\to$ XOR-децимация (окно 8)\\
+      $H_\infty \approx 0{,}9998$ бит/бит;\\
+      пропускная способность $\sim 1{,}6$\,кбит/с;\\
+      выход \emph{прозрачен} (без криптопримитивов).
     \end{column}
     \begin{column}{0.43\linewidth}
       \centering
@@ -276,34 +352,40 @@
   \renewcommand{\arraystretch}{1.3}
   \begin{tabular}{|p{0.36\linewidth}|c|c|c|c|}
     \hline
-    \textbf{Канал} & $\sigma_\mathrm{adc}$ & \textbf{NIST} & \textbf{min-H} & \textbf{бит/с} \\
+    \textbf{Канал} & $\sigma_\mathrm{adc}$ & \textbf{NIST} & $H_\infty$ & \textbf{бит/с} \\
     \hline
-    \textbf{BJT + каскад} & $147$ & \textbf{15 / 0} & $0{,}9999$ & ${\sim}\,1{,}6{\cdot}10^3$ \\
+    \textbf{BJT + VN + XOR-Decim} & $147$ & \textbf{15 / 0} & $0{,}9999$ & ${\sim}\,1{,}6{\cdot}10^3$ \\
     \hline
-    BJT & $147$ & 13 / 2 & $0{,}9999$ & ${\sim}\,1{,}3{\cdot}10^4$ \\
+    BJT + VN & $147$ & 13 / 2 & $0{,}9999$ & ${\sim}\,1{,}3{\cdot}10^4$ \\
     \hline
     Тепловой шум $10$\,МОм & $15$ & 10 / 5 & $0{,}9984$ & ${\sim}\,1{,}5{\cdot}10^4$ \\
     \hline
     Микрофон KY-037 & $1$ & 4 / 11 & $0{,}9994$ & ${\sim}\,7{,}5{\cdot}10^3$ \\
     \hline
-    MPU-6050 & --- & 2 / 11 & $0{,}584$ & ${\sim}\,5{,}6{\cdot}10^3$ \\
+    MPU-6050 & --- & 2 / 13 & $0{,}584$ & ${\sim}\,5{,}6{\cdot}10^3$ \\
     \hline
     Плавающий АЦП & $5$ & 0 / 15 & $0{,}9994$ & ${\sim}\,2{\cdot}10^2$ \\
     \hline
     Clock jitter & --- & 0 / 15 & $0{,}9997$ & ${\sim}\,30$ \\
     \hline
   \end{tabular}
-  \par\vspace{0.3em}
 \end{frame}
 
 % ============================================================
 \begin{frame}{Выводы}
-  \begin{itemize}
-    \setlength{\itemsep}{0.7em}
-    \item Сконструирован стенд, проверены $6$ независимых источников энтропии.
-    \item Лучший результат --- \textbf{BJT $+$ каскадная постобработка: 15/15 NIST STS}.
-    \item Двухступенчатая некриптографическая постобработка \emph{эквивалентна} криптографическому отбеливанию по эффекту на NIST.
-    \item Стоимость элементной базы источника $<$\,$50$\,руб.
+  \footnotesize
+  \textbf{Выполнено:}
+  \begin{itemize}\setlength{\itemsep}{0.2em}
+    \item теоретический анализ восьми классов физических источников энтропии;
+    \item собран стенд и проведена натурная проверка шести каналов;
+    \item разработаны и обоснованы пять алгоритмов постобработки;
+    \item все каналы оценены по NIST STS, $H_\infty$ и скорости генерации.
+  \end{itemize}
+  \vspace{0.4em}
+  \textbf{Главные результаты:}
+  \begin{itemize}\setlength{\itemsep}{0.2em}
+    \item обоснование каскада: фон Нейман строго устраняет смещение, XOR-децимация экспоненциально подавляет остаток и краткосрочные корреляции;
+    \item на канале BJT с каскадной постобработкой получено \textbf{15 / 15 NIST STS} без криптопримитивов; стоимость элементной базы $<50$\,руб.
   \end{itemize}
 \end{frame}
 
@@ -311,9 +393,9 @@
 \begin{frame}{Перспективы}
   \begin{itemize}
     \setlength{\itemsep}{0.7em}
-    \item Второй независимый канал, XOR-смешение битовых потоков нескольких источников.
-    \item Печатная плата с экранированием и низкошумящим ОУ.
-    \item Упаковка в законченный модуль с собственным микроконтроллером.
+    \item Встроенный \emph{health-мониторинг} в реальном времени (тесты SP 800-90B прямо в прошивке) для детектирования деградации источника на ходу.
+    \item XOR-смешение нескольких независимых каналов как ещё один уровень --- пропускная способность не теряется, $H_\infty$ монотонно растёт.
+    \item Перенос каскада постобработок на микроконтроллер.
   \end{itemize}
 \end{frame}
 
