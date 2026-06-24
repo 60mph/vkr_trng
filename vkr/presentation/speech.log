@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  23 JUN 2026 23:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  24 JUN 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,6 +629,12 @@ am secret
  []
 
 
+Underfull \hbox (badness 2961) in paragraph at lines 55--78
+\TU/TimesNewRoman(0)/m/n/12 рекомендации по генерации ключевого материала — пре
+жде всего NIST SP 800-90B —
+ []
+
+
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
@@ -643,13 +649,19 @@ l.91 ...Слайд 3. Цель и задачи~~($\approx$\,25 с)}
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 93--98
+Underfull \hbox (badness 5592) in paragraph at lines 93--97
 []\TU/TimesNewRoman(0)/m/n/12 Цель работы — сравнить доступные источники энтроп
 ии (аудио-, радио-, фотонные и
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 105--105
+Underfull \hbox (badness 1014) in paragraph at lines 98--102
+\TU/TimesNewRoman(0)/m/n/12 стенда на доступной элементной базе, реализация про
+зрачного конвейера постобработки, и
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 109--109
 \TU/TimesNewRoman(0)/m/it/10.95 из 15 групп тестов стандарта SP 800-22 (детальн
 о на следующих слайдах). Под «стоимостью и
  []
@@ -664,30 +676,30 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 ... методология проверки~~($\approx$\,45 с)}
+l.112 ... методология проверки~~($\approx$\,45 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 110--117
+Underfull \hbox (badness 2856) in paragraph at lines 114--121
 []\TU/TimesNewRoman(0)/m/n/12 Качество последовательности проверяется статистич
 ескими тестами. Нулевая гипотеза $\OML/cmm/m/it/12 H[]$
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 110--117
+Underfull \hbox (badness 1412) in paragraph at lines 114--121
 \TU/TimesNewRoman(0)/m/n/12 формулируется единообразно для всего пакета: «после
 довательность порождена идеальным
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 110--117
+Underfull \hbox (badness 1292) in paragraph at lines 114--121
 \TU/TimesNewRoman(0)/m/n/12 источником — независимые биты с вероятностью одной 
 второй». Каждый тест вычисляет
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 110--117
+Underfull \hbox (badness 1831) in paragraph at lines 114--121
 \TU/TimesNewRoman(0)/m/n/12 некоторую статистику $\OML/cmm/m/it/12 T$ \TU/Times
 NewRoman(0)/m/n/12 и её $\OML/cmm/m/it/12 p$\TU/TimesNewRoman(0)/m/n/12 -значен
 ие — вероятность увидеть наблюдаемое или более
@@ -703,7 +715,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 
+l.121 
       
 (That was another \errmessage.)
 
@@ -720,12 +732,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 ...атываниями, рекомендация NIST SP 800-22.}
+l.162 ...атываниями, рекомендация NIST SP 800-22.}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 158--158
+Underfull \hbox (badness 3965) in paragraph at lines 162--162
 \TU/TimesNewRoman(0)/m/it/10.95 — зависит от альтернативы. Выбор $\OML/cmm/m/it
 /10.95 ^^K \OT1/cmr/m/n/10.95 = 0[]01$ \TU/TimesNewRoman(0)/m/it/10.95 — компро
 мисс между мощностью теста и
@@ -741,19 +753,26 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 ... проверяемых дефектов~~($\approx$\,55 с)}
+l.165 ... проверяемых дефектов~~($\approx$\,55 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 184--188
-\TU/TimesNewRoman(0)/m/n/12 Месси), Approximate Entropy и Serial (условная и со
-вместная энтропия $\OML/cmm/m/it/12 m$\TU/TimesNewRoman(0)/m/n/12 -грамм) — лов
-ят
- []
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
 
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 
+      
+(That was another \errmessage.)
 
-Underfull \hbox (badness 3547) in paragraph at lines 189--193
+[2]
+Underfull \hbox (badness 3547) in paragraph at lines 193--197
 []\TU/TimesNewRoman(0)/m/n/12 И \TU/TimesNewRoman(0)/m/it/12 случайные блуждани
 я \TU/TimesNewRoman(0)/m/n/12 — RandomExcursions и RandomExcursionsVariant — ан
 омальную
@@ -769,27 +788,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 О
-       дин-два провала, как правило, указывают на конкретный класс дефекта и
-(That was another \errmessage.)
-
-[2]
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ...6. Архитектура стенда~~($\approx$\,35 с)}
+l.219 ...6. Архитектура стенда~~($\approx$\,35 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 217--225
+Underfull \hbox (badness 1205) in paragraph at lines 221--229
 \TU/TimesNewRoman(0)/m/n/12 каналу. На стороне ПК конвейер на Python выполняет 
 захват потока, извлечение младших
  []
@@ -804,7 +808,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -818,7 +822,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -832,7 +836,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -846,7 +850,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -860,7 +864,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -874,7 +878,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -888,7 +892,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ...h} (обёртка над пакетом NIST STS 2.1.2).}
+l.237 ...h} (обёртка над пакетом NIST STS 2.1.2).}
                                                   
 (That was another \errmessage.)
 
@@ -902,14 +906,33 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 ... 7. Источник энтропии~~($\approx$\,25 с)}
+l.240 ... 7. Источник энтропии~~($\approx$\,25 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 238--242
+Underfull \hbox (badness 1509) in paragraph at lines 242--246
 \TU/TimesNewRoman(0)/m/n/12 шум; сигнал снимается с эмиттера через разделительн
 ый конденсатор и подаётся на вход
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 294--294
+[]\TU/TimesNewRoman(0)/b/it/10.95 Что такое «случайный характер ударной ионизац
+ии». \TU/TimesNewRoman(0)/m/it/10.95 При обратном смещении BE-перехода
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 294--294
+\TU/TimesNewRoman(0)/m/it/10.95 столкновении такого «горячего» носителя с атомо
+м решётки происходит \TU/TimesNewRoman(0)/m/n/10.95 ударная ионизация \TU/Times
+NewRoman(0)/m/it/10.95 —
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 294--294
+\TU/TimesNewRoman(0)/m/it/10.95 выбивается новая электрон-дырочная пара, котора
+я, в свою очередь, разгоняется полем и может
  []
 
 
@@ -922,12 +945,47 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 ...ый усилительный тракт~~($\approx$\,15 с)}
+l.294 ...антовых рулеток>> внутри полупроводника.}
+                                                  
+(That was another \errmessage.)
+
+[3]
+Underfull \hbox (badness 1248) in paragraph at lines 294--294
+[]\TU/TimesNewRoman(0)/m/n/10.95 Момент ионизации. \TU/TimesNewRoman(0)/m/it/10
+.95 Длина свободного пробега носителя между столкновениями — случайная
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 294--294
+[]\TU/TimesNewRoman(0)/m/n/10.95 Координата ионизации. \TU/TimesNewRoman(0)/m/i
+t/10.95 Где именно в обеднённой области произошёл акт — зависит от
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\TU/TimesNewRoman(0)/m/it/10.95 процесс Гальтона–Уотсона), описываемая коэффици
+ентами ионизации $\OML/cmm/m/it/10.95 ^^K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
+.95 E\OT1/cmr/m/n/10.95 )$\TU/TimesNewRoman(0)/m/it/10.95 , $\OML/cmm/m/it/10.9
+5 ^^K[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 E\OT1/cmr/m/n/10.95 )$ \TU/Times
+NewRoman(0)/m/it/10.95 для
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 ...ый усилительный тракт~~($\approx$\,15 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
+Underfull \hbox (badness 10000) in paragraph at lines 299--302
 \TU/TimesNewRoman(0)/m/n/12 на сдвоенном ОУ LM358 с коэффициентом порядка пятис
 от; оцифровка выполняется
  []
@@ -942,9 +1000,27 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.263 ...еление сырого сигнала~~($\approx$\,40 с)}
+l.311 ...еление сырого сигнала~~($\approx$\,40 с)}
                                                   
 (That was another \errmessage.)
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 313--317
+\TU/TimesNewRoman(0)/m/n/12 среднего и стандартного отклонения — на слайде. Оги
+бающая распределения хорошо
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 325--330
+\TU/TimesNewRoman(0)/m/n/12 крупномасштабную форму распределения, а распределен
+ие младших разрядов зависит от
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 325--330
+\TU/TimesNewRoman(0)/m/n/12 мельчайших бин-уровневых деталей — это совершенно р
+азные характеристики. Форма
+ []
 
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
@@ -956,30 +1032,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 
-      
+l.464 ...m 10^{-4}$, что согласуется с эмпирикой.}
+                                                  
 (That was another \errmessage.)
 
-[3]
-Underfull \hbox (badness 1019) in paragraph at lines 270--276
-\TU/TimesNewRoman(0)/m/n/12 от нормального. Это типичное проявление нелинейност
-и АЦП (DNL/INL): некоторые коды
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 277--282
-\TU/TimesNewRoman(0)/m/n/12 крупномасштабную форму распределения, а распределен
-ие младших разрядов зависит от
- []
-
-
-Underfull \hbox (badness 7047) in paragraph at lines 277--282
-\TU/TimesNewRoman(0)/m/n/12 мельчайших бин-уровневых деталей — это совершенно р
-азные характеристики. Форма
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 365--365
+[4]
+Underfull \hbox (badness 1365) in paragraph at lines 464--464
 []\TU/TimesNewRoman(0)/b/it/10.95 Критерий согласия Пирсона ($\OML/cmm/m/it/10.
 95 ^^_[]$\TU/TimesNewRoman(0)/b/it/10.95 ). \TU/TimesNewRoman(0)/m/it/10.95 Про
 веряемая гипотеза $\OML/cmm/m/it/10.95 H[]$\TU/TimesNewRoman(0)/m/it/10.95 : «$
@@ -989,7 +1047,29 @@ Underfull \hbox (badness 1365) in paragraph at lines 365--365
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 365--365
+Underfull \hbox (badness 2285) in paragraph at lines 464--464
+[]\TU/TimesNewRoman(0)/b/it/10.95 Главное недоразумение: $\OML/cmm/m/it/10.95 p
+  \OMS/cmsy/m/n/10.95 ^^Y  \OT1/cmr/m/n/10.95 0$ \TU/TimesNewRoman(0)/b/n/10.95
+ не значит\TU/TimesNewRoman(0)/b/it/10.95 , что значение увидеть невозможно. $\
+OML/cmm/m/it/10.95 p$\TU/TimesNewRoman(0)/m/it/10.95 -value — это
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 ...m 10^{-4}$, что согласуется с эмпирикой.}
+                                                  
+(That was another \errmessage.)
+
+[5]
+Underfull \hbox (badness 3098) in paragraph at lines 464--464
 []\TU/TimesNewRoman(0)/b/it/10.95 Причины отклонения от нормальности. \TU/Times
 NewRoman(0)/m/n/10.95 (а) Квантование\TU/TimesNewRoman(0)/m/it/10.95 : непрерыв
 ный сигнал $\OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/
@@ -1006,35 +1086,16 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.365 ...m 10^{-4}$, что согласуется с эмпирикой.}
-                                                  
-(That was another \errmessage.)
-
-[4]
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 ...й поток: что мы видим~~($\approx$\,40 с)}
+l.467 ...й поток: что мы видим~~($\approx$\,40 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 370--378
-[]\TU/TimesNewRoman(0)/m/n/12 Эмпирически у сырого битового потока доминирующий
- дефект — небольшое смещение:
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 370--378
-\TU/TimesNewRoman(0)/m/n/12 квантованием. Однако след тракта всё же присутствуе
-т — эмпирический лаг-1 битовой
+Underfull \hbox (badness 1102) in paragraph at lines 645--645
+[]\TU/TimesNewRoman(0)/b/it/10.95 Как вообще считается корреляция, простыми сло
+вами. \TU/TimesNewRoman(0)/m/it/10.95 Корреляция — это число от $\OMS/cmsy/m/n/
+10.95 ^^@\OT1/cmr/m/n/10.95 1$ \TU/TimesNewRoman(0)/m/it/10.95 до $\OT1/cmr/m/n
+/10.95 +1$\TU/TimesNewRoman(0)/m/it/10.95 ,
  []
 
 
@@ -1047,14 +1108,21 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.420 ...Корректор фон Неймана~~($\approx$\,60 с)}
+l.645 ...инная min-entropy практически равна $1$.}
                                                   
 (That was another \errmessage.)
 
+[6]
+Underfull \hbox (badness 2564) in paragraph at lines 645--645
+[]\TU/TimesNewRoman(0)/m/n/10.95 Шаг 2. Нормировка. \TU/TimesNewRoman(0)/m/it/1
+0.95 Проблема ковариации — её величина зависит от единиц измерения. Чтобы
+ []
 
-Underfull \hbox (badness 7504) in paragraph at lines 426--431
-\TU/TimesNewRoman(0)/m/n/12 несмещён. Доказательство одностраничное: вероятност
-и противоположных пар равны $\OML/cmm/m/it/12 p$
+
+Underfull \hbox (badness 1412) in paragraph at lines 645--645
+\TU/TimesNewRoman(0)/m/it/10.95 получить безразмерное число, делим на произведе
+ние среднеквадратичных отклонений: $\OML/cmm/m/it/10.95 ^^Z\OT1/cmr/m/n/10.95 (
+\OML/cmm/m/it/10.95 X; Y\OT1/cmr/m/n/10.95 ) =
  []
 
 
@@ -1067,18 +1135,33 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431 
-      
+l.645 ...инная min-entropy практически равна $1$.}
+                                                  
 (That was another \errmessage.)
 
-[5]
-Underfull \hbox (badness 7576) in paragraph at lines 436--439
+[7]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648 ...Корректор фон Неймана~~($\approx$\,60 с)}
+                                                  
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 670--674
 []\TU/TimesNewRoman(0)/m/n/12 На канале BJT после фон Неймана получено тринадца
 ть PASS из пятнадцати групп
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 436--439
+Underfull \hbox (badness 6032) in paragraph at lines 670--674
 \TU/TimesNewRoman(0)/m/n/12 NIST STS. Проваливаются только тесты случайных блуж
 даний — RandomExcursions и
  []
@@ -1093,57 +1176,11 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.451 ...ы случайных блужданий~~($\approx$\,55 с)}
-                                                  
-(That was another \errmessage.)
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 462--467
-\TU/TimesNewRoman(0)/m/n/12 но сохраняет память пары — остаточную корреляцию вх
-одных пар, унаследованную от
- []
-
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.482 ...я: умножение смещений~~($\approx$\,55 с)}
-                                                  
-(That was another \errmessage.)
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 487--492
-[]\TU/TimesNewRoman(0)/m/n/12 Утверждение об умножении смещений (известное как 
-лемма Матсуи). Если входные биты
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 496--499
-[]\TU/TimesNewRoman(0)/m/n/12 В итоговом каскаде фон Нейман устраняет смещение 
-пар, XOR-децимация — остаточные
- []
-
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.499 
+l.674 
       
 (That was another \errmessage.)
 
-[6]
+[8]
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
@@ -1154,7 +1191,22 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.515 ...14. Главный результат~~($\approx$\,40 с)}
+l.756 $\sim 5$ строк на любом языке.}
+                                     
+(That was another \errmessage.)
+
+[9]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.759 ...ы случайных блужданий~~($\approx$\,55 с)}
                                                   
 (That was another \errmessage.)
 
@@ -1168,18 +1220,312 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 ... Сравнение источников~~($\approx$\,40 с)}
+l.793 ...я: умножение смещений~~($\approx$\,55 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 551--551
+Underfull \hbox (badness 1460) in paragraph at lines 806--813
+\TU/TimesNewRoman(0)/m/n/12 смещений с экспоненциально растущим множителем по $
+\OML/cmm/m/it/12 n$\TU/TimesNewRoman(0)/m/n/12 . Формула приведена на слайде.
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 806--813
+\TU/TimesNewRoman(0)/m/n/12 Поскольку входные смещения малы и меньше одной втор
+ой, выходное смещение убывает
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 806--813
+\TU/TimesNewRoman(0)/m/n/12 геометрически с ростом окна — крошечный остаток пос
+ле фон Неймана превращается в
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.818 
+      
+(That was another \errmessage.)
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 856--856
+[]\TU/TimesNewRoman(0)/m/n/10.95 Альтернативные формулировки\TU/TimesNewRoman(0
+)/m/it/10.95 , тоже корректные: «геометрической прогрессией», «как $\OML/cmm/m/
+it/10.95 r[]$\TU/TimesNewRoman(0)/m/it/10.95 »,
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 856--856
+\TU/TimesNewRoman(0)/m/it/10.95 «суперэкспоненциально при малом $\OML/cmm/m/it/
+10.95 "$\TU/TimesNewRoman(0)/m/it/10.95 ». Что НЕ корректно: «полиномиально» ил
+и «линейно» — там
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.859 ...14. Главный результат~~($\approx$\,40 с)}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+Overfull \hbox (53.65657pt too wide) in paragraph at lines 983--983
+[]\TU/TimesNewRoman(0)/m/it/10.95 (\TU/TimesNewRoman(0)/b/it/10.95 Конкретные з
+начения на итоговом потоке после vN $\OT1/cmr/m/n/10.95 +$ \TU/TimesNewRoman(0)
+/b/it/10.95 XOR-децимации \TU/TimesNewRoman(0)/m/it/10.95 (файл \TU/lmtt/m/it/1
+0.95 postproc_decim_xor8win_vn2.bin\TU/TimesNewRoman(0)/m/it/10.95 ,
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+[11]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+[]\TU/TimesNewRoman(0)/m/it/10.95 SHA-256 от блоков по 2048 байт.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+\TU/TimesNewRoman(0)/m/it/10.95 Криптографический хэш — непрозрачное
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 983--983
+[]\TU/TimesNewRoman(0)/m/n/10.95 Почему отброшены ‘xor_delay8‘ и ‘xor_lsb012‘: 
+\TU/TimesNewRoman(0)/m/it/10.95 оба сохраняют длину потока (нет децимации) и
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 983--983
+\TU/TimesNewRoman(0)/m/it/10.95 не разрушают длинных корреляций — проваливают R
+andomExcursions и RandomExcursionsVariant.
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 983--983
+[]\TU/TimesNewRoman(0)/m/n/10.95 Почему выбран именно ‘decim_xor8win‘ (а не ‘fo
+ld_lsb_byte‘): \TU/TimesNewRoman(0)/m/it/10.95 оба дают $\OT1/cmr/m/n/10.95 15/
+15$\TU/TimesNewRoman(0)/m/it/10.95 , но \TU/lmtt/m/it/10.95 decim_xor8win
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 983--983
+[]\TU/TimesNewRoman(0)/m/n/10.95 Почему SHA-256 не учитывался: \TU/TimesNewRoma
+n(0)/m/it/10.95 (а) выход $\OMS/cmsy/m/n/10.95 ^^Y \OT1/cmr/m/n/10.95 0[]495$ \
+TU/TimesNewRoman(0)/m/it/10.95 МБ короче минимума $\OT1/cmr/m/n/10.95 1[]25$ \T
+U/TimesNewRoman(0)/m/it/10.95 МБ для NIST STS
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 983--983
+\TU/TimesNewRoman(0)/m/it/10.95 их — такой выход непрозрачен для аудита и наруш
+ает заявленный принцип «постобработка без
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.983 ...essing\_nist\_comparison\_after\_vn.md}.}
+                                                  
+(That was another \errmessage.)
+
+
+Overfull \hbox (129.32549pt too wide) in paragraph at lines 983--983
+\TU/lmtt/m/it/10.95 trng/data/reports/ 03_bjt_avalanche_vcc_stabilization_after
+vn_exp/postprocessing_nist_comparison_after_vn.md\TU/TimesNewRoman(0)/m/it/10.9
+5 .)[] 
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.986 ... Сравнение источников~~($\approx$\,40 с)}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 
+      
+(That was another \errmessage.)
+
+[12]
+Underfull \hbox (badness 1189) in paragraph at lines 1031--1031
 \TU/TimesNewRoman(0)/m/it/10.95 энтропию $\OMS/cmsy/m/n/10.95 ^^Y \OT1/cmr/m/n/
 10.95 0[]9999$\TU/TimesNewRoman(0)/m/it/10.95 , но проваливают все 15 групп NIS
 T STS. Это иллюстрирует, что побитовая
  []
 
 
+Underfull \hbox (badness 2158) in paragraph at lines 1031--1031
+\TU/TimesNewRoman(0)/m/it/10.95 поэтому величина $\OML/cmm/m/it/10.95 ^^[[]$ \T
+U/TimesNewRoman(0)/m/it/10.95 (стандартное отклонение в кодах 10-битного АЦП) к
+ ним принципиально
+ []
+
+
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
@@ -1189,23 +1535,31 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.554 ...ion*{Слайд 16. Выводы~~($\approx$\,35 с)}
+l.1031 универсальны.}
+                     
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1034 ...on*{Слайд 16. Выводы~~($\approx$\,35 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 556--561
+Underfull \hbox (badness 1939) in paragraph at lines 1036--1041
 \TU/TimesNewRoman(0)/m/n/12 физических источников энтропии, собран стенд и нату
 рно проверены шесть независимых
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 562--568
-\TU/TimesNewRoman(0)/m/n/12 устраняет смещение, XOR-децимация экспоненциально п
-одавляет остаток и краткосрочные
- []
-
-
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
@@ -1215,24 +1569,24 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 ...Слайд 17. Перспективы~~($\approx$\,20 с)}
+l.1050 ...лайд 17. Перспективы~~($\approx$\,20 с)}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 572--579
+Underfull \hbox (badness 3735) in paragraph at lines 1052--1059
 \TU/TimesNewRoman(0)/m/n/12 NIST SP 800-90B (Repetition Count и Adaptive Propor
 tion) непосредственно в прошивке,
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 572--579
+Underfull \hbox (badness 1127) in paragraph at lines 1052--1059
 \TU/TimesNewRoman(0)/m/n/12 чтобы устройство само детектировало деградацию исто
 чника энтропии в процессе работы.
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 572--579
+Underfull \hbox (badness 1215) in paragraph at lines 1052--1059
 \TU/TimesNewRoman(0)/m/n/12 XOR-смешение нескольких независимых каналов как доп
 олнительный уровень: пропускная
  []
@@ -1247,11 +1601,11 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.579 
-      
+l.1068 ...ированные данные попадут к потребителю.}
+                                                  
 (That was another \errmessage.)
 
-[7]
+[13]
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
@@ -1262,8 +1616,8 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 \section*{Возможные вопросы и ответы}
-                                           
+l.1078 \section*{Возможные вопросы и ответы}
+                                            
 (That was another \errmessage.)
 
 
@@ -1276,12 +1630,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.600 ... а NIST STS не проходит на сыром потоке?}
+l.1080 ...а NIST STS не проходит на сыром потоке?}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 601--609
+Underfull \hbox (badness 1005) in paragraph at lines 1081--1089
 []\TU/TimesNewRoman(0)/m/n/12 Min-entropy — это \TU/TimesNewRoman(0)/m/it/12 од
 номерная \TU/TimesNewRoman(0)/m/n/12 статистика: $\OML/cmm/m/it/12 H[] \OT1/cmr
 /m/n/12 = \OMS/cmsy/m/n/12 ^^@ [][] [][] \U/msb/m/n/12 P\OT1/cmr/m/n/12 (\OML/c
@@ -1299,7 +1653,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.610 ...очему фон Нейман не устранил корреляцию?}
+l.1090 ...чему фон Нейман не устранил корреляцию?}
                                                   
 (That was another \errmessage.)
 
@@ -1313,26 +1667,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.623 ...on*{Q3. Почему XOR уменьшает корреляцию?}
+l.1103 ...n*{Q3. Почему XOR уменьшает корреляцию?}
                                                   
 (That was another \errmessage.)
 
 
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629   \item \textbf
-                     {Декорреляция}: если автокорреляция входа имеет конечны...
-(That was another \errmessage.)
-
-[8]
-Underfull \hbox (badness 2556) in paragraph at lines 633--635
+Underfull \hbox (badness 2556) in paragraph at lines 1115--1117
 \TU/TimesNewRoman(0)/m/n/12 Поэтому каскад \TU/TimesNewRoman(0)/m/it/12 фон Ней
 ман \TU/TimesNewRoman(0)/m/n/12 (убирает смещение) $\OT1/cmr/m/n/12 +$ \TU/Time
 sNewRoman(0)/m/it/12 XOR-децимация \TU/TimesNewRoman(0)/m/n/12 (убирает остаточ
@@ -1349,12 +1689,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.636 ...ость, хотя огибающая визуально гауссова?}
+l.1118 ...сть, хотя огибающая визуально гауссова?}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 637--644
+Underfull \hbox (badness 1102) in paragraph at lines 1119--1126
 \OML/cmm/m/it/12 n$ \TU/TimesNewRoman(0)/m/n/12 статистический тест замечает да
 же пренебрежимо малые отклонения, которые визуально
  []
@@ -1369,12 +1709,27 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.645 ...tion*{Q5. Почему именно $\alpha=0{,}01$?}
+l.1126 
+       
+(That was another \errmessage.)
+
+[14]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1127 ...ion*{Q5. Почему именно $\alpha=0{,}01$?}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 646--651
+Underfull \hbox (badness 5036) in paragraph at lines 1128--1133
 []\TU/TimesNewRoman(0)/m/n/12 NIST SP 800-22 рекомендует $\OML/cmm/m/it/12 ^^K 
 \OT1/cmr/m/n/12 = 0[]01$ \TU/TimesNewRoman(0)/m/n/12 как компромисс между мощно
 стью теста и
@@ -1390,12 +1745,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.652 ...-entropy, а не Шеннон, для криптографии?}
+l.1134 ...entropy, а не Шеннон, для криптографии?}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 653--660
+Underfull \hbox (badness 1242) in paragraph at lines 1135--1142
 []\TU/TimesNewRoman(0)/m/n/12 Шеннон $\OML/cmm/m/it/12 H \OT1/cmr/m/n/12 = \OMS
 /cmsy/m/n/12 ^^@ [] \OML/cmm/m/it/12 p[] [][] p[]$ \TU/TimesNewRoman(0)/m/n/12 
 — это \TU/TimesNewRoman(0)/m/it/12 средняя \TU/TimesNewRoman(0)/m/n/12 информац
@@ -1412,12 +1767,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.661 ...мость отличается от некоррелированности?}
+l.1143 ...ость отличается от некоррелированности?}
                                                   
 (That was another \errmessage.)
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 662--669
+Underfull \hbox (badness 1077) in paragraph at lines 1144--1151
 \U/msb/m/n/12 E\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 X\OT1/cmr/m/n/12 )] \U/msb/m/n/12 E\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 g\OT1
 /cmr/m/n/12 (\OML/cmm/m/it/12 Y\OT1/cmr/m/n/12 )]$\TU/TimesNewRoman(0)/m/n/12 .
@@ -1437,7 +1792,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.670 ...рность и предполагается ли она в работе?}
+l.1152 ...ность и предполагается ли она в работе?}
                                                   
 (That was another \errmessage.)
 
@@ -1451,11 +1806,10 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678 
-      
+l.1161 ...5$ групп», а не «$188/188$ под-тестов»?}
+                                                  
 (That was another \errmessage.)
 
-[9]
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
@@ -1466,8 +1820,331 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.679 ...15$ групп», а не «$188/188$ под-тестов»?}
+l.1164   \item \textbf
+                      {Множественные сравнения}: при $188$ независимых теста...
+(That was another \errmessage.)
+
+[15]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
+l.1173 ...менять постобработки в каскаде местами?}
+                                                  
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1221
+[]\TU/TimesNewRoman(0)/b/n/12 Прозрачность дизайна\TU/TimesNewRoman(0)/m/n/12 :
+ каждая ступень отвечает за свой класс дефектов, обе
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 1216--1221
+\TU/TimesNewRoman(0)/m/n/12 математически обоснованы независимо. vN — классичес
+кий отбеливатель смещения
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 1216--1221
+\TU/TimesNewRoman(0)/m/n/12 с доказанной несмещённостью при независимости; XOR-
+децимация — классическая
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 1221--1227
+[]\TU/TimesNewRoman(0)/b/n/12 Дополнительный эффект «прореживания структуры»\TU
+/TimesNewRoman(0)/m/n/12 : фон Нейман отбрасывает
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1227   \item \textbf
+                      {Устойчивость к усилению корреляции}: если бы корреляция
+(That was another \errmessage.)
+
+[16]
+Underfull \hbox (badness 5245) in paragraph at lines 1238--1242
+[]\TU/TimesNewRoman(0)/m/n/12 Итог: порядок vN $\OMS/cmsy/m/n/12 !$ \TU/TimesNe
+wRoman(0)/m/n/12 XOR — это не случайный выбор, а специализация ступеней с
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1243 ... отсчёты, если у Arduino АЦП на 10 бит?}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1257 ...t{numpy.fromfile(\ldots,\,dtype=uint16)}
+                                                   ---
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1260
+[]\TU/TimesNewRoman(0)/b/n/12 Фиксированная ширина $\OT1/cmr/m/n/12 =$ \TU/Time
+sNewRoman(0)/b/n/12 простой парсинг. \TU/TimesNewRoman(0)/m/n/12 На ПК поток чи
+тается как
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 1256--1260
+\TU/lmtt/m/n/12 numpy.fromfile(…,dtype=uint16) \TU/TimesNewRoman(0)/m/n/12 — од
+на строка кода. Без выравнивания пришлось
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1262         \texttt{ADCL}
+                            /\texttt{ADCH}. Передача через двухбайтовый
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1262         \texttt{ADCL}/\texttt{ADCH}
+                                          . Передача через двухбайтовый
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1263         \texttt{uint16\_t}
+                                  \emph{естественна} для прошивки: чтение АЦП
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 1265--1272
+\TU/TimesNewRoman(0)/m/n/12 MEMS, плавающий АЦП, clock jitter) отдают данные од
+ного формата — 16-битный
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1287 ...*{Источники: что взято из каждой работы}
+                                                  
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1287 ...*{Источники: что взято из каждой работы}
+                                                  
+(That was another \errmessage.)
+
+[17]
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1297     \texttt{SecureRandom}
+                                 сделал предсказуемыми $\sim\!86\,\%$ Bitcoi...
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
+[]\TU/TimesNewRoman(0)/b/n/12 Android Security Vulnerability (Bitcoin Alert, 20
+13). \TU/TimesNewRoman(0)/m/n/12 Исторический пример
+ []
+
+
+Overfull \hbox (6.02065pt too wide) in paragraph at lines 1308--1312
+[]\TU/TimesNewRoman(0)/b/n/12 Будько М.Б. и др. «Методы генерации и тестировани
+я случайных последовательностей»
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1314--1318
+[]\TU/TimesNewRoman(0)/b/n/12 Слеповичев И.И. «Генераторы псевдослучайных чисел
+» (СГУ, 2017). \TU/TimesNewRoman(0)/m/n/12 Систематика
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 1314--1318
+\TU/TimesNewRoman(0)/m/n/12 в гл.1 при разделении понятий ГПСП/ГИСП и обсуждени
+и класса задач, в которых
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 1320--1325
+\TU/TimesNewRoman(0)/m/n/12 документ: методология NIST STS, формулы статистик в
+сех 15 тестовых групп ($\OML/cmm/m/it/12 T$\TU/TimesNewRoman(0)/m/n/12 -
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 1327--1331
+[]\TU/TimesNewRoman(0)/b/n/12 Di Mauro J., Salazar E., Scolnik H.D. «Novel CSPR
+NG» (J. Crypt. Eng., 2022).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1331
+\TU/TimesNewRoman(0)/m/n/12 Современный криптографически стойкий ГПСЧ — альтерн
+атива нашему подходу
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1336
+[]\TU/TimesNewRoman(0)/b/n/12 Архангельская А.В. «Квантовые ГСЧ…» (СПб, 2008). 
+\TU/TimesNewRoman(0)/m/n/12 Диссертация по
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1341     настройке пакета \texttt{sts-2.1.2}
+                                               и при разборе провалов отдельных
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 1338--1343
+[]\TU/TimesNewRoman(0)/b/n/12 Гриненко Т.А. и др. «Статистическое тестирование…
+NIST STS» (ХНУРЭ, 2019).
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 1338--1343
+\TU/TimesNewRoman(0)/m/n/12 Практическое русскоязычное руководство по запуску N
+IST STS, интерпретации $\OML/cmm/m/it/12 p$\TU/TimesNewRoman(0)/m/n/12 -
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1355   \item \textbf
+                      {Якимов А.\,В. <<Физика шумов и флуктуаций параметров>>
+(That was another \errmessage.)
+
+[18]
+Underfull \hbox (badness 4036) in paragraph at lines 1356--1360
+\TU/TimesNewRoman(0)/m/n/12 физический источник: тепловой шум Джонсона–Найквист
+а, дробовой шум Шоттки,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1373
+[]\TU/TimesNewRoman(0)/b/n/12 Алейник А.С. и др. «Основы схемотехники приёмопер
+едающих электронных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1373
+\TU/TimesNewRoman(0)/b/n/12 устройств» (ИТМО, 2021). \TU/TimesNewRoman(0)/m/n/1
+2 Учебник по проектированию усилительных трактов:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1373
+\TU/TimesNewRoman(0)/m/n/12 операционные усилители, обратная связь, частотные х
+арактеристики, согласование
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1373
+\TU/TimesNewRoman(0)/m/n/12 импедансов. Используется в гл.3 при расчёте двухкас
+кадного тракта на LM358
+ []
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1379 ...итания (отсюда стабилизация \texttt{Vcc}
+                                                   в нашей
 (That was another \errmessage.)
 
 The property list \polyglossia@langsetup contains the pairs (without outer
@@ -1530,11 +2207,11 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.691 \end{document}
-                    
+l.1396 \end{document}
+                     
 (That was another \errmessage.)
 
-[10] (./speech.aux
+[19] (./speech.aux
 LaTeX Info: Redefining \rmfamily on input line 3.
 LaTeX Info: Redefining \sffamily on input line 3.
 LaTeX Info: Redefining \ttfamily on input line 3.
@@ -1555,12 +2232,12 @@ l.3 \selectlanguage *{russian}
 
 ) ) 
 Here is how much of TeX's memory you used:
- 7334 strings out of 478190
- 169080 string characters out of 5854827
- 549176 words of memory out of 5000000
- 27842 multiletter control sequences out of 15000+600000
- 478275 words of font info for 91 fonts, out of 8000000 for 9000
+ 7348 strings out of 478190
+ 169547 string characters out of 5854827
+ 548176 words of memory out of 5000000
+ 27849 multiletter control sequences out of 15000+600000
+ 478323 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,12n,77p,289b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,77p,289b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on speech.pdf (10 pages).
+Output written on speech.pdf (19 pages).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  23 JUN 2026 23:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2026.3.25)  24 JUN 2026 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1550,7 +1550,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1564,7 +1564,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1578,7 +1578,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1592,7 +1592,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1606,27 +1606,27 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 119.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 119.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 119.
 
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
@@ -1638,7 +1638,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1652,7 +1652,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1666,7 +1666,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1680,7 +1680,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1694,7 +1694,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1708,21 +1708,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1739,7 +1725,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1753,7 +1739,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1767,7 +1753,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1781,7 +1767,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1795,7 +1781,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1809,7 +1795,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{frame}
+l.119 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1817,9 +1803,9 @@ l.120 \end{frame}
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 134.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 134.
 
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
@@ -1831,7 +1817,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1845,7 +1831,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1859,7 +1845,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1873,7 +1859,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1890,7 +1876,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1904,7 +1890,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1918,7 +1904,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1932,7 +1918,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1946,7 +1932,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -1960,49 +1946,49 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{frame}
+l.134 \end{frame}
                  
 (That was another \errmessage.)
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 Frequency, BlockFrequency,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 аномальное число «пробегов»; слишком
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/TimesNewRoman(0)/m/n/8 линейная зависимость между блоками;
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/TimesNewRoman(0)/m/n/8 линейная зависимость внутри битовых
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 NonOverlapping / Overlapping
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 частота заданных битовых паттернов;
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 166--166
+Underfull \hbox (badness 1742) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 Linear Complexity, Approximate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 длина минимального LFSR (Берлекэмп–
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|\TU/TimesNewRoman(0)/m/n/8 аномальная длительность/число визитов
  []
 
@@ -2016,7 +2002,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2030,7 +2016,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2044,7 +2030,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2058,7 +2044,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2075,7 +2061,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2089,7 +2075,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2103,7 +2089,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2117,7 +2103,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2131,7 +2117,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2145,19 +2131,19 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{frame}
+l.165 \end{frame}
                  
 (That was another \errmessage.)
 
 [5
 
 ]
-Overfull \hbox (34.35173pt too wide) in paragraph at lines 185--185
+Overfull \hbox (11.6532pt too wide) in paragraph at lines 184--184
  [][]$\OMS/cmsy/m/n/10 !$[]$!$[]$!$[]$!$[] 
  []
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 185.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 184.
 
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
@@ -2168,7 +2154,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2182,7 +2168,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2196,7 +2182,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2210,7 +2196,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2224,7 +2210,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2238,7 +2224,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2252,7 +2238,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2269,7 +2255,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2283,7 +2269,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2297,7 +2283,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2311,7 +2297,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2325,7 +2311,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2339,7 +2325,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{frame}
+l.184 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2360,7 +2346,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2374,7 +2360,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2388,7 +2374,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2402,7 +2388,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2419,7 +2405,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2433,7 +2419,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2447,7 +2433,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2461,7 +2447,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2475,7 +2461,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2489,7 +2475,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{frame}
+l.200 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2510,7 +2496,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2524,12 +2510,12 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
 
-Overfull \vbox (36.15883pt too high) detected at line 209
+Overfull \vbox (36.15883pt too high) detected at line 208
  []
 
 
@@ -2542,7 +2528,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2556,7 +2542,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2573,7 +2559,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2587,7 +2573,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2601,7 +2587,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2615,7 +2601,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2629,7 +2615,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2643,7 +2629,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{frame}
+l.208 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2655,6 +2641,23 @@ ype bmp)
 <../pandoc_media/media//exp_bjt_vcc_stab/histogram_raw.png>
 
 
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 227
+[][]
+ []
+
+
 ! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
 ontain the "Cyrillic" script!
 (polyglossia)                Please define \cyrillicfont with \newfontfamily co
@@ -2664,7 +2667,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2678,7 +2681,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2692,7 +2695,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2706,7 +2709,49 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2723,7 +2768,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2737,7 +2782,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2751,7 +2796,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2765,7 +2810,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2779,7 +2824,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2793,7 +2838,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{frame}
+l.227 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2814,7 +2859,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2828,7 +2873,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2842,7 +2887,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2856,7 +2901,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2870,7 +2915,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2884,7 +2929,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2901,7 +2946,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2915,7 +2960,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2929,7 +2974,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2943,7 +2988,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2957,7 +3002,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2971,7 +3016,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \end{frame}
+l.250 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -2988,7 +3033,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3002,7 +3047,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3016,7 +3061,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3030,7 +3075,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3047,7 +3092,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3061,7 +3106,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3075,7 +3120,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3089,7 +3134,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3103,7 +3148,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3117,7 +3162,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 \end{frame}
+l.269 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3134,7 +3179,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3148,7 +3193,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3162,7 +3207,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3176,7 +3221,35 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.288 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3193,7 +3266,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3207,7 +3280,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3221,7 +3294,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3235,7 +3308,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3249,7 +3322,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3263,7 +3336,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{frame}
+l.288 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3280,7 +3353,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3294,25 +3367,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-Overfull \vbox (3.66908pt too high) detected at line 319
- []
-
-
-! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
-ontain the "Cyrillic" script!
-(polyglossia)                Please define \cyrillicfont with \newfontfamily co
-mmand.
-
-See the polyglossia package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3326,7 +3381,21 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
+                 
+(That was another \errmessage.)
+
+
+! Package polyglossia Error: The current latin font TimesNewRoman(0) does not c
+ontain the "Cyrillic" script!
+(polyglossia)                Please define \cyrillicfont with \newfontfamily co
+mmand.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3343,7 +3412,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3357,7 +3426,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3371,7 +3440,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3385,7 +3454,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3399,7 +3468,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3413,13 +3482,20 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 \end{frame}
+l.307 \end{frame}
                  
 (That was another \errmessage.)
 
 [13
 
 ]
+File: ../pandoc_media/media//exp_bjt_vcc_stab/scope_time_125ms.png Graphic file
+ (type bmp)
+<../pandoc_media/media//exp_bjt_vcc_stab/scope_time_125ms.png>
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <20.74> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 336.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 336.
 File: ../pandoc_media/media//exp_bjt_aftervn/bits_image.png Graphic file (type 
 bmp)
 <../pandoc_media/media//exp_bjt_aftervn/bits_image.png>
@@ -3434,7 +3510,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3448,7 +3524,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3462,7 +3538,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3476,7 +3552,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3493,7 +3569,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3507,7 +3583,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3521,7 +3597,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3535,7 +3611,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3549,7 +3625,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3563,7 +3639,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \end{frame}
+l.336 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3580,7 +3656,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3594,7 +3670,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3608,7 +3684,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3622,7 +3698,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3639,7 +3715,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3653,7 +3729,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3667,7 +3743,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3681,7 +3757,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3695,7 +3771,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3709,7 +3785,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \end{frame}
+l.363 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3726,7 +3802,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3740,7 +3816,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3754,7 +3830,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3768,7 +3844,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3782,7 +3858,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3796,7 +3872,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3810,7 +3886,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3824,7 +3900,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3838,7 +3914,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3852,7 +3928,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3869,7 +3945,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3883,7 +3959,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3897,7 +3973,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3911,7 +3987,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3925,7 +4001,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3939,7 +4015,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 \end{frame}
+l.381 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3956,7 +4032,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3970,7 +4046,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3984,7 +4060,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -3998,7 +4074,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4012,7 +4088,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4026,7 +4102,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4040,7 +4116,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4057,7 +4133,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4071,7 +4147,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4085,7 +4161,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4099,7 +4175,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4113,7 +4189,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4127,7 +4203,7 @@ See the polyglossia package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{frame}
+l.391 \end{frame}
                  
 (That was another \errmessage.)
 
@@ -4217,11 +4293,11 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28096 strings out of 478190
- 605969 string characters out of 5854827
+ 28140 strings out of 478190
+ 607401 string characters out of 5854827
  921350 words of memory out of 5000000
- 48090 multiletter control sequences out of 15000+600000
- 476323 words of font info for 100 fonts, out of 8000000 for 9000
+ 48121 multiletter control sequences out of 15000+600000
+ 479486 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,104p,419b,892s stack positions out of 5000i,500n,10000p,200000b,80000s
 
